@@ -2,3 +2,6 @@
 
 venv
 *.exe
+*.pyc
+external/pgn-extract/pgn-extract
+*.swp

@@ -19,7 +19,7 @@ var MoveView = Backbone.View.extend({
     },
 
     move_click: function(event) {
-        var rowIndex = event.currentTarget.rowIndex;
+        var rowIndex = event.currentTarget.rowIndex - 1; // -1 for header
         var moveData  = this.model.attributes.positions[rowIndex];
         this.model.trigger("move-selected", moveData);
     }

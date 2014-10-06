@@ -158,6 +158,16 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+#move-list {
+    float: left;
+    margin-left: 420px;
+}
+
+#board {
+    position: fixed;
+    min-width: 400px;
+}
+
 
 
 
@@ -249,11 +259,6 @@ nav a:hover {
     .main aside {
         float: left;
         width: 28%;
-    }
-
-    #board,
-    #move-list {
-        float: left;
     }
 }
 

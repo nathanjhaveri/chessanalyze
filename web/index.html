@@ -29,9 +29,8 @@
         <div class="main-container">
             <div class="main wrapper clearfix">
                 <h1>Game name</h1>
-                <div id="board" style="width: 400px"></div>
-                <div id="move-list">
-                </div>
+                <div id="board" ></div>
+                <div id="move-list"></div>
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
@@ -43,10 +42,18 @@
     </body>
     <script type="text/template" class="moves-template">
         <table id="moves-table">
+            <tr>
+                <th>Move</th>
+                <th>Move</th>
+                <th>Unit</th>
+                <th>Score</th>
+            </tr>
         <% _.each(positions, function(position){ %>
             <tr>
                 <td><%- position.move_number %></td>
                 <td><%- position.move %></td>
+                <td><%- position.details.analysis.unit %></td>
+                <td><%- position.details.analysis.score %></td>
             </tr>
         <% }); %>
         </table>

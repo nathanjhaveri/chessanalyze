@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script data-main="js/main" src="js/require.js"></script>
+    </head>
+    <body>
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Chess</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+                <h1>Game name</h1>
+                <div id="board" style="width: 400px"></div>
+                <div id="move-list">
+                </div>
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h3><a href="http://jhaveri.net">jhaveri.net</a></h3>
+            </footer>
+        </div>
+    </body>
+    <script type="text/template" class="moves-template">
+        <table id="moves-table">
+        <% _.each(positions, function(position){ %>
+            <tr>
+                <td><%- position.move_number %></td>
+                <td><%- position.move %></td>
+            </tr>
+        <% }); %>
+        </table>
+    </script>
+</html>

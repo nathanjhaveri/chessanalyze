@@ -20,6 +20,7 @@ class Engine(subprocess.Popen):
             stdout=subprocess.PIPE,)
         self.ponder = ponder
         self.put('uci')
+        self.white_to_move = True
         if not ponder:
             self.setoption('Ponder', False)
 
@@ -47,6 +48,7 @@ class Engine(subprocess.Popen):
         '''
         Move list is a list of moves (i.e. ['e2e4', 'e7e5', ...]) each entry as a string.  Moves must be in full algebraic notation.
         '''
+        self.white_to_move = len(moves) % 2 == 0
         self.put('position startpos moves %s' % self._movelisttostr(moves))
         self.isready()
 
@@ -84,8 +86,8 @@ class Engine(subprocess.Popen):
         # time
         time_parts = time_line.split(" ")
         time = {
-            'nodes': time_parts[2],
-            'time' : time_parts[4],
+                'nodes': time_parts[2],
+                'time' : time_parts[4],
         }
 
         # Score
@@ -99,7 +101,19 @@ class Engine(subprocess.Popen):
                 i = len(score_parts)
             elif score_parts[i] == 'score':
                 score['unit'] = score_parts[i+1]
-                score['score'] = score_parts[i+2]
+                evalscore = int(score_parts[i+2])
+                if not self.white_to_move:
+                    # If black is set to move, flip score.  Score is always from
+                    # perspective of stockfish but we want positive for white, negative
+                    # for black
+                    evalscore = -1 * evalscore
+
+                if score['unit'] == 'cp':
+                    # Use units as pawns rather than centipawns
+                    score['unit'] = 'pawns'
+                    evalscore = evalscore / 100.0
+
+                score['score'] = evalscore
                 if score_parts[i+3] != "nodes":
                     score['modifier'] = score_parts[i+3]
                     i += 1

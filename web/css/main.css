@@ -158,16 +158,19 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+#board {
+    float: left;
+    width: 400px;
+}
+
 #move-list {
     float: left;
-    margin-left: 420px;
 }
 
-#board {
-    position: fixed;
-    min-width: 400px;
-}
+.moves-table tr:nth-child(odd){
+    background: #CCC;
 
+}
 
 
 

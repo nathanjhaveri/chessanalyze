@@ -31,13 +31,14 @@ for i in range(len(game.moves)):
     move_pgn = game_pgn.moves[i]
     moves.append(move)
     engine.setposition(moves)
+    white_to_move = i % 2 == 0
 
     game_analysis['positions'].append({
         'move_number': (i+2) // 2,
-        'side': 'white' if i % 2 == 0 else 'black',
+        'side': 'white' if white_to_move else 'black',
         'move': move_pgn,
         'fen': engine.fen(),
-        'details': engine.go_time(5000),
+        'details': engine.go_time(100),
     })
 
 json_text = json.dumps(game_analysis)

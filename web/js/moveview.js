@@ -6,7 +6,7 @@ var MoveView = Backbone.View.extend({
     template: _.template($("script.moves-template").html()),
 
     events: {
-        "click #moves-table tr": "move_click"
+        "click .moves-table tr": "move_click"
     },
 
     initialize: function() {
@@ -21,7 +21,7 @@ var MoveView = Backbone.View.extend({
     move_click: function(event) {
         var rowIndex = event.currentTarget.rowIndex - 1; // -1 for header
         var moveData  = this.model.attributes.positions[rowIndex];
-        this.model.trigger("move-selected", moveData);
+        this.model.trigger("selected: move", moveData);
     }
 });
 

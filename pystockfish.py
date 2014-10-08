@@ -110,8 +110,8 @@ class Engine(subprocess.Popen):
 
                 if score['unit'] == 'cp':
                     # Use units as pawns rather than centipawns
-                    score['unit'] = 'pawns'
                     evalscore = evalscore / 100.0
+                    score['unit'] = 'p'
 
                 score['score'] = evalscore
                 if score_parts[i+3] != "nodes":

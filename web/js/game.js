@@ -20,19 +20,19 @@ define(function(){var game=
                         "f6f5",
                         "g1f3"
                     ],
-                    "nodes": "75677",
-                    "nps": "741931",
+                    "nodes": "76470",
+                    "nps": "749705",
                     "score": 0.28,
                     "seldepth": "16",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d7d5",
                     "ponder": "b1c3"
                 },
                 "time": {
-                    "nodes": "75677",
+                    "nodes": "76470",
                     "time": "102"
                 }
             },
@@ -47,34 +47,33 @@ define(function(){var game=
                     "depth": "12",
                     "multipv": "1",
                     "next_moves": [
+                        "b1c3",
+                        "g8f6",
                         "c1f4",
                         "e7e6",
                         "e2e3",
-                        "g8f6",
-                        "g1f3",
-                        "f8d6",
-                        "f4d6",
-                        "c7d6",
-                        "b1c3",
-                        "d8b6",
+                        "f8b4",
                         "f1d3",
                         "e8g8",
-                        "e1g1",
-                        "a7a6"
+                        "g1f3",
+                        "f6e4",
+                        "d3e4",
+                        "d5e4",
+                        "f3d2"
                     ],
-                    "nodes": "94225",
-                    "nps": "932920",
-                    "score": 0.17,
-                    "seldepth": "16",
+                    "nodes": "85682",
+                    "nps": "848336",
+                    "score": 0.24,
+                    "seldepth": "17",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "c1f4",
-                    "ponder": "e7e6"
+                    "move": "b1c3",
+                    "ponder": "g8f6"
                 },
                 "time": {
-                    "nodes": "94225",
+                    "nodes": "85682",
                     "time": "101"
                 }
             },
@@ -86,34 +85,37 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "e7e6",
-                        "b1c3",
-                        "g8f6",
                         "g1f3",
+                        "g8f6",
+                        "c1d2",
                         "b8c6",
                         "f1e2",
                         "f8e7",
                         "e1g1",
                         "e8g8",
-                        "c1d2"
+                        "c2c4",
+                        "c8d7",
+                        "b1c3",
+                        "a7a6"
                     ],
-                    "nodes": "106011",
-                    "nps": "1049613",
-                    "score": 0.08,
+                    "nodes": "95840",
+                    "nps": "939607",
+                    "score": 0.13,
                     "seldepth": "15",
-                    "time": "101",
-                    "unit": "pawns"
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e7e6",
-                    "ponder": "b1c3"
+                    "ponder": "g1f3"
                 },
                 "time": {
-                    "nodes": "106011",
-                    "time": "101"
+                    "nodes": "95840",
+                    "time": "102"
                 }
             },
             "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 2",
@@ -124,32 +126,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "g1f3",
                         "e7e6",
-                        "f1e2",
-                        "b8c6",
-                        "e1g1",
-                        "f8e7",
                         "c1d2",
+                        "b8c6",
+                        "f1e2",
+                        "f8e7",
+                        "e1g1",
                         "e8g8",
-                        "c2c4"
+                        "c2c4",
+                        "c8d7",
+                        "b1c3",
+                        "a7a6",
+                        "a2a3"
                     ],
-                    "nodes": "85966",
-                    "nps": "851148",
-                    "score": 0.22,
-                    "seldepth": "14",
+                    "nodes": "94526",
+                    "nps": "935900",
+                    "score": 0.18,
+                    "seldepth": "15",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g1f3",
                     "ponder": "e7e6"
                 },
                 "time": {
-                    "nodes": "85966",
+                    "nodes": "94526",
                     "time": "101"
                 }
             },
@@ -161,29 +167,34 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
-                        "b8c6",
+                        "e7e6",
                         "c1d2",
-                        "c8g4",
+                        "f8e7",
+                        "f1e2",
+                        "e8g8",
+                        "e1g1",
+                        "c8d7",
                         "c2c4",
-                        "e7e6"
+                        "c7c5",
+                        "b1c3"
                     ],
-                    "nodes": "91469",
-                    "nps": "905633",
-                    "score": 0.24,
+                    "nodes": "90206",
+                    "nps": "884372",
+                    "score": 0.12,
                     "seldepth": "15",
-                    "time": "101",
-                    "unit": "pawns"
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "b8c6",
+                    "move": "e7e6",
                     "ponder": "c1d2"
                 },
                 "time": {
-                    "nodes": "91469",
-                    "time": "101"
+                    "nodes": "90206",
+                    "time": "102"
                 }
             },
             "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 2 3",
@@ -195,33 +206,37 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "13",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "f1e2",
-                        "f8d6",
+                        "f8e7",
                         "e1g1",
                         "e8g8",
-                        "c1d2",
+                        "c2c4",
                         "c7c5",
-                        "d4c5",
-                        "d6c5",
-                        "b1c3"
+                        "b1c3",
+                        "b8c6",
+                        "c1d2",
+                        "c8d7",
+                        "a2a3",
+                        "a7a6",
+                        "d1b3",
+                        "c6a5"
                     ],
-                    "nodes": "96142",
-                    "nps": "942568",
-                    "score": 0.18,
-                    "seldepth": "16",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "99786",
+                    "nps": "987980",
+                    "score": 0.13,
+                    "seldepth": "15",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f1e2",
-                    "ponder": "f8d6"
+                    "ponder": "f8e7"
                 },
                 "time": {
-                    "nodes": "96142",
-                    "time": "102"
+                    "nodes": "99786",
+                    "time": "101"
                 }
             },
             "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R w KQkq - 0 4",
@@ -232,36 +247,34 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "11",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "f8e7",
                         "b1c3",
                         "e8g8",
-                        "f1e2",
+                        "f1d3",
                         "c7c5",
                         "e1g1",
                         "b8c6",
-                        "c1d2",
-                        "c8d7",
-                        "a2a3",
-                        "a8c8",
-                        "d1b3",
-                        "c6a5"
+                        "d4c5",
+                        "e7c5",
+                        "a2a3"
                     ],
-                    "nodes": "95438",
-                    "nps": "935666",
-                    "score": 0.17,
-                    "seldepth": "14",
+                    "nodes": "94518",
+                    "nps": "926647",
+                    "score": 0.22,
+                    "seldepth": "15",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f8e7",
                     "ponder": "b1c3"
                 },
                 "time": {
-                    "nodes": "95438",
+                    "nodes": "94518",
                     "time": "102"
                 }
             },
@@ -276,29 +289,32 @@ define(function(){var game=
                     "depth": "11",
                     "multipv": "1",
                     "next_moves": [
-                        "b1c3",
-                        "b8c6",
-                        "f1e2",
-                        "f8d6",
+                        "f1d3",
+                        "d5c4",
+                        "d3c4",
+                        "f8e7",
                         "e1g1",
                         "e8g8",
+                        "b1c3",
+                        "b8c6",
                         "d4c5",
-                        "d6c5",
-                        "c4d5"
+                        "e7c5",
+                        "a2a3",
+                        "a7a5"
                     ],
-                    "nodes": "87301",
-                    "nps": "864366",
-                    "score": 0.1,
-                    "seldepth": "11",
+                    "nodes": "93191",
+                    "nps": "922683",
+                    "score": 0.22,
+                    "seldepth": "14",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "b1c3",
-                    "ponder": "b8c6"
+                    "move": "f1d3",
+                    "ponder": "d5c4"
                 },
                 "time": {
-                    "nodes": "87301",
+                    "nodes": "93191",
                     "time": "101"
                 }
             },
@@ -310,38 +326,33 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "11",
                     "multipv": "1",
                     "next_moves": [
-                        "f8e7",
-                        "f1e2",
                         "b8c6",
-                        "e1g1",
-                        "e8g8",
-                        "b2b3",
-                        "c5d4",
-                        "e3d4",
-                        "a7a6",
-                        "c1b2",
-                        "c8d7",
-                        "f3e5",
-                        "c6e5",
-                        "d4e5"
+                        "a2a3",
+                        "f8e7",
+                        "d4c5",
+                        "e7c5",
+                        "c4d5",
+                        "f6d5",
+                        "c3d5",
+                        "e6d5"
                     ],
-                    "nodes": "87769",
-                    "nps": "860480",
-                    "score": 0.15,
-                    "seldepth": "17",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "92148",
+                    "nps": "912356",
+                    "score": 0.32,
+                    "seldepth": "16",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "f8e7",
-                    "ponder": "f1e2"
+                    "move": "b8c6",
+                    "ponder": "a2a3"
                 },
                 "time": {
-                    "nodes": "87769",
-                    "time": "102"
+                    "nodes": "92148",
+                    "time": "101"
                 }
             },
             "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQkq - 1 5",
@@ -358,29 +369,32 @@ define(function(){var game=
                         "f1d3",
                         "f8e7",
                         "e1g1",
-                        "e8g8",
-                        "a2a3",
                         "d5c4",
                         "d3c4",
-                        "c8d7",
-                        "c1d2",
-                        "c5d4",
-                        "e3d4",
-                        "d8b6"
+                        "e8g8",
+                        "d4c5",
+                        "e7c5",
+                        "a2a3",
+                        "a7a6",
+                        "b2b4",
+                        "c5e7",
+                        "e3e4",
+                        "b7b5",
+                        "c4b3"
                     ],
-                    "nodes": "85524",
-                    "nps": "846772",
-                    "score": 0.1,
-                    "seldepth": "14",
+                    "nodes": "95353",
+                    "nps": "944089",
+                    "score": 0.15,
+                    "seldepth": "16",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f1d3",
                     "ponder": "f8e7"
                 },
                 "time": {
-                    "nodes": "85524",
+                    "nodes": "95353",
                     "time": "101"
                 }
             },
@@ -392,34 +406,37 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
+                        "f8e7",
+                        "d4c5",
+                        "e8g8",
+                        "e1g1",
+                        "e7c5",
+                        "a2a3",
                         "d5c4",
                         "e2c4",
-                        "f8e7",
-                        "e1g1",
-                        "e8g8",
-                        "a2a3",
-                        "c5d4",
-                        "e3d4",
                         "a7a6",
-                        "c1f4",
-                        "b7b5"
+                        "b2b4",
+                        "c5e7",
+                        "e3e4",
+                        "b7b5",
+                        "c4b3"
                     ],
-                    "nodes": "92502",
-                    "nps": "915861",
-                    "score": 0.14,
-                    "seldepth": "16",
+                    "nodes": "91501",
+                    "nps": "905950",
+                    "score": 0.15,
+                    "seldepth": "13",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "d5c4",
-                    "ponder": "e2c4"
+                    "move": "f8e7",
+                    "ponder": "d4c5"
                 },
                 "time": {
-                    "nodes": "92502",
+                    "nodes": "91501",
                     "time": "101"
                 }
             },
@@ -434,31 +451,28 @@ define(function(){var game=
                     "depth": "11",
                     "multipv": "1",
                     "next_moves": [
-                        "c4d5",
-                        "e6d5",
                         "e1g1",
-                        "f8d6",
-                        "d4c5",
-                        "d6c5",
-                        "a2a3",
-                        "e8g8",
-                        "b2b4",
-                        "c5b6",
-                        "c1b2"
+                        "d5c4",
+                        "f3e5",
+                        "c6e5",
+                        "d4e5",
+                        "d8d1",
+                        "f1d1",
+                        "f6d7"
                     ],
-                    "nodes": "87219",
-                    "nps": "863554",
-                    "score": 0.31,
-                    "seldepth": "16",
+                    "nodes": "89771",
+                    "nps": "888821",
+                    "score": 0.13,
+                    "seldepth": "14",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "c4d5",
-                    "ponder": "e6d5"
+                    "move": "e1g1",
+                    "ponder": "d5c4"
                 },
                 "time": {
-                    "nodes": "87219",
+                    "nodes": "89771",
                     "time": "101"
                 }
             },
@@ -470,34 +484,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "d5c4",
-                        "a2a4",
+                        "e1g1",
                         "c5d4",
                         "e3d4",
-                        "d8d4",
-                        "c1e3",
-                        "d4d1",
-                        "a1d1",
                         "h7h6",
-                        "g5f3"
+                        "g5f3",
+                        "b7b5",
+                        "c1e3",
+                        "d8d6",
+                        "d1b1",
+                        "c8b7",
+                        "a2a4"
                     ],
-                    "nodes": "91846",
-                    "nps": "900450",
-                    "score": -0.86,
-                    "seldepth": "17",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "92273",
+                    "nps": "913594",
+                    "score": -0.64,
+                    "seldepth": "16",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d5c4",
-                    "ponder": "a2a4"
+                    "ponder": "e1g1"
                 },
                 "time": {
-                    "nodes": "91846",
-                    "time": "102"
+                    "nodes": "92273",
+                    "time": "101"
                 }
             },
             "fen": "r1bqkb1r/1p3ppp/p1n1pn2/2pp2N1/2PP4/2N1P3/PP2BPPP/R1BQK2R b KQkq - 1 7",
@@ -512,29 +528,29 @@ define(function(){var game=
                     "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "c4d5",
-                        "d4c3",
-                        "d5c6",
+                        "e3d4",
+                        "d5c4",
+                        "c1e3",
+                        "f6d5",
+                        "g5e4",
+                        "f7f5",
+                        "e4c5",
                         "d8a5",
-                        "b2c3",
-                        "a5g5",
-                        "e2f3",
-                        "a8a7",
-                        "c6c7"
+                        "e1g1"
                     ],
-                    "nodes": "96936",
-                    "nps": "959762",
-                    "score": -0.81,
-                    "seldepth": "18",
+                    "nodes": "89081",
+                    "nps": "881990",
+                    "score": -0.74,
+                    "seldepth": "16",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "c4d5",
-                    "ponder": "d4c3"
+                    "move": "e3d4",
+                    "ponder": "d5c4"
                 },
                 "time": {
-                    "nodes": "96936",
+                    "nodes": "89081",
                     "time": "101"
                 }
             },
@@ -550,29 +566,33 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "d5c4",
-                        "c1e3",
+                        "e1g1",
                         "h7h6",
                         "g5f3",
                         "b7b5",
-                        "f3e5",
-                        "c8b7",
-                        "e1g1",
+                        "c1e3",
                         "f8d6",
-                        "e2f3"
+                        "f3e5",
+                        "c6e5",
+                        "d4e5",
+                        "d6e5",
+                        "d1d8",
+                        "e8d8",
+                        "f2f4"
                     ],
-                    "nodes": "91936",
-                    "nps": "910257",
-                    "score": -0.63,
-                    "seldepth": "17",
+                    "nodes": "95015",
+                    "nps": "940742",
+                    "score": -0.68,
+                    "seldepth": "20",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d5c4",
-                    "ponder": "c1e3"
+                    "ponder": "e1g1"
                 },
                 "time": {
-                    "nodes": "91936",
+                    "nodes": "95015",
                     "time": "101"
                 }
             },
@@ -584,31 +604,33 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "e1g1",
                         "h7h6",
-                        "g5e4",
-                        "f6e4",
-                        "c3e4",
-                        "d8d4",
-                        "d1c2"
+                        "g5f3",
+                        "b7b5",
+                        "c1e3",
+                        "f8d6",
+                        "f3e5",
+                        "c8b7",
+                        "e2f3"
                     ],
-                    "nodes": "100777",
-                    "nps": "997792",
-                    "score": -0.75,
+                    "nodes": "92207",
+                    "nps": "912940",
+                    "score": -0.84,
                     "seldepth": "17",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e1g1",
                     "ponder": "h7h6"
                 },
                 "time": {
-                    "nodes": "100777",
+                    "nodes": "92207",
                     "time": "101"
                 }
             },
@@ -620,39 +642,32 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "11",
                     "multipv": "1",
                     "next_moves": [
                         "d8d4",
                         "c4d3",
                         "d4e5",
                         "d3e2",
-                        "e5c7",
-                        "e1g1",
-                        "f8d6",
-                        "g2g3",
-                        "e8g8",
-                        "c1d2",
-                        "f8d8",
-                        "g5e4",
-                        "d6e5",
-                        "e4f6",
-                        "e5f6",
-                        "a1c1"
+                        "f8b4",
+                        "a2a3",
+                        "b4c3",
+                        "b2c3",
+                        "f6d5"
                     ],
-                    "nodes": "90824",
-                    "nps": "899247",
-                    "score": -0.72,
-                    "seldepth": "16",
+                    "nodes": "90293",
+                    "nps": "893990",
+                    "score": -0.73,
+                    "seldepth": "20",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d8d4",
                     "ponder": "c4d3"
                 },
                 "time": {
-                    "nodes": "90824",
+                    "nodes": "90293",
                     "time": "101"
                 }
             },
@@ -664,32 +679,30 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "11",
                     "multipv": "1",
                     "next_moves": [
                         "c4d3",
                         "d4e5",
                         "d3e2",
-                        "f8b4",
+                        "c6d4",
                         "e1g1",
-                        "e8g8",
-                        "g5f3",
-                        "e5c7"
+                        "f8d6"
                     ],
-                    "nodes": "83560",
-                    "nps": "827326",
-                    "score": -0.79,
-                    "seldepth": "18",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "98729",
+                    "nps": "967931",
+                    "score": -0.73,
+                    "seldepth": "19",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c4d3",
                     "ponder": "d4e5"
                 },
                 "time": {
-                    "nodes": "83560",
-                    "time": "101"
+                    "nodes": "98729",
+                    "time": "102"
                 }
             },
             "fen": "r1b1kb1r/1p3ppp/p1n1pn2/6N1/2Bq4/2N5/PP3PPP/R1BQK2R w KQkq - 0 10",
@@ -700,32 +713,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "c6d4",
                         "c4d3",
                         "h7h6",
-                        "g5e4",
+                        "c1e3",
+                        "e6e5",
+                        "g5f3",
+                        "d4f3",
+                        "g2f3",
+                        "c8e6",
+                        "e1g1",
+                        "f8d6",
+                        "c3e4",
                         "f6e4",
-                        "d3e4",
-                        "f7f5",
-                        "c1e3"
+                        "d3e4"
                     ],
-                    "nodes": "104891",
-                    "nps": "1038524",
-                    "score": -0.96,
-                    "seldepth": "18",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "110427",
+                    "nps": "1082617",
+                    "score": -1.04,
+                    "seldepth": "20",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c6d4",
                     "ponder": "c4d3"
                 },
                 "time": {
-                    "nodes": "104891",
-                    "time": "101"
+                    "nodes": "110427",
+                    "time": "102"
                 }
             },
             "fen": "r1b1kb1r/1p3ppp/p1n1pn2/6N1/2BQ4/2N5/PP3PPP/R1B1K2R b KQkq - 0 10",
@@ -736,39 +755,31 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
-                        "c4d3",
+                        "e1g1",
                         "h7h6",
-                        "c1e3",
-                        "e6e5",
                         "g5e4",
                         "f6e4",
-                        "e3d4",
-                        "e5d4",
                         "c3e4",
-                        "f8b4",
-                        "e1e2",
-                        "f7f5",
-                        "e4g3",
-                        "e8g8",
-                        "d3c4"
+                        "b7b5",
+                        "c4d3"
                     ],
-                    "nodes": "113135",
-                    "nps": "1120148",
-                    "score": -1.09,
-                    "seldepth": "19",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "102962",
+                    "nps": "1009431",
+                    "score": -0.98,
+                    "seldepth": "18",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "c4d3",
+                    "move": "e1g1",
                     "ponder": "h7h6"
                 },
                 "time": {
-                    "nodes": "113135",
-                    "time": "101"
+                    "nodes": "102962",
+                    "time": "102"
                 }
             },
             "fen": "r1b1kb1r/1p3ppp/p3pn2/6N1/2Bn4/2N5/PP3PPP/R1B1K2R w KQkq - 0 11",
@@ -779,43 +790,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "h7h6",
                         "g5e4",
                         "f6e4",
                         "c3e4",
+                        "d4c2",
+                        "a1b1",
                         "b7b5",
-                        "c4d3",
+                        "c4b3",
+                        "c2d4",
+                        "f1e1",
+                        "d4b3",
+                        "a2b3",
                         "c8b7",
-                        "c1e3",
-                        "a8d8",
-                        "a1d1",
-                        "d4f5",
-                        "e4c5",
-                        "b7g2",
-                        "c5e6",
-                        "g2f1",
-                        "e6d8",
-                        "f5e3",
-                        "f2e3",
-                        "f1h3"
+                        "c1f4",
+                        "b7d5",
+                        "e1e3"
                     ],
-                    "nodes": "113022",
-                    "nps": "1119029",
-                    "score": -1.15,
+                    "nodes": "115682",
+                    "nps": "1134137",
+                    "score": -1.05,
                     "seldepth": "23",
-                    "time": "101",
-                    "unit": "pawns"
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h7h6",
                     "ponder": "g5e4"
                 },
                 "time": {
-                    "nodes": "113022",
-                    "time": "101"
+                    "nodes": "115682",
+                    "time": "102"
                 }
             },
             "fen": "r1b1kb1r/1p3ppp/p3pn2/6N1/2Bn4/2N5/PP3PPP/R1B2RK1 b kq - 1 11",
@@ -826,36 +834,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "f1d1",
                         "d4f5",
-                        "c1f4",
-                        "e8g8",
                         "c4e2",
                         "c8d7",
-                        "g2g4",
-                        "f5h4",
-                        "g5e4",
-                        "d7c6",
-                        "f2f3",
-                        "f6e4",
-                        "c3e4"
+                        "g5f3",
+                        "e7d6",
+                        "f3d4",
+                        "d6c7",
+                        "d4f5",
+                        "e6f5",
+                        "c3d5",
+                        "f6d5",
+                        "d1d5"
                     ],
-                    "nodes": "110129",
-                    "nps": "1079696",
-                    "score": -0.53,
-                    "seldepth": "16",
+                    "nodes": "108030",
+                    "nps": "1059117",
+                    "score": -0.41,
+                    "seldepth": "17",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f1d1",
                     "ponder": "d4f5"
                 },
                 "time": {
-                    "nodes": "110129",
+                    "nodes": "108030",
                     "time": "102"
                 }
             },
@@ -871,31 +879,28 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "d4f5",
-                        "c1f4",
-                        "b7b5",
                         "c4e2",
-                        "c8b7",
-                        "g2g4",
-                        "f5h4",
-                        "f4g3",
-                        "h7h6",
-                        "g3h4",
-                        "h6g5",
-                        "h4g5"
+                        "c8d7",
+                        "g5f3",
+                        "d7c6",
+                        "f3e5",
+                        "f6d5",
+                        "e5c6",
+                        "b7c6"
                     ],
-                    "nodes": "109775",
-                    "nps": "1076225",
-                    "score": -0.63,
-                    "seldepth": "20",
+                    "nodes": "106515",
+                    "nps": "1044264",
+                    "score": -0.5,
+                    "seldepth": "19",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d4f5",
-                    "ponder": "c1f4"
+                    "ponder": "c4e2"
                 },
                 "time": {
-                    "nodes": "109775",
+                    "nodes": "106515",
                     "time": "102"
                 }
             },
@@ -907,31 +912,28 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
-                    "modifier": "upperbound",
+                    "depth": "11",
                     "multipv": "1",
                     "next_moves": [
                         "g5e4",
                         "e8g8",
                         "c1e3",
                         "f6e4",
-                        "c3e4",
-                        "c6e5",
-                        "c4e2"
+                        "c3e4"
                     ],
-                    "nodes": "111764",
-                    "nps": "1095725",
-                    "score": -0.4,
-                    "seldepth": "17",
+                    "nodes": "113127",
+                    "nps": "1109088",
+                    "score": -0.34,
+                    "seldepth": "14",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g5e4",
                     "ponder": "e8g8"
                 },
                 "time": {
-                    "nodes": "111764",
+                    "nodes": "113127",
                     "time": "102"
                 }
             },
@@ -944,32 +946,35 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "11",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "e7c5",
                         "g1h1",
                         "e8g8",
                         "c4e2",
-                        "f8d8",
-                        "d1d8",
-                        "c6d8",
-                        "c1d2",
-                        "c8d7"
+                        "c5d4",
+                        "a2a4",
+                        "e6e5",
+                        "f4e5",
+                        "d4e5",
+                        "g5f3",
+                        "e5c3",
+                        "b2c3",
+                        "f6g4"
                     ],
-                    "nodes": "108944",
-                    "nps": "1068078",
-                    "score": -0.9,
-                    "seldepth": "16",
+                    "nodes": "103966",
+                    "nps": "1019274",
+                    "score": -0.96,
+                    "seldepth": "17",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e7c5",
                     "ponder": "g1h1"
                 },
                 "time": {
-                    "nodes": "108944",
+                    "nodes": "103966",
                     "time": "102"
                 }
             },
@@ -981,32 +986,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "c1e3",
-                        "b7b5",
-                        "c4d3",
-                        "c8b7",
-                        "a2a3",
-                        "b5b4",
-                        "a3b4",
-                        "c6b4",
-                        "g5e4"
+                        "e6e5",
+                        "c3d5",
+                        "f6d5",
+                        "c4d5",
+                        "e5f4",
+                        "e3f4",
+                        "c8g4",
+                        "g5f3",
+                        "f8d8",
+                        "d5c6",
+                        "b7c6",
+                        "d1d8",
+                        "e7d8",
+                        "a1c1"
                     ],
-                    "nodes": "111056",
-                    "nps": "1088784",
-                    "score": -1.09,
-                    "seldepth": "17",
+                    "nodes": "114556",
+                    "nps": "1123098",
+                    "score": -0.89,
+                    "seldepth": "19",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c1e3",
-                    "ponder": "b7b5"
+                    "ponder": "e6e5"
                 },
                 "time": {
-                    "nodes": "111056",
+                    "nodes": "114556",
                     "time": "102"
                 }
             },
@@ -1018,35 +1029,39 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "b7b5",
                         "c4e2",
                         "c8b7",
                         "a2a4",
+                        "h7h6",
+                        "a4b5",
+                        "a6b5",
+                        "a1a8",
+                        "f8a8",
+                        "g5e4",
                         "b5b4",
+                        "e4f6",
+                        "e7f6",
                         "c3e4",
-                        "a8d8",
-                        "c1e3",
-                        "f6d5",
-                        "d1d3",
-                        "d5e3",
-                        "d3e3"
+                        "f6d4",
+                        "g1h2"
                     ],
-                    "nodes": "109130",
-                    "nps": "1069901",
-                    "score": -1.46,
-                    "seldepth": "15",
+                    "nodes": "110339",
+                    "nps": "1081754",
+                    "score": -1.44,
+                    "seldepth": "19",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b7b5",
                     "ponder": "c4e2"
                 },
                 "time": {
-                    "nodes": "109130",
+                    "nodes": "110339",
                     "time": "102"
                 }
             },
@@ -1058,34 +1073,41 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
-                    "modifier": "upperbound",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "c4e2",
                         "c8b7",
                         "a2a4",
+                        "h7h6",
+                        "a4b5",
+                        "a6b5",
+                        "a1a8",
+                        "f8a8",
+                        "g5e4",
                         "b5b4",
+                        "e4f6",
+                        "e7f6",
                         "c3e4",
+                        "f6d4",
+                        "g1h2",
                         "a8d8",
-                        "c1e3",
-                        "f6d5",
-                        "g1f2",
-                        "h7h6"
+                        "h2g3",
+                        "c6e7"
                     ],
-                    "nodes": "109928",
-                    "nps": "1077725",
-                    "score": -1.64,
-                    "seldepth": "14",
+                    "nodes": "102757",
+                    "nps": "1007421",
+                    "score": -1.49,
+                    "seldepth": "23",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c4e2",
                     "ponder": "c8b7"
                 },
                 "time": {
-                    "nodes": "109928",
+                    "nodes": "102757",
                     "time": "102"
                 }
             },
@@ -1106,29 +1128,29 @@ define(function(){var game=
                         "e4f6",
                         "e7f6",
                         "c1e3",
-                        "f8d8",
-                        "e3b6",
-                        "d8d1",
-                        "a1d1",
                         "a5b3",
                         "a2b3",
                         "b5b4",
-                        "c3a4"
+                        "c3a4",
+                        "b7d5",
+                        "a4b6",
+                        "d5b3",
+                        "d1d2"
                     ],
-                    "nodes": "118531",
-                    "nps": "1162068",
-                    "score": -1.77,
-                    "seldepth": "17",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "118359",
+                    "nps": "1171871",
+                    "score": -1.7,
+                    "seldepth": "21",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c8b7",
                     "ponder": "g5e4"
                 },
                 "time": {
-                    "nodes": "118531",
-                    "time": "102"
+                    "nodes": "118359",
+                    "time": "101"
                 }
             },
             "fen": "r1b2rk1/4bppp/p1n1pn2/1p4N1/5P2/1BN4P/PP4P1/R1BR2K1 b - - 1 15",
@@ -1140,32 +1162,30 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "12",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "c1e3",
+                        "g5e4",
                         "c6a5",
-                        "g5f3",
-                        "a5b3",
-                        "a2b3",
-                        "a8d8",
-                        "e3b6",
-                        "d8d1",
-                        "a1d1",
-                        "b5b4"
+                        "e4f6",
+                        "e7f6",
+                        "c1e3",
+                        "f8d8",
+                        "e3b6"
                     ],
-                    "nodes": "111809",
-                    "nps": "1096166",
-                    "score": -1.87,
+                    "nodes": "118035",
+                    "nps": "1157205",
+                    "score": -1.92,
                     "seldepth": "19",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "c1e3",
+                    "move": "g5e4",
                     "ponder": "c6a5"
                 },
                 "time": {
-                    "nodes": "111809",
+                    "nodes": "118035",
                     "time": "102"
                 }
             },
@@ -1177,29 +1197,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "c6a5",
-                        "e3d4",
-                        "a8c8",
                         "g5f3",
-                        "f8d8",
-                        "a1c1"
+                        "a5b3",
+                        "a2b3",
+                        "b5b4",
+                        "c3a4",
+                        "a8c8",
+                        "a4b6",
+                        "c8c2",
+                        "b6d7",
+                        "f8c8",
+                        "d7f6",
+                        "e7f6",
+                        "e3d4",
+                        "f6e7",
+                        "a1a5",
+                        "f7f6"
                     ],
-                    "nodes": "117610",
-                    "nps": "1153039",
-                    "score": -2.0,
-                    "seldepth": "15",
+                    "nodes": "116228",
+                    "nps": "1139490",
+                    "score": -1.89,
+                    "seldepth": "22",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c6a5",
-                    "ponder": "e3d4"
+                    "ponder": "g5f3"
                 },
                 "time": {
-                    "nodes": "117610",
+                    "nodes": "116228",
                     "time": "102"
                 }
             },
@@ -1211,29 +1242,35 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "e3b6",
                         "d8d1",
                         "a1d1",
-                        "f8b8",
-                        "g5e4",
-                        "b5b4"
+                        "c6b4",
+                        "a2a4",
+                        "b7d5",
+                        "c3d5",
+                        "f6d5",
+                        "b3d5",
+                        "b4d5",
+                        "a4b5",
+                        "a6b5"
                     ],
-                    "nodes": "120821",
-                    "nps": "1184519",
-                    "score": -1.04,
-                    "seldepth": "17",
+                    "nodes": "96807",
+                    "nps": "949088",
+                    "score": -1.51,
+                    "seldepth": "14",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e3b6",
                     "ponder": "d8d1"
                 },
                 "time": {
-                    "nodes": "120821",
+                    "nodes": "96807",
                     "time": "102"
                 }
             },
@@ -1253,24 +1290,27 @@ define(function(){var game=
                         "d8d1",
                         "b3d1",
                         "c6b4",
-                        "a2a3",
-                        "b4d3",
-                        "b2b4",
-                        "d3e1"
+                        "d1e2",
+                        "b4c2",
+                        "e3b6",
+                        "b5b4",
+                        "c3a4",
+                        "f6d5",
+                        "e2d3"
                     ],
-                    "nodes": "120781",
-                    "nps": "1184127",
-                    "score": -1.74,
-                    "seldepth": "20",
+                    "nodes": "94185",
+                    "nps": "923382",
+                    "score": -1.7,
+                    "seldepth": "19",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f8d8",
                     "ponder": "a1d1"
                 },
                 "time": {
-                    "nodes": "120781",
+                    "nodes": "94185",
                     "time": "102"
                 }
             },
@@ -1282,36 +1322,31 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
-                        "e3c5",
-                        "d8e7",
-                        "c3e4",
-                        "e7c5",
-                        "e4c5",
-                        "c6a5",
                         "a1d1",
                         "h7h6",
-                        "c5b7",
-                        "a5b7",
-                        "g5f3",
-                        "f8d8"
+                        "g5e4",
+                        "f6e4",
+                        "c3e4",
+                        "c6e7",
+                        "b3c2"
                     ],
-                    "nodes": "118756",
-                    "nps": "1164274",
-                    "score": -1.02,
-                    "seldepth": "18",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "96723",
+                    "nps": "957653",
+                    "score": -0.93,
+                    "seldepth": "14",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "e3c5",
-                    "ponder": "d8e7"
+                    "move": "a1d1",
+                    "ponder": "h7h6"
                 },
                 "time": {
-                    "nodes": "118756",
-                    "time": "102"
+                    "nodes": "96723",
+                    "time": "101"
                 }
             },
             "fen": "3b1rk1/1b3ppp/p1n1pn2/1p4N1/5P2/1BN1B2P/PP4P1/R5K1 w - - 0 18",
@@ -1323,29 +1358,33 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "12",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "c6b4",
                         "c2b1",
                         "h7h6",
                         "g5e4",
-                        "b4d5"
+                        "b4d5",
+                        "c3d5",
+                        "f6d5",
+                        "e3c5",
+                        "d5f4",
+                        "c5f8"
                     ],
-                    "nodes": "116359",
-                    "nps": "1140774",
-                    "score": -1.4,
-                    "seldepth": "17",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "115416",
+                    "nps": "1142732",
+                    "score": -1.37,
+                    "seldepth": "16",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c6b4",
                     "ponder": "c2b1"
                 },
                 "time": {
-                    "nodes": "116359",
-                    "time": "102"
+                    "nodes": "115416",
+                    "time": "101"
                 }
             },
             "fen": "3b1rk1/1b3ppp/p1n1pn2/1p4N1/5P2/2N1B2P/PPB3P1/R5K1 b - - 1 18",
@@ -1359,34 +1398,35 @@ define(function(){var game=
                     "depth": "11",
                     "multipv": "1",
                     "next_moves": [
-                        "a1c1",
-                        "c6e7",
-                        "c3b5",
-                        "a6b5",
-                        "c2h7",
-                        "f6h7",
-                        "c1c7",
-                        "e7d5",
-                        "c7b7",
-                        "d5e3",
-                        "b7b5",
-                        "h7g5",
-                        "b5g5"
+                        "a1d1",
+                        "c6b4",
+                        "c2b1",
+                        "f8d8",
+                        "d1d8",
+                        "c7d8",
+                        "g1f2",
+                        "b4d5",
+                        "c3d5",
+                        "b7d5",
+                        "g5f3",
+                        "f6e4",
+                        "b1e4",
+                        "d5e4"
                     ],
-                    "nodes": "120232",
-                    "nps": "1178745",
-                    "score": -1.2,
-                    "seldepth": "15",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "123226",
+                    "nps": "1220059",
+                    "score": -1.3,
+                    "seldepth": "17",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "a1c1",
-                    "ponder": "c6e7"
+                    "move": "a1d1",
+                    "ponder": "c6b4"
                 },
                 "time": {
-                    "nodes": "120232",
-                    "time": "102"
+                    "nodes": "123226",
+                    "time": "101"
                 }
             },
             "fen": "5rk1/1bb2ppp/p1n1pn2/1p4N1/5P2/2N1B2P/PPB3P1/R5K1 w - - 2 19",
@@ -1406,21 +1446,31 @@ define(function(){var game=
                         "c5f8",
                         "g8f8",
                         "e4c5",
-                        "c7b6"
+                        "c7b6",
+                        "g5e4",
+                        "c6b4",
+                        "a1c1",
+                        "b4a2",
+                        "c1d1",
+                        "a2b4",
+                        "g1h2",
+                        "b4c2",
+                        "c5b7",
+                        "d5f4"
                     ],
-                    "nodes": "124264",
-                    "nps": "1230336",
-                    "score": -2.02,
-                    "seldepth": "22",
+                    "nodes": "123824",
+                    "nps": "1225980",
+                    "score": -1.63,
+                    "seldepth": "20",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f6d5",
                     "ponder": "e3c5"
                 },
                 "time": {
-                    "nodes": "124264",
+                    "nodes": "123824",
                     "time": "101"
                 }
             },
@@ -1432,7 +1482,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "e4f6",
@@ -1442,33 +1492,25 @@ define(function(){var game=
                         "h7f6",
                         "g8g7",
                         "f6h5",
-                        "g7g8",
+                        "g7h8",
                         "c2e4",
                         "c6a5",
                         "e4b7",
-                        "a5b7",
-                        "h5f6",
-                        "g8g7",
-                        "a1c1",
-                        "b7d6",
-                        "f6h5",
-                        "g7g6",
-                        "c1c7",
-                        "g6h5"
+                        "a5b7"
                     ],
-                    "nodes": "135460",
-                    "nps": "1328039",
-                    "score": 0.18,
-                    "seldepth": "23",
+                    "nodes": "129470",
+                    "nps": "1269313",
+                    "score": 0.11,
+                    "seldepth": "21",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e4f6",
                     "ponder": "g7f6"
                 },
                 "time": {
-                    "nodes": "135460",
+                    "nodes": "129470",
                     "time": "102"
                 }
             },
@@ -1488,30 +1530,32 @@ define(function(){var game=
                         "f8b8",
                         "h7f6",
                         "g8g7",
-                        "f6d7",
-                        "b8d8",
-                        "a1d1",
-                        "c6b4",
-                        "e3d4",
+                        "f6h5",
                         "g7g8",
-                        "d7f6",
-                        "g8h8",
-                        "f6d7",
-                        "h8g8"
+                        "a1c1",
+                        "c6b4",
+                        "h5f6",
+                        "g8g7",
+                        "c2b1",
+                        "c7a5",
+                        "f6h5",
+                        "g7g8",
+                        "h5f6",
+                        "g8g7"
                     ],
-                    "nodes": "128964",
-                    "nps": "1276871",
+                    "nodes": "132057",
+                    "nps": "1307495",
                     "score": 0.0,
-                    "seldepth": "20",
+                    "seldepth": "28",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g7f6",
                     "ponder": "g5h7"
                 },
                 "time": {
-                    "nodes": "128964",
+                    "nodes": "132057",
                     "time": "101"
                 }
             },
@@ -1523,37 +1567,43 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "16",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "g5h7",
                         "f8b8",
                         "h7f6",
                         "g8g7",
-                        "f6d7",
-                        "b8d8",
-                        "a1d1",
-                        "c6b4",
-                        "e3d4",
+                        "f6h5",
                         "g7g8",
-                        "d7f6",
-                        "g8h8",
-                        "f6d7",
-                        "h8g8"
+                        "a1c1",
+                        "c6b4",
+                        "h5f6",
+                        "g8g7",
+                        "c2b1",
+                        "c7a5",
+                        "f6h5",
+                        "g7g8",
+                        "f4f5",
+                        "b4d5",
+                        "e3h6",
+                        "a5b6",
+                        "g1h2",
+                        "b6d4"
                     ],
-                    "nodes": "126290",
-                    "nps": "1250396",
-                    "score": 0.0,
-                    "seldepth": "21",
+                    "nodes": "123606",
+                    "nps": "1223821",
+                    "score": 0.1,
+                    "seldepth": "23",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g5h7",
                     "ponder": "f8b8"
                 },
                 "time": {
-                    "nodes": "126290",
+                    "nodes": "123606",
                     "time": "101"
                 }
             },
@@ -1565,42 +1615,44 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "16",
+                    "depth": "15",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "f8b8",
                         "h7f6",
                         "g8g7",
-                        "f6d7",
-                        "b8d8",
-                        "d7c5",
-                        "b7c8",
-                        "c2e4",
-                        "c6d4",
-                        "g1f2",
-                        "f7f5",
-                        "e4d3",
-                        "e6e5",
+                        "f6h5",
+                        "g7g8",
                         "a1c1",
-                        "e5f4",
-                        "e3d4",
-                        "d8d4",
-                        "c5a6"
+                        "c6b4",
+                        "h5f6",
+                        "g8g7",
+                        "c2b1",
+                        "c7a5",
+                        "f6h5",
+                        "g7g8",
+                        "f4f5",
+                        "b4d5",
+                        "e3h6",
+                        "a5b6",
+                        "g1h2",
+                        "b6d4"
                     ],
-                    "nodes": "124885",
-                    "nps": "1236485",
-                    "score": 0.1,
-                    "seldepth": "20",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "117470",
+                    "nps": "1151666",
+                    "score": 0.12,
+                    "seldepth": "28",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f8b8",
                     "ponder": "h7f6"
                 },
                 "time": {
-                    "nodes": "124885",
-                    "time": "101"
+                    "nodes": "117470",
+                    "time": "102"
                 }
             },
             "fen": "5rk1/1bb2p1N/p1n1pp1p/1p6/5P2/4B2P/PPB3P1/R5K1 b - - 1 21",
@@ -1615,33 +1667,28 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "h7f6",
-                        "g8g7",
-                        "f6h5",
-                        "g7g8",
+                        "g8h8",
                         "c2e4",
                         "c6a5",
-                        "e4b7",
-                        "a5b7",
                         "a1c1",
-                        "c7a5",
-                        "c1c6",
-                        "a5d2",
-                        "g1f2"
+                        "b7e4",
+                        "c1c7",
+                        "e4g6"
                     ],
-                    "nodes": "140646",
-                    "nps": "1378882",
-                    "score": 0.39,
-                    "seldepth": "24",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "134566",
+                    "nps": "1332336",
+                    "score": 0.76,
+                    "seldepth": "20",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h7f6",
-                    "ponder": "g8g7"
+                    "ponder": "g8h8"
                 },
                 "time": {
-                    "nodes": "140646",
-                    "time": "102"
+                    "nodes": "134566",
+                    "time": "101"
                 }
             },
             "fen": "3r2k1/1bb2p1N/p1n1pp1p/1p6/5P2/4B2P/PPB3P1/R5K1 w - - 2 22",
@@ -1652,43 +1699,47 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "15",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "g8g7",
                         "f6h5",
-                        "g7f8",
+                        "g7g8",
                         "c2e4",
                         "c6a5",
                         "e4b7",
                         "a5b7",
-                        "f4f5",
-                        "e6f5",
-                        "e3h6",
-                        "f8g8",
-                        "h5f6",
-                        "g8h8",
-                        "a1f1",
-                        "c7e5",
-                        "f1f5",
-                        "e5d4",
-                        "g1h1",
-                        "d4b2"
+                        "a1c1",
+                        "c7a5",
+                        "g1f2",
+                        "a5d2",
+                        "c1c6",
+                        "b7a5",
+                        "c6a6",
+                        "d2e3",
+                        "f2e3",
+                        "a5c4",
+                        "e3f3",
+                        "d8d3",
+                        "f3e4",
+                        "c4b2",
+                        "a6a8",
+                        "g8h7"
                     ],
-                    "nodes": "143286",
-                    "nps": "1418673",
-                    "score": 0.44,
-                    "seldepth": "23",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "139872",
+                    "nps": "1371294",
+                    "score": 0.48,
+                    "seldepth": "22",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g8g7",
                     "ponder": "f6h5"
                 },
                 "time": {
-                    "nodes": "143286",
-                    "time": "101"
+                    "nodes": "139872",
+                    "time": "102"
                 }
             },
             "fen": "3r2k1/1bb2p2/p1n1pN1p/1p6/5P2/4B2P/PPB3P1/R5K1 b - - 0 22",
@@ -1699,7 +1750,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "15",
                     "multipv": "1",
                     "next_moves": [
                         "f6h5",
@@ -1712,24 +1763,35 @@ define(function(){var game=
                         "e6f5",
                         "e3h6",
                         "f8g8",
+                        "a1f1",
+                        "c7b6",
+                        "g1h2",
+                        "b6c7",
+                        "g2g3",
+                        "f5f4",
                         "h5f6",
                         "g8h8",
-                        "a1f1"
+                        "h6f4",
+                        "c7f4",
+                        "g3f4",
+                        "d8d2",
+                        "h2g3",
+                        "d2b2"
                     ],
-                    "nodes": "134535",
-                    "nps": "1332029",
-                    "score": 0.44,
-                    "seldepth": "25",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "134054",
+                    "nps": "1314254",
+                    "score": 0.48,
+                    "seldepth": "27",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f6h5",
                     "ponder": "g7f8"
                 },
                 "time": {
-                    "nodes": "134535",
-                    "time": "101"
+                    "nodes": "134054",
+                    "time": "102"
                 }
             },
             "fen": "3r4/1bb2pk1/p1n1pN1p/1p6/5P2/4B2P/PPB3P1/R5K1 w - - 1 23",
@@ -1740,43 +1802,35 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "15",
                     "multipv": "1",
                     "next_moves": [
-                        "g7g8",
+                        "g7f8",
                         "c2e4",
-                        "f7f5",
-                        "e4f3",
                         "c6a5",
-                        "f3b7",
+                        "e4b7",
                         "a5b7",
-                        "a1c1",
-                        "c7a5",
-                        "g1f2",
-                        "g8f7",
-                        "h5g3",
-                        "f7f6",
-                        "g3e2",
-                        "b7d6",
-                        "c1c6",
-                        "d6e4",
-                        "f2f3",
-                        "d8d6",
-                        "e3d4"
+                        "f4f5",
+                        "e6f5",
+                        "e3h6",
+                        "f8g8",
+                        "a1f1",
+                        "c7b6",
+                        "g1h2"
                     ],
-                    "nodes": "115841",
-                    "nps": "1146940",
-                    "score": 0.35,
-                    "seldepth": "23",
+                    "nodes": "128055",
+                    "nps": "1267871",
+                    "score": 0.48,
+                    "seldepth": "28",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "g7g8",
+                    "move": "g7f8",
                     "ponder": "c2e4"
                 },
                 "time": {
-                    "nodes": "115841",
+                    "nodes": "128055",
                     "time": "101"
                 }
             },
@@ -1788,47 +1842,39 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "15",
+                    "depth": "14",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "c2e4",
-                        "f7f5",
-                        "e4f3",
                         "c6a5",
-                        "f3b7",
+                        "e4b7",
                         "a5b7",
                         "a1c1",
                         "c7a5",
                         "g1f2",
-                        "b7d6",
-                        "c1c6",
-                        "d6e4",
-                        "f2f3",
-                        "d8d6",
-                        "c6d6",
-                        "e4d6",
-                        "h5f6",
-                        "g8f7",
-                        "e3d4",
-                        "a5d2",
-                        "b2b3",
-                        "f7g6",
-                        "d4e5"
+                        "g8h7",
+                        "f4f5",
+                        "e6f5",
+                        "h5g3",
+                        "h7g6",
+                        "a2a3",
+                        "f5f4"
                     ],
-                    "nodes": "134249",
-                    "nps": "1329198",
-                    "score": 0.34,
-                    "seldepth": "25",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "135915",
+                    "nps": "1332500",
+                    "score": 0.45,
+                    "seldepth": "23",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c2e4",
-                    "ponder": "f7f5"
+                    "ponder": "c6a5"
                 },
                 "time": {
-                    "nodes": "134249",
-                    "time": "101"
+                    "nodes": "135915",
+                    "time": "102"
                 }
             },
             "fen": "3r2k1/1bb2p2/p1n1p2p/1p5N/5P2/4B2P/PPB3P1/R5K1 w - - 3 24",
@@ -1839,38 +1885,42 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "c6d4",
                         "h5f6",
                         "g8h8",
+                        "e3d4",
+                        "d8d4",
+                        "f5e6",
+                        "f7e6",
+                        "a2a4",
+                        "d4d2",
                         "c2e4",
-                        "d4f5",
-                        "e4f5",
-                        "e6f5",
-                        "a1f1",
-                        "c7e5",
-                        "f1f5",
-                        "d8d1",
-                        "g1f2",
-                        "e5b2",
-                        "e3h6",
-                        "d1a1"
+                        "c7b6",
+                        "g1h2",
+                        "b7e4",
+                        "f6e4",
+                        "b6c7",
+                        "h2g1",
+                        "d2b2",
+                        "a4b5",
+                        "a6b5"
                     ],
-                    "nodes": "127425",
-                    "nps": "1261633",
-                    "score": -0.48,
-                    "seldepth": "21",
+                    "nodes": "115993",
+                    "nps": "1148445",
+                    "score": -1.01,
+                    "seldepth": "22",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c6d4",
                     "ponder": "h5f6"
                 },
                 "time": {
-                    "nodes": "127425",
+                    "nodes": "115993",
                     "time": "101"
                 }
             },
@@ -1886,31 +1936,34 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "c2b3",
-                        "e6e5",
+                        "e6f5",
+                        "a1f1",
+                        "b4d5",
                         "e3h6",
-                        "d8d6",
-                        "h6g5",
-                        "c7d8",
-                        "g5d8",
-                        "d6d8",
-                        "h5f6",
-                        "g8g7",
-                        "f6h5",
-                        "g7g8"
+                        "c7e5",
+                        "h6c1",
+                        "f5f4",
+                        "h5f4",
+                        "d5f4",
+                        "c1f4",
+                        "e5d4",
+                        "g1h2",
+                        "d4b2",
+                        "g2g4"
                     ],
-                    "nodes": "121390",
-                    "nps": "1201881",
-                    "score": 0.0,
-                    "seldepth": "19",
+                    "nodes": "117104",
+                    "nps": "1159445",
+                    "score": 0.04,
+                    "seldepth": "21",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c2b3",
-                    "ponder": "e6e5"
+                    "ponder": "e6f5"
                 },
                 "time": {
-                    "nodes": "121390",
+                    "nodes": "117104",
                     "time": "101"
                 }
             },
@@ -1922,38 +1975,31 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
-                        "e6e5",
+                        "e6f5",
+                        "a1f1",
+                        "b4d5",
                         "e3h6",
-                        "d8d6",
-                        "h6g5",
-                        "g8f8",
-                        "g2g4",
-                        "b7c6",
-                        "a1e1",
-                        "b4d3",
-                        "e1d1",
-                        "d3b2",
-                        "d1d6",
-                        "c7d6",
-                        "h5f6"
+                        "c7e5",
+                        "f1f5",
+                        "e5b2"
                     ],
-                    "nodes": "126735",
-                    "nps": "1242500",
-                    "score": 0.12,
-                    "seldepth": "18",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "125351",
+                    "nps": "1241099",
+                    "score": 0.22,
+                    "seldepth": "17",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "e6e5",
-                    "ponder": "e3h6"
+                    "move": "e6f5",
+                    "ponder": "a1f1"
                 },
                 "time": {
-                    "nodes": "126735",
-                    "time": "102"
+                    "nodes": "125351",
+                    "time": "101"
                 }
             },
             "fen": "3r2k1/1bb2p2/p3p2p/1p3P1N/1n6/1B2B2P/PP4P1/R5K1 b - - 2 25",
@@ -1964,7 +2010,8 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "a1c1",
@@ -1972,31 +2019,32 @@ define(function(){var game=
                         "e3h6",
                         "d8d6",
                         "h6g5",
-                        "b4d3",
-                        "c1c2",
                         "g8f8",
                         "g5e3",
+                        "b4d3",
+                        "c1c2",
+                        "a6a5",
+                        "a2a3",
                         "d3e1",
-                        "c2e2",
+                        "c2d2",
                         "e1d3",
-                        "g2g4",
-                        "b7f3",
-                        "e2d2"
+                        "h5f6",
+                        "a5a4"
                     ],
-                    "nodes": "124293",
-                    "nps": "1230623",
-                    "score": 0.55,
-                    "seldepth": "20",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "118144",
+                    "nps": "1158274",
+                    "score": 0.41,
+                    "seldepth": "22",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a1c1",
                     "ponder": "c7b8"
                 },
                 "time": {
-                    "nodes": "124293",
-                    "time": "101"
+                    "nodes": "118144",
+                    "time": "102"
                 }
             },
             "fen": "3r2k1/1bb2p2/p6p/1p2pP1N/1n6/1B2B2P/PP4P1/R5K1 w - - 0 26",
@@ -2016,30 +2064,22 @@ define(function(){var game=
                         "g2g4",
                         "b4d3",
                         "a1d1",
-                        "a6a5",
-                        "h5f6",
-                        "b7f3",
-                        "d1f1",
-                        "f3b7",
-                        "h3h4",
-                        "c7b6",
-                        "g1h2",
                         "d3b2"
                     ],
-                    "nodes": "122375",
-                    "nps": "1211633",
-                    "score": 0.13,
-                    "seldepth": "19",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "123533",
+                    "nps": "1211107",
+                    "score": 0.04,
+                    "seldepth": "20",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d8d6",
                     "ponder": "h6g5"
                 },
                 "time": {
-                    "nodes": "122375",
-                    "time": "101"
+                    "nodes": "123533",
+                    "time": "102"
                 }
             },
             "fen": "3r2k1/1bb2p2/p6B/1p2pP1N/1n6/1B5P/PP4P1/R5K1 b - - 0 26",
@@ -2065,25 +2105,24 @@ define(function(){var game=
                         "f8e8",
                         "h5f6",
                         "e8e7",
-                        "f6d5",
-                        "e7d7",
-                        "d5f6",
-                        "d7e7"
+                        "f6g8",
+                        "e7e8",
+                        "g8f6"
                     ],
-                    "nodes": "124871",
-                    "nps": "1236346",
+                    "nodes": "127317",
+                    "nps": "1248205",
                     "score": 0.0,
-                    "seldepth": "22",
-                    "time": "101",
-                    "unit": "pawns"
+                    "seldepth": "24",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h6g5",
                     "ponder": "g8f8"
                 },
                 "time": {
-                    "nodes": "124871",
-                    "time": "101"
+                    "nodes": "127317",
+                    "time": "102"
                 }
             },
             "fen": "6k1/1bb2p2/p2r3B/1p2pP1N/1n6/1B5P/PP4P1/R5K1 w - - 1 27",
@@ -2108,23 +2147,23 @@ define(function(){var game=
                         "f8e8",
                         "h5f6",
                         "e8e7",
-                        "f6d5",
+                        "f6g8",
                         "e7e8",
-                        "d5f6"
+                        "g8f6"
                     ],
-                    "nodes": "121962",
-                    "nps": "1207544",
+                    "nodes": "119048",
+                    "nps": "1178693",
                     "score": 0.0,
-                    "seldepth": "26",
+                    "seldepth": "11",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g8f8",
                     "ponder": "g2g4"
                 },
                 "time": {
-                    "nodes": "121962",
+                    "nodes": "119048",
                     "time": "101"
                 }
             },
@@ -2136,31 +2175,43 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "g5d8",
                         "d6d8",
                         "a1c1",
-                        "d8d2",
+                        "g8f8",
+                        "h5f6",
+                        "f8g7",
                         "c1c7",
-                        "d2g2",
-                        "g1f1"
+                        "g7f6",
+                        "c7f7",
+                        "f6g5",
+                        "h3h4",
+                        "g5f4",
+                        "f7b7",
+                        "f4f5",
+                        "b7b6",
+                        "e5e4",
+                        "b3e6",
+                        "f5f4",
+                        "a2a3"
                     ],
-                    "nodes": "128479",
-                    "nps": "1272069",
-                    "score": 0.64,
-                    "seldepth": "18",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "139737",
+                    "nps": "1369970",
+                    "score": 0.79,
+                    "seldepth": "23",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g5d8",
                     "ponder": "d6d8"
                 },
                 "time": {
-                    "nodes": "128479",
-                    "time": "101"
+                    "nodes": "139737",
+                    "time": "102"
                 }
             },
             "fen": "3b2k1/1b3p2/p2r4/1p2pPBN/1n6/1B5P/PP4P1/R5K1 w - - 3 28",
@@ -2171,28 +2222,35 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "d6d8",
                         "a1c1",
                         "g8f8",
                         "h5f6",
-                        "f8g7"
+                        "f8g7",
+                        "f6g4",
+                        "d8d2",
+                        "f5f6",
+                        "g7f8",
+                        "c1c7",
+                        "d2g2",
+                        "g1h1"
                     ],
-                    "nodes": "133689",
-                    "nps": "1323653",
-                    "score": 0.73,
-                    "seldepth": "22",
+                    "nodes": "133075",
+                    "nps": "1317574",
+                    "score": 0.82,
+                    "seldepth": "23",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d6d8",
                     "ponder": "a1c1"
                 },
                 "time": {
-                    "nodes": "133689",
+                    "nodes": "133075",
                     "time": "101"
                 }
             },
@@ -2204,38 +2262,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "a1c1",
                         "g8f8",
                         "h5f6",
-                        "f8g7",
+                        "d8d6",
+                        "f6g4",
+                        "d6d2",
                         "c1c7",
-                        "g7f6",
-                        "c7b7",
-                        "f6f5",
-                        "b7f7",
-                        "f5e4",
-                        "a2a3",
+                        "b7d5",
+                        "f5f6",
+                        "f8g8",
+                        "b3d5",
                         "b4d5",
-                        "f7a7",
-                        "d5e3",
-                        "a7a6"
+                        "c7c8",
+                        "g8h7",
+                        "g4e5",
+                        "d2b2",
+                        "a2a3"
                     ],
-                    "nodes": "131183",
-                    "nps": "1298841",
-                    "score": 0.6,
-                    "seldepth": "19",
+                    "nodes": "140146",
+                    "nps": "1387584",
+                    "score": 0.71,
+                    "seldepth": "23",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a1c1",
                     "ponder": "g8f8"
                 },
                 "time": {
-                    "nodes": "131183",
+                    "nodes": "140146",
                     "time": "101"
                 }
             },
@@ -2254,35 +2314,34 @@ define(function(){var game=
                         "a1d1",
                         "d8d4",
                         "d1d2",
-                        "d3c1",
+                        "d3c5",
                         "d2d4",
-                        "c1e2",
+                        "e5d4",
+                        "b3d1",
+                        "c5d3",
+                        "b2b4",
+                        "d3b2",
+                        "d1b3",
+                        "b2c4",
                         "g1f2",
-                        "e2d4",
-                        "b3d5",
-                        "b7d5",
-                        "h5f6",
-                        "g8f8",
-                        "f6d5",
-                        "d4f5",
-                        "d5c7",
-                        "f5d4",
-                        "c7a6",
-                        "f8e7"
+                        "d4d3",
+                        "h5f4",
+                        "b7e4",
+                        "g2g4"
                     ],
-                    "nodes": "130053",
-                    "nps": "1287653",
-                    "score": 0.44,
-                    "seldepth": "20",
+                    "nodes": "138518",
+                    "nps": "1371465",
+                    "score": 0.25,
+                    "seldepth": "23",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b4d3",
                     "ponder": "a1d1"
                 },
                 "time": {
-                    "nodes": "130053",
+                    "nodes": "138518",
                     "time": "101"
                 }
             },
@@ -2302,39 +2361,32 @@ define(function(){var game=
                         "d5c6",
                         "b7c6",
                         "a1c1",
-                        "c6e4",
+                        "c6d5",
+                        "c1e1",
+                        "d5c6",
                         "g2g4",
                         "d8d2",
-                        "c1c8",
-                        "f8e7",
-                        "c8c7",
-                        "e7d8",
-                        "c7f7",
+                        "e1e5",
                         "d2g2",
                         "g1f1",
                         "g2b2",
-                        "h5f6",
-                        "e4g2",
-                        "f1e1",
-                        "b2b3",
-                        "f7d7",
-                        "d8c8",
-                        "e1f2",
-                        "g2h3"
+                        "e5e2",
+                        "b2e2",
+                        "f1e2"
                     ],
-                    "nodes": "136212",
-                    "nps": "1348633",
-                    "score": 0.75,
-                    "seldepth": "27",
+                    "nodes": "137134",
+                    "nps": "1357762",
+                    "score": 0.9,
+                    "seldepth": "21",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b3d5",
                     "ponder": "g8f8"
                 },
                 "time": {
-                    "nodes": "136212",
+                    "nodes": "137134",
                     "time": "101"
                 }
             },
@@ -2350,31 +2402,30 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "g8f8",
-                        "b3d1",
-                        "c6a5",
-                        "d1g4",
-                        "a5c4",
-                        "e1e2",
-                        "b7c6",
-                        "f5f6",
-                        "d8d1",
-                        "g1f2",
-                        "d1d3",
-                        "h5g3"
+                        "b3c2",
+                        "d8d2",
+                        "c2e4",
+                        "d2b2",
+                        "e1e3",
+                        "b5b4",
+                        "a3b4",
+                        "b2b4",
+                        "h5f6",
+                        "f8g7"
                     ],
-                    "nodes": "130356",
-                    "nps": "1290653",
-                    "score": 0.01,
-                    "seldepth": "17",
+                    "nodes": "128260",
+                    "nps": "1269900",
+                    "score": 0.11,
+                    "seldepth": "20",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g8f8",
-                    "ponder": "b3d1"
+                    "ponder": "b3c2"
                 },
                 "time": {
-                    "nodes": "130356",
+                    "nodes": "128260",
                     "time": "101"
                 }
             },
@@ -2386,33 +2437,35 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "b3d5",
-                        "c6e7",
-                        "d5f3",
-                        "e7f5",
-                        "e1e5",
-                        "g8f8",
-                        "f3d5",
-                        "f5e7",
-                        "h5f4"
+                        "c8b7",
+                        "e1c1",
+                        "c6d4",
+                        "d5f7",
+                        "g8f7",
+                        "c1c7",
+                        "f7f8",
+                        "c7b7",
+                        "d4f5",
+                        "h5f6"
                     ],
-                    "nodes": "133629",
-                    "nps": "1323059",
-                    "score": 1.38,
-                    "seldepth": "21",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "134117",
+                    "nps": "1314872",
+                    "score": 1.13,
+                    "seldepth": "20",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b3d5",
-                    "ponder": "c6e7"
+                    "ponder": "c8b7"
                 },
                 "time": {
-                    "nodes": "133629",
-                    "time": "101"
+                    "nodes": "134117",
+                    "time": "102"
                 }
             },
             "fen": "2br2k1/5p2/p1n5/1p2pP1N/8/PB5P/1P4P1/4R1K1 w - - 3 31",
@@ -2423,7 +2476,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "g8f8",
@@ -2431,27 +2484,29 @@ define(function(){var game=
                         "d8d2",
                         "c2e4",
                         "c6d4",
-                        "b2b4",
-                        "f8e7",
-                        "e1e3",
-                        "f7f6",
+                        "e4d5",
+                        "d4f5",
+                        "e1e5",
+                        "f5d6",
+                        "h5f6",
+                        "d2b2",
                         "h3h4",
-                        "c8d7"
+                        "b2d2"
                     ],
-                    "nodes": "135504",
-                    "nps": "1328470",
-                    "score": 0.85,
-                    "seldepth": "21",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "135866",
+                    "nps": "1345207",
+                    "score": 0.79,
+                    "seldepth": "20",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g8f8",
                     "ponder": "b3c2"
                 },
                 "time": {
-                    "nodes": "135504",
-                    "time": "102"
+                    "nodes": "135866",
+                    "time": "101"
                 }
             },
             "fen": "2br2k1/5p2/p1n5/1p2pP1N/6P1/PB5P/1P6/4R1K1 b - - 0 31",
@@ -2463,39 +2518,36 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "12",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "b3d5",
                         "c8b7",
                         "d5g2",
                         "d3d2",
-                        "b2b4",
-                        "d2d3",
                         "h5f6",
                         "g8g7",
                         "g4g5",
-                        "d3a3",
-                        "f6e8",
-                        "g7f8",
-                        "e8d6",
-                        "b7a8",
-                        "g1h2"
+                        "c6a5",
+                        "g2b7",
+                        "a5b7",
+                        "e1e5",
+                        "b7d6",
+                        "b2b4"
                     ],
-                    "nodes": "134462",
-                    "nps": "1331306",
-                    "score": 1.24,
-                    "seldepth": "20",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "133831",
+                    "nps": "1312068",
+                    "score": 1.62,
+                    "seldepth": "19",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b3d5",
                     "ponder": "c8b7"
                 },
                 "time": {
-                    "nodes": "134462",
-                    "time": "101"
+                    "nodes": "133831",
+                    "time": "102"
                 }
             },
             "fen": "2b3k1/5p2/p1n5/1p2pP1N/6P1/PB1r3P/1P6/4R1K1 w - - 1 32",
@@ -2506,32 +2558,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "c8b7",
                         "d5g2",
-                        "d3d2",
+                        "g8f8",
                         "h5f6",
-                        "g8g7",
-                        "f6e4",
-                        "d2b2",
-                        "e4c5",
-                        "b7a8"
+                        "a6a5",
+                        "h3h4",
+                        "d3d2",
+                        "g4g5",
+                        "f8g7",
+                        "g2c6",
+                        "b7c6",
+                        "e1e5",
+                        "d2b2"
                     ],
-                    "nodes": "138242",
-                    "nps": "1355313",
-                    "score": 1.55,
-                    "seldepth": "19",
+                    "nodes": "129711",
+                    "nps": "1271676",
+                    "score": 1.65,
+                    "seldepth": "20",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "c8b7",
                     "ponder": "d5g2"
                 },
                 "time": {
-                    "nodes": "138242",
+                    "nodes": "129711",
                     "time": "102"
                 }
             },
@@ -2549,33 +2605,32 @@ define(function(){var game=
                         "d5g2",
                         "g8f8",
                         "e1e5",
-                        "d3d2",
-                        "e5c5",
-                        "d2d1",
-                        "g1f2",
-                        "d1d2",
-                        "f2g3",
                         "c8d7",
                         "h5f6",
-                        "d7c8",
-                        "h3h4",
-                        "d2b2",
-                        "g2d5"
+                        "d3d1",
+                        "g1f2",
+                        "d7c6",
+                        "e5e2",
+                        "c6g2",
+                        "f2g2",
+                        "e7d5",
+                        "f6d5",
+                        "d1d5"
                     ],
-                    "nodes": "134864",
-                    "nps": "1335287",
-                    "score": 2.6,
+                    "nodes": "134862",
+                    "nps": "1322176",
+                    "score": 2.44,
                     "seldepth": "23",
-                    "time": "101",
-                    "unit": "pawns"
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d5g2",
                     "ponder": "g8f8"
                 },
                 "time": {
-                    "nodes": "134864",
-                    "time": "101"
+                    "nodes": "134862",
+                    "time": "102"
                 }
             },
             "fen": "2b3k1/4np2/p7/1p1BpP1N/6P1/P2r3P/1P6/4R1K1 w - - 3 33",
@@ -2586,7 +2641,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "g8f8",
@@ -2598,27 +2653,22 @@ define(function(){var game=
                         "d7c6",
                         "g2c6",
                         "d6c6",
-                        "f2f3",
-                        "c6c2",
-                        "e5e2",
-                        "c2e2",
-                        "f4e2",
-                        "e7d5"
+                        "f4d3"
                     ],
-                    "nodes": "121803",
-                    "nps": "1205970",
-                    "score": 2.6,
-                    "seldepth": "18",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "133344",
+                    "nps": "1307294",
+                    "score": 2.57,
+                    "seldepth": "20",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g8f8",
                     "ponder": "e1e5"
                 },
                 "time": {
-                    "nodes": "121803",
-                    "time": "101"
+                    "nodes": "133344",
+                    "time": "102"
                 }
             },
             "fen": "2b3k1/4np2/p7/1p2pP1N/6P1/P2r3P/1P4B1/4R1K1 b - - 4 33",
@@ -2639,25 +2689,31 @@ define(function(){var game=
                         "h5f4",
                         "d7c6",
                         "g2c6",
-                        "d6c6",
+                        "e7c6",
+                        "e5d5",
+                        "d6d5",
+                        "f4d5",
+                        "c6e5",
+                        "d5c7",
+                        "e5d3",
                         "f2f3",
-                        "c6c2",
-                        "e5e2",
-                        "c2e2"
+                        "f8e7",
+                        "c7a6",
+                        "d3b2"
                     ],
-                    "nodes": "133742",
-                    "nps": "1311196",
-                    "score": 2.67,
+                    "nodes": "141997",
+                    "nps": "1392127",
+                    "score": 2.69,
                     "seldepth": "23",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e1e5",
                     "ponder": "d3d6"
                 },
                 "time": {
-                    "nodes": "133742",
+                    "nodes": "141997",
                     "time": "102"
                 }
             },
@@ -2669,7 +2725,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "15",
                     "multipv": "1",
                     "next_moves": [
                         "d3d6",
@@ -2678,33 +2734,25 @@ define(function(){var game=
                         "h5f4",
                         "d7c6",
                         "g2c6",
-                        "d6c6",
-                        "f2f3",
-                        "c6c1",
-                        "e5e3",
-                        "c1f1",
-                        "f3e4",
-                        "f1f4",
-                        "e4f4",
-                        "e7d5",
-                        "f4f3",
-                        "d5e3",
-                        "f3e3",
-                        "f8e7"
+                        "e7c6",
+                        "e5d5",
+                        "d6d5",
+                        "f4d5",
+                        "c6e5"
                     ],
-                    "nodes": "136758",
-                    "nps": "1340764",
-                    "score": 2.7,
-                    "seldepth": "24",
+                    "nodes": "135547",
+                    "nps": "1328892",
+                    "score": 2.75,
+                    "seldepth": "19",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d3d6",
                     "ponder": "g1f2"
                 },
                 "time": {
-                    "nodes": "136758",
+                    "nodes": "135547",
                     "time": "102"
                 }
             },
@@ -2716,31 +2764,31 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "h5f6",
                         "d3d1",
-                        "g1f2",
+                        "g1h2",
                         "d1d2",
-                        "f2g3",
-                        "f8g7",
-                        "f6d7",
-                        "d2d7"
+                        "h2g3",
+                        "d7c6",
+                        "g2c6",
+                        "e7c6"
                     ],
-                    "nodes": "132164",
-                    "nps": "1295725",
-                    "score": 2.95,
-                    "seldepth": "22",
+                    "nodes": "134785",
+                    "nps": "1321421",
+                    "score": 3.01,
+                    "seldepth": "21",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h5f6",
                     "ponder": "d3d1"
                 },
                 "time": {
-                    "nodes": "132164",
+                    "nodes": "134785",
                     "time": "102"
                 }
             },
@@ -2752,35 +2800,45 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
-                    "modifier": "upperbound",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
-                        "e7g6",
+                        "e7c6",
                         "e5d5",
                         "d3d5",
                         "g2d5",
-                        "d7e6",
-                        "d5b7",
-                        "a6a5",
+                        "b5b4",
+                        "h5f4",
+                        "b4a3",
+                        "b2a3",
+                        "c6d4",
+                        "g4g5",
+                        "d4b5",
+                        "h3h4",
+                        "b5a3",
                         "g1f2",
-                        "e6b3",
-                        "f2e3",
-                        "b3c4"
+                        "a6a5",
+                        "g5g6",
+                        "d7e8",
+                        "h4h5",
+                        "f7g6",
+                        "f4g6",
+                        "e8g6",
+                        "h5g6"
                     ],
-                    "nodes": "130056",
-                    "nps": "1275058",
-                    "score": 2.54,
-                    "seldepth": "22",
+                    "nodes": "141210",
+                    "nps": "1384411",
+                    "score": 2.58,
+                    "seldepth": "23",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "e7g6",
+                    "move": "e7c6",
                     "ponder": "e5d5"
                 },
                 "time": {
-                    "nodes": "130056",
+                    "nodes": "141210",
                     "time": "102"
                 }
             },
@@ -2798,33 +2856,36 @@ define(function(){var game=
                         "e5d5",
                         "d3d5",
                         "g2d5",
-                        "b5b4",
+                        "c6e5",
                         "h5f4",
-                        "b4a3",
-                        "b2a3",
-                        "c6d4",
+                        "d7c6",
+                        "d5c6",
+                        "e5c6",
                         "g4g5",
                         "a6a5",
                         "g1f2",
-                        "d4c2",
-                        "g5g6",
-                        "d7e8",
-                        "g6f7",
-                        "e8f7"
+                        "c6e5",
+                        "h3h4",
+                        "e5g6",
+                        "f4g6",
+                        "f7g6",
+                        "f2e3",
+                        "f8f7",
+                        "e3e4"
                     ],
-                    "nodes": "135866",
-                    "nps": "1332019",
-                    "score": 2.78,
-                    "seldepth": "20",
+                    "nodes": "148465",
+                    "nps": "1455539",
+                    "score": 2.77,
+                    "seldepth": "23",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e5d5",
                     "ponder": "d3d5"
                 },
                 "time": {
-                    "nodes": "135866",
+                    "nodes": "148465",
                     "time": "102"
                 }
             },
@@ -2837,29 +2898,30 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "12",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "c6a5",
-                        "h5f4",
                         "d3d1",
                         "g1h2",
-                        "a5c4"
+                        "c6d4",
+                        "h5f4",
+                        "d1d2",
+                        "h2g3",
+                        "d2b2"
                     ],
-                    "nodes": "136298",
-                    "nps": "1336254",
-                    "score": 2.47,
-                    "seldepth": "17",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "136720",
+                    "nps": "1353663",
+                    "score": 2.42,
+                    "seldepth": "20",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "c6a5",
-                    "ponder": "h5f4"
+                    "move": "d3d1",
+                    "ponder": "g1h2"
                 },
                 "time": {
-                    "nodes": "136298",
-                    "time": "102"
+                    "nodes": "136720",
+                    "time": "101"
                 }
             },
             "fen": "5k2/3b1p2/p1n2P2/1pR4N/6P1/P2r3P/1P4B1/6K1 b - - 2 36",
@@ -2874,26 +2936,34 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "h5f4",
-                        "d3d2",
+                        "d3d1",
+                        "g1f2",
+                        "d1b1",
+                        "f4d3",
+                        "b1d1",
                         "c5h5",
                         "f8g8",
-                        "h5d5",
-                        "d4b3"
+                        "d3c5",
+                        "d1d2",
+                        "f2e3",
+                        "d2g2",
+                        "h5g5",
+                        "g8f8"
                     ],
-                    "nodes": "131039",
-                    "nps": "1297415",
-                    "score": 2.89,
-                    "seldepth": "19",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "144134",
+                    "nps": "1413078",
+                    "score": 2.77,
+                    "seldepth": "23",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h5f4",
-                    "ponder": "d3d2"
+                    "ponder": "d3d1"
                 },
                 "time": {
-                    "nodes": "131039",
-                    "time": "101"
+                    "nodes": "144134",
+                    "time": "102"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1pR4N/3n2P1/P2r3P/1P4B1/6K1 w - - 3 37",
@@ -2909,27 +2979,22 @@ define(function(){var game=
                     "next_moves": [
                         "d3d2",
                         "h5f4",
-                        "f8g8",
-                        "h2g3",
-                        "d2b2",
-                        "c5g5",
-                        "g8h8",
-                        "g2d5",
-                        "b2c2"
+                        "f8e8",
+                        "c5d5"
                     ],
-                    "nodes": "135615",
-                    "nps": "1329558",
-                    "score": 1.85,
-                    "seldepth": "19",
+                    "nodes": "141355",
+                    "nps": "1385833",
+                    "score": 1.66,
+                    "seldepth": "17",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d3d2",
                     "ponder": "h5f4"
                 },
                 "time": {
-                    "nodes": "135615",
+                    "nodes": "141355",
                     "time": "102"
                 }
             },
@@ -2941,31 +3006,32 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "11",
                     "multipv": "1",
                     "next_moves": [
                         "h5f4",
-                        "f8e8",
-                        "c5e5",
-                        "d7e6",
-                        "h2g3",
-                        "d2b2",
-                        "g2d5"
+                        "d7e8",
+                        "b2b4",
+                        "d2a2",
+                        "c5c8",
+                        "a2a3",
+                        "g2d5",
+                        "a3a4"
                     ],
-                    "nodes": "138421",
-                    "nps": "1357068",
-                    "score": 2.07,
-                    "seldepth": "20",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "139423",
+                    "nps": "1380425",
+                    "score": 1.98,
+                    "seldepth": "21",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h5f4",
-                    "ponder": "f8e8"
+                    "ponder": "d7e8"
                 },
                 "time": {
-                    "nodes": "138421",
-                    "time": "102"
+                    "nodes": "139423",
+                    "time": "101"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1pR4N/3n2P1/P6P/1P1r2BK/8 w - - 5 38",
@@ -2976,33 +3042,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
-                    "modifier": "upperbound",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "d2b2",
-                        "c5c7",
+                        "h5f4",
                         "b2b3",
                         "g3h4",
-                        "d7e8",
-                        "h5g7",
-                        "b3a3",
-                        "c7e7",
-                        "e8c6"
+                        "f8e8",
+                        "c5e5",
+                        "d4e6",
+                        "e5h5",
+                        "e8d8",
+                        "g2d5",
+                        "b3e3",
+                        "f4e6",
+                        "d7e6",
+                        "d5e6",
+                        "e3e6",
+                        "h5f5",
+                        "d8d7"
                     ],
-                    "nodes": "129397",
-                    "nps": "1268598",
-                    "score": 1.41,
-                    "seldepth": "18",
+                    "nodes": "138764",
+                    "nps": "1360431",
+                    "score": 1.03,
+                    "seldepth": "21",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d2b2",
-                    "ponder": "c5c7"
+                    "ponder": "h5f4"
                 },
                 "time": {
-                    "nodes": "129397",
+                    "nodes": "138764",
                     "time": "102"
                 }
             },
@@ -3017,36 +3090,44 @@ define(function(){var game=
                     "depth": "13",
                     "multipv": "1",
                     "next_moves": [
-                        "c5c7",
+                        "h5f4",
                         "b2b3",
                         "g3h4",
                         "f8e8",
-                        "c7a7",
+                        "c5e5",
+                        "d4e6",
+                        "e5h5",
                         "e8d8",
-                        "a7a6",
-                        "d4f3",
-                        "g2f3",
-                        "b3f3",
-                        "h5g3",
-                        "f3e3",
-                        "a6a5",
-                        "e3c3",
-                        "a5a7"
+                        "g2d5",
+                        "b3e3",
+                        "f4e6",
+                        "d7e6",
+                        "h5h8",
+                        "d8c7",
+                        "d5e6",
+                        "e3e6",
+                        "h4g5",
+                        "e6e3",
+                        "h8h7",
+                        "e3a3",
+                        "h7f7",
+                        "c7d6",
+                        "f7h7"
                     ],
-                    "nodes": "139574",
-                    "nps": "1368372",
-                    "score": 1.75,
-                    "seldepth": "20",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "135600",
+                    "nps": "1342574",
+                    "score": 1.2,
+                    "seldepth": "24",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "c5c7",
+                    "move": "h5f4",
                     "ponder": "b2b3"
                 },
                 "time": {
-                    "nodes": "139574",
-                    "time": "102"
+                    "nodes": "135600",
+                    "time": "101"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1pR4N/3n2P1/P5KP/1r4B1/8 w - - 0 39",
@@ -3057,30 +3138,48 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "17",
-                    "modifier": "upperbound",
+                    "depth": "18",
                     "multipv": "1",
                     "next_moves": [
                         "b2g2",
                         "g3g2",
                         "d7c6",
                         "h5f4",
-                        "d4c2"
+                        "d4c2",
+                        "g2f2",
+                        "c6d5",
+                        "f4d5",
+                        "c2a3",
+                        "h3h4",
+                        "a6a5",
+                        "f2e2",
+                        "a3c2",
+                        "e2d3",
+                        "c2e1",
+                        "d3e4",
+                        "e1c2",
+                        "h4h5",
+                        "b5b4",
+                        "e4d3",
+                        "c2e1",
+                        "d3c4",
+                        "e1f3",
+                        "c4b5"
                     ],
-                    "nodes": "165570",
-                    "nps": "1623235",
-                    "score": 0.3,
-                    "seldepth": "27",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "155390",
+                    "nps": "1538514",
+                    "score": 0.34,
+                    "seldepth": "29",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b2g2",
                     "ponder": "g3g2"
                 },
                 "time": {
-                    "nodes": "165570",
-                    "time": "102"
+                    "nodes": "155390",
+                    "time": "101"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1p1R3N/3n2P1/P5KP/1r4B1/8 b - - 1 39",
@@ -3101,33 +3200,28 @@ define(function(){var game=
                         "g2d5",
                         "c2c7",
                         "d6a6",
-                        "e2c3",
-                        "h5f4",
-                        "c3d5",
-                        "f4d5",
-                        "c7c5",
+                        "e8f8",
                         "a6a8",
-                        "d7c8",
-                        "d5b6",
-                        "e8d8",
-                        "b6c8",
-                        "c5c8",
+                        "c7c8",
                         "a8c8",
-                        "d8c8"
+                        "d7c8",
+                        "h4g5",
+                        "c8d7",
+                        "h5f4"
                     ],
-                    "nodes": "126596",
-                    "nps": "1241137",
-                    "score": 2.81,
-                    "seldepth": "23",
+                    "nodes": "137643",
+                    "nps": "1349441",
+                    "score": 2.68,
+                    "seldepth": "26",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g3h4",
                     "ponder": "f8e8"
                 },
                 "time": {
-                    "nodes": "126596",
+                    "nodes": "137643",
                     "time": "102"
                 }
             },
@@ -3139,7 +3233,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "15",
                     "multipv": "1",
                     "next_moves": [
                         "f8e8",
@@ -3149,27 +3243,37 @@ define(function(){var game=
                         "c2c7",
                         "h5g7",
                         "e8f8",
-                        "d5e4",
-                        "f8g8",
                         "d6a6",
-                        "e2d4",
-                        "a6d6",
-                        "d4e2"
+                        "e2c3",
+                        "a6a8",
+                        "c7c8",
+                        "a8c8",
+                        "d7c8",
+                        "d5c6",
+                        "c3b1",
+                        "c6b5",
+                        "b1a3",
+                        "b5d3",
+                        "c8d7",
+                        "g7f5",
+                        "d7b5",
+                        "d3e4",
+                        "a3c4"
                     ],
-                    "nodes": "131938",
-                    "nps": "1293509",
-                    "score": 2.81,
-                    "seldepth": "25",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "141986",
+                    "nps": "1405801",
+                    "score": 2.84,
+                    "seldepth": "31",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f8e8",
                     "ponder": "d5d6"
                 },
                 "time": {
-                    "nodes": "131938",
-                    "time": "102"
+                    "nodes": "141986",
+                    "time": "101"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1p1R3N/6PK/P6P/1r2n1B1/8 b - - 3 40",
@@ -3180,7 +3284,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "15",
+                    "depth": "17",
                     "multipv": "1",
                     "next_moves": [
                         "d5d6",
@@ -3189,37 +3293,38 @@ define(function(){var game=
                         "c2c7",
                         "h5g7",
                         "e8f8",
-                        "d5e4",
-                        "f8g8",
                         "d6a6",
                         "e2c3",
                         "a6a8",
                         "c7c8",
                         "a8c8",
                         "d7c8",
-                        "e4c6",
-                        "g8f8",
-                        "g7e8",
-                        "c8b7",
-                        "c6b7",
-                        "f8e8",
-                        "b7c6",
-                        "e8d8",
-                        "g4g5"
+                        "d5c6",
+                        "c3b1",
+                        "c6b5",
+                        "b1a3",
+                        "b5d3",
+                        "c8d7",
+                        "h4g5",
+                        "d7b5",
+                        "d3b5",
+                        "a3b5",
+                        "g7f5",
+                        "b5c3"
                     ],
-                    "nodes": "141962",
-                    "nps": "1391784",
-                    "score": 2.98,
-                    "seldepth": "26",
+                    "nodes": "132262",
+                    "nps": "1296686",
+                    "score": 2.9,
+                    "seldepth": "29",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d5d6",
                     "ponder": "b2c2"
                 },
                 "time": {
-                    "nodes": "141962",
+                    "nodes": "132262",
                     "time": "102"
                 }
             },
@@ -3232,7 +3337,6 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "13",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "e8f8",
@@ -3240,26 +3344,31 @@ define(function(){var game=
                         "b2d2",
                         "b7a6",
                         "e2d4",
-                        "e5e3",
-                        "d4c2",
-                        "e3c3",
-                        "b5b4",
-                        "a3b4",
-                        "c2b4"
+                        "a6b7",
+                        "d2d3",
+                        "e5e7",
+                        "d4e6",
+                        "b7e4",
+                        "d3d6",
+                        "h5g7",
+                        "e6g7",
+                        "f6g7",
+                        "f8g7",
+                        "e7e5"
                     ],
-                    "nodes": "134613",
-                    "nps": "1319735",
-                    "score": 2.08,
+                    "nodes": "135848",
+                    "nps": "1331843",
+                    "score": 1.86,
                     "seldepth": "21",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e8f8",
                     "ponder": "g2b7"
                 },
                 "time": {
-                    "nodes": "134613",
+                    "nodes": "135848",
                     "time": "102"
                 }
             },
@@ -3271,26 +3380,37 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "11",
                     "multipv": "1",
                     "next_moves": [
-                        "g2d5",
+                        "h5g7",
+                        "e8f8",
+                        "g2b7",
                         "e2d4",
-                        "e5e4"
+                        "e5e3",
+                        "b2d2",
+                        "g7e6",
+                        "f7e6",
+                        "b7a6",
+                        "f8f7",
+                        "h4g5",
+                        "d2c2",
+                        "e3e4",
+                        "e6e5"
                     ],
-                    "nodes": "137327",
-                    "nps": "1359673",
-                    "score": 2.4,
-                    "seldepth": "20",
+                    "nodes": "134848",
+                    "nps": "1335128",
+                    "score": 2.13,
+                    "seldepth": "22",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "g2d5",
-                    "ponder": "e2d4"
+                    "move": "h5g7",
+                    "ponder": "e8f8"
                 },
                 "time": {
-                    "nodes": "137327",
+                    "nodes": "134848",
                     "time": "101"
                 }
             },
@@ -3302,7 +3422,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "e2d4",
@@ -3313,29 +3433,25 @@ define(function(){var game=
                         "e5e4",
                         "e6e5",
                         "g4g5",
-                        "b2f2",
-                        "e4e5",
-                        "d4f3",
-                        "h4g3",
-                        "f3e5",
-                        "g3f2",
+                        "b2b3",
+                        "h4g4",
                         "d7d6",
-                        "h3h4",
-                        "d6d5"
+                        "g5g6",
+                        "b3a3"
                     ],
-                    "nodes": "141739",
-                    "nps": "1389598",
-                    "score": 2.5,
-                    "seldepth": "25",
+                    "nodes": "141049",
+                    "nps": "1382833",
+                    "score": 2.4,
+                    "seldepth": "20",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e2d4",
                     "ponder": "h5g7"
                 },
                 "time": {
-                    "nodes": "141739",
+                    "nodes": "141049",
                     "time": "102"
                 }
             },
@@ -3352,28 +3468,30 @@ define(function(){var game=
                     "next_moves": [
                         "d5e6",
                         "f7e6",
-                        "e5e3",
-                        "e2d4",
-                        "h5f4",
-                        "b2f2",
-                        "e3e4",
-                        "d4c6",
-                        "h4g3",
-                        "f2a2"
+                        "e5e4",
+                        "e2c3",
+                        "e4d4",
+                        "c3d5",
+                        "g4g5",
+                        "d7e8",
+                        "g5g6",
+                        "e8f8",
+                        "g6g7",
+                        "f8g8"
                     ],
-                    "nodes": "141560",
-                    "nps": "1401584",
-                    "score": 2.65,
-                    "seldepth": "22",
+                    "nodes": "140560",
+                    "nps": "1391683",
+                    "score": 2.98,
+                    "seldepth": "21",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d5e6",
                     "ponder": "f7e6"
                 },
                 "time": {
-                    "nodes": "141560",
+                    "nodes": "140560",
                     "time": "101"
                 }
             },
@@ -3386,30 +3504,37 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "14",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "f7e6",
-                        "e5e3",
-                        "e2d4",
-                        "h5f4",
-                        "d7d6",
-                        "e3e4",
-                        "d4f3"
+                        "e5e4",
+                        "e2c3",
+                        "e4d4",
+                        "d7e8",
+                        "d4d6",
+                        "b2e2",
+                        "d6a6",
+                        "c3d5",
+                        "h5g3",
+                        "e2e3",
+                        "g4g5",
+                        "d5f4",
+                        "a6a8",
+                        "e8f7"
                     ],
-                    "nodes": "131507",
-                    "nps": "1289284",
-                    "score": 2.74,
-                    "seldepth": "20",
+                    "nodes": "147733",
+                    "nps": "1448362",
+                    "score": 2.89,
+                    "seldepth": "23",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f7e6",
-                    "ponder": "e5e3"
+                    "ponder": "e5e4"
                 },
                 "time": {
-                    "nodes": "131507",
+                    "nodes": "147733",
                     "time": "102"
                 }
             },
@@ -3421,30 +3546,45 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "14",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "e5e3",
-                        "e2d4",
-                        "h5f4",
-                        "d7d6",
-                        "e3e4",
-                        "d4f3"
+                        "e5e4",
+                        "e2c3",
+                        "e4d4",
+                        "c3d5",
+                        "g4g5",
+                        "d7e8",
+                        "g5g6",
+                        "e8f8",
+                        "g6g7",
+                        "f8g8",
+                        "d4e4",
+                        "d5f6",
+                        "h5f6",
+                        "g8g7",
+                        "e4e6",
+                        "b5b4",
+                        "a3b4",
+                        "b2b4",
+                        "h4g5",
+                        "a6a5"
                     ],
-                    "nodes": "146700",
-                    "nps": "1438235",
-                    "score": 2.91,
-                    "seldepth": "21",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "153226",
+                    "nps": "1517089",
+                    "score": 2.83,
+                    "seldepth": "24",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "e5e3",
-                    "ponder": "e2d4"
+                    "move": "e5e4",
+                    "ponder": "e2c3"
                 },
                 "time": {
-                    "nodes": "146700",
-                    "time": "102"
+                    "nodes": "153226",
+                    "time": "101"
                 }
             },
             "fen": "8/3k4/p3pP2/1p2R2N/6PK/P6P/1r2n3/8 w - - 0 44",
@@ -3456,7 +3596,6 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "13",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "e2d4",
@@ -3464,23 +3603,33 @@ define(function(){var game=
                         "b2g2",
                         "g4f4",
                         "d7d6",
-                        "h5g7",
-                        "g2g1"
+                        "f6f7",
+                        "d6e7",
+                        "f4e4",
+                        "d4b3",
+                        "h5f4",
+                        "g2g3",
+                        "e5e6",
+                        "e7f7",
+                        "g5g6",
+                        "f7f8",
+                        "e6f6",
+                        "f8g8"
                     ],
-                    "nodes": "138489",
-                    "nps": "1357735",
-                    "score": 2.36,
-                    "seldepth": "26",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "143800",
+                    "nps": "1423762",
+                    "score": 2.28,
+                    "seldepth": "24",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e2d4",
                     "ponder": "h4g4"
                 },
                 "time": {
-                    "nodes": "138489",
-                    "time": "102"
+                    "nodes": "143800",
+                    "time": "101"
                 }
             },
             "fen": "8/3k4/p3pP2/1p2R1PN/7K/P6P/1r2n3/8 b - - 0 44",
@@ -3491,40 +3640,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "h4g4",
                         "b2g2",
                         "g4f4",
                         "d7d6",
-                        "h5g7",
-                        "g2g1",
                         "f6f7",
                         "d6e7",
-                        "f7f8b",
-                        "e7f8",
-                        "g7e6",
-                        "d4e6",
+                        "f4e4",
+                        "d4b3",
+                        "h5f4",
+                        "g2g3",
                         "e5e6",
-                        "a6a5",
-                        "e6b6",
-                        "g1a1",
-                        "h3h4"
+                        "e7f7",
+                        "g5g6",
+                        "f7f8",
+                        "e6f6",
+                        "f8e8",
+                        "f4d5"
                     ],
-                    "nodes": "141061",
-                    "nps": "1382950",
+                    "nodes": "151180",
+                    "nps": "1482156",
                     "score": 2.16,
                     "seldepth": "28",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h4g4",
                     "ponder": "b2g2"
                 },
                 "time": {
-                    "nodes": "141061",
+                    "nodes": "151180",
                     "time": "102"
                 }
             },
@@ -3536,7 +3685,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "d4f5",
@@ -3552,23 +3701,28 @@ define(function(){var game=
                         "f5d5",
                         "d4e3",
                         "d6c4",
-                        "e3f2",
-                        "d7e8",
-                        "h5f4"
+                        "e3e4",
+                        "c4d2",
+                        "e4f4",
+                        "d5f5",
+                        "f4e3",
+                        "d2c4",
+                        "e3d4",
+                        "c4e5"
                     ],
-                    "nodes": "133972",
-                    "nps": "1313450",
-                    "score": 1.21,
+                    "nodes": "128976",
+                    "nps": "1264470",
+                    "score": 1.1,
                     "seldepth": "28",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d4f5",
                     "ponder": "h4g4"
                 },
                 "time": {
-                    "nodes": "133972",
+                    "nodes": "128976",
                     "time": "102"
                 }
             },
@@ -3586,22 +3740,39 @@ define(function(){var game=
                         "h4g4",
                         "b2g2",
                         "g4f4",
-                        "g2f2"
+                        "g2f2",
+                        "f4e5",
+                        "f5d6",
+                        "e4g4",
+                        "f2f5",
+                        "e5d4",
+                        "f5d5",
+                        "d4e3",
+                        "d6c4",
+                        "e3e4",
+                        "c4d2",
+                        "e4f4",
+                        "d5f5",
+                        "f4e3",
+                        "d2c4",
+                        "e3d4",
+                        "c4e5",
+                        "h5g3"
                     ],
-                    "nodes": "146371",
-                    "nps": "1435009",
-                    "score": 0.76,
-                    "seldepth": "29",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "137037",
+                    "nps": "1356801",
+                    "score": 1.18,
+                    "seldepth": "31",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h4g4",
                     "ponder": "b2g2"
                 },
                 "time": {
-                    "nodes": "146371",
-                    "time": "102"
+                    "nodes": "137037",
+                    "time": "101"
                 }
             },
             "fen": "8/3k4/p3pP2/1p3nPN/4R2K/P6P/1r6/8 w - - 3 46",
@@ -3612,7 +3783,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "b2g2",
@@ -3622,30 +3793,30 @@ define(function(){var game=
                         "f5d6",
                         "e4g4",
                         "f2f3",
-                        "g4g1",
-                        "d6c4",
                         "e5d4",
                         "f3h3",
-                        "h5g7",
-                        "d7d6",
-                        "g1e1",
+                        "h5f4",
+                        "d6f5",
+                        "d4c5",
+                        "h3c3",
+                        "c5b6",
                         "e6e5",
-                        "d4e4",
-                        "h3a3"
+                        "f4g6",
+                        "c3c6"
                     ],
-                    "nodes": "133576",
-                    "nps": "1322534",
-                    "score": 0.97,
-                    "seldepth": "23",
+                    "nodes": "146735",
+                    "nps": "1452821",
+                    "score": 0.93,
+                    "seldepth": "28",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b2g2",
                     "ponder": "g4f4"
                 },
                 "time": {
-                    "nodes": "133576",
+                    "nodes": "146735",
                     "time": "101"
                 }
             },
@@ -3657,7 +3828,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "g4f4",
@@ -3666,32 +3837,27 @@ define(function(){var game=
                         "f5d6",
                         "e4g4",
                         "f2f3",
-                        "g4g2",
+                        "g4g1",
                         "d6c4",
                         "e5d4",
                         "f3h3",
                         "h5g7",
-                        "c4d6",
-                        "g2e2",
-                        "h3h4",
-                        "d4d3",
-                        "h4h3",
-                        "e2e3"
+                        "c4d6"
                     ],
-                    "nodes": "131613",
-                    "nps": "1290323",
-                    "score": 1.01,
-                    "seldepth": "28",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "148231",
+                    "nps": "1467633",
+                    "score": 1.22,
+                    "seldepth": "23",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g4f4",
                     "ponder": "g2f2"
                 },
                 "time": {
-                    "nodes": "131613",
-                    "time": "102"
+                    "nodes": "148231",
+                    "time": "101"
                 }
             },
             "fen": "8/3k4/p3pP2/1p3nPN/4R1K1/P6P/6r1/8 w - - 5 47",
@@ -3702,7 +3868,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "g2f2",
@@ -3710,31 +3876,26 @@ define(function(){var game=
                         "f5d6",
                         "e4g4",
                         "f2f3",
-                        "g4g2",
+                        "g4g1",
                         "d6c4",
                         "e5d4",
                         "f3h3",
-                        "h5g7",
-                        "h3f3",
-                        "g2e2",
-                        "e6e5",
-                        "d4c5",
-                        "f3c3",
-                        "e2f2"
+                        "g5g6",
+                        "h3h5"
                     ],
-                    "nodes": "138761",
-                    "nps": "1373871",
-                    "score": 1.09,
-                    "seldepth": "28",
+                    "nodes": "154284",
+                    "nps": "1527564",
+                    "score": 1.19,
+                    "seldepth": "27",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g2f2",
                     "ponder": "f4e5"
                 },
                 "time": {
-                    "nodes": "138761",
+                    "nodes": "154284",
                     "time": "101"
                 }
             },
@@ -3746,34 +3907,44 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "g5g6",
                         "h2g2",
-                        "g6g7",
-                        "f5h6",
                         "f6f7",
-                        "h6f7",
+                        "f5d6",
                         "h5f6",
-                        "d7d6",
-                        "f6g4",
-                        "f7h6"
+                        "d7e7",
+                        "e4e6",
+                        "e7e6",
+                        "f7f8q",
+                        "g2f2",
+                        "f4e3",
+                        "f2f6",
+                        "g6g7",
+                        "d6f5",
+                        "e3e4",
+                        "f5h6",
+                        "g7g8q",
+                        "h6g8",
+                        "f8g8",
+                        "e6d6"
                     ],
-                    "nodes": "144514",
-                    "nps": "1416803",
-                    "score": 3.96,
-                    "seldepth": "20",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "149654",
+                    "nps": "1481722",
+                    "score": 4.4,
+                    "seldepth": "24",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g5g6",
                     "ponder": "h2g2"
                 },
                 "time": {
-                    "nodes": "144514",
-                    "time": "102"
+                    "nodes": "149654",
+                    "time": "101"
                 }
             },
             "fen": "8/3k4/p3pP2/1p3nPN/4RK2/P6P/7r/8 w - - 7 48",
@@ -3785,37 +3956,36 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "12",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "d7e7",
                         "g5g6",
                         "f5d6",
                         "e4e3",
-                        "h2g2",
-                        "e3g3",
-                        "g2f2",
-                        "f4e3",
+                        "h2f2",
+                        "f4g3",
                         "f2f1",
-                        "g3g2",
-                        "d6c4",
-                        "e3e4",
-                        "f1e1",
-                        "e4f4",
-                        "e1e3"
+                        "e3d3",
+                        "d6f7",
+                        "g6f7",
+                        "f1f7",
+                        "h3h4",
+                        "f7f5"
                     ],
-                    "nodes": "125383",
-                    "nps": "1241415",
-                    "score": 2.29,
-                    "seldepth": "23",
+                    "nodes": "134930",
+                    "nps": "1335940",
+                    "score": 2.49,
+                    "seldepth": "19",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d7e7",
                     "ponder": "g5g6"
                 },
                 "time": {
-                    "nodes": "125383",
+                    "nodes": "134930",
                     "time": "101"
                 }
             },
@@ -3827,7 +3997,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "h5f6",
@@ -3835,34 +4005,36 @@ define(function(){var game=
                         "e4e6",
                         "e7f7",
                         "e6d6",
-                        "a6a5",
-                        "d6d7",
-                        "f7e6",
-                        "d7d3",
-                        "b5b4",
-                        "d3e3",
-                        "e6f7",
-                        "f6g4",
-                        "h2a2",
-                        "g4e5",
-                        "f7g7",
-                        "a3b4",
-                        "a5b4"
+                        "h2h3",
+                        "d6a6",
+                        "h3h1",
+                        "f6e4",
+                        "h1f1",
+                        "f4e5",
+                        "f1a1",
+                        "e4c3",
+                        "a1e1",
+                        "e5d4",
+                        "e1g1",
+                        "a6f6",
+                        "f7e7",
+                        "c3d5",
+                        "e7d7"
                     ],
-                    "nodes": "154981",
-                    "nps": "1519421",
-                    "score": 5.07,
-                    "seldepth": "24",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "158533",
+                    "nps": "1569633",
+                    "score": 5.19,
+                    "seldepth": "25",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h5f6",
                     "ponder": "d7e7"
                 },
                 "time": {
-                    "nodes": "154981",
-                    "time": "102"
+                    "nodes": "158533",
+                    "time": "101"
                 }
             },
             "fen": "8/3k1P2/p2np3/1p4PN/4RK2/P6P/7r/8 w - - 1 49",
@@ -3882,36 +4054,22 @@ define(function(){var game=
                         "e6d6",
                         "h2h3",
                         "d6a6",
-                        "h3h1",
-                        "f6d5",
-                        "h1f1",
-                        "f4e4",
-                        "f1a1",
-                        "d5f4",
-                        "a1g1",
-                        "g5g6",
-                        "f7e8",
-                        "a6a7",
-                        "e8f8",
-                        "f4e6",
-                        "f8e8",
-                        "e4f5",
-                        "g1g3"
+                        "h3h1"
                     ],
-                    "nodes": "167557",
-                    "nps": "1658980",
-                    "score": 5.54,
+                    "nodes": "164360",
+                    "nps": "1611372",
+                    "score": 5.39,
                     "seldepth": "26",
-                    "time": "101",
-                    "unit": "pawns"
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d7e7",
                     "ponder": "e4e6"
                 },
                 "time": {
-                    "nodes": "167557",
-                    "time": "101"
+                    "nodes": "164360",
+                    "time": "102"
                 }
             },
             "fen": "8/3k1P2/p2npN2/1p4P1/4RK2/P6P/7r/8 b - - 2 49",
@@ -3922,7 +4080,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "e4e6",
@@ -3934,25 +4092,25 @@ define(function(){var game=
                         "f6d5",
                         "h1f1",
                         "f4e4",
-                        "f1a1",
+                        "f1e1",
+                        "e4f5",
+                        "e1f1",
                         "d5f4",
-                        "a1g1",
-                        "g5g6",
-                        "f7e8"
+                        "f7g7"
                     ],
-                    "nodes": "159270",
-                    "nps": "1576930",
-                    "score": 5.6,
-                    "seldepth": "26",
+                    "nodes": "168946",
+                    "nps": "1672732",
+                    "score": 5.62,
+                    "seldepth": "25",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e4e6",
                     "ponder": "e7f7"
                 },
                 "time": {
-                    "nodes": "159270",
+                    "nodes": "168946",
                     "time": "101"
                 }
             },
@@ -3964,7 +4122,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "e7f7",
@@ -3973,29 +4131,33 @@ define(function(){var game=
                         "d6a6",
                         "h3h1",
                         "f6d5",
-                        "h1a1",
+                        "h1f1",
                         "f4e4",
-                        "f7f8",
-                        "a6a5",
-                        "a1g1",
-                        "e4f5",
-                        "g1g3",
-                        "a5a7",
-                        "g3d3"
+                        "f1d1",
+                        "d5e3",
+                        "d1g1",
+                        "e4f4",
+                        "f7g7",
+                        "f4f5",
+                        "g1e1",
+                        "e3d5",
+                        "e1f1",
+                        "d5f4",
+                        "g7f8"
                     ],
-                    "nodes": "169641",
-                    "nps": "1663147",
-                    "score": 5.53,
-                    "seldepth": "21",
+                    "nodes": "168686",
+                    "nps": "1653784",
+                    "score": 5.68,
+                    "seldepth": "25",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e7f7",
                     "ponder": "e6d6"
                 },
                 "time": {
-                    "nodes": "169641",
+                    "nodes": "168686",
                     "time": "102"
                 }
             },
@@ -4007,38 +4169,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "e6d6",
                         "h2h3",
                         "d6a6",
-                        "h3h2",
+                        "h3h1",
                         "f6d5",
-                        "h2f2",
-                        "f4e4",
-                        "f2g2",
-                        "e4f5",
-                        "f7e8",
-                        "a6b6",
-                        "g2g3",
-                        "b6e6",
-                        "e8f7",
-                        "e6e3"
+                        "h1f1",
+                        "f4e5",
+                        "f7g7",
+                        "d5f4",
+                        "f1e1",
+                        "e5f5",
+                        "g7f7",
+                        "a6f6"
                     ],
-                    "nodes": "176148",
-                    "nps": "1744039",
-                    "score": 5.63,
+                    "nodes": "157334",
+                    "nps": "1557762",
+                    "score": 5.75,
                     "seldepth": "22",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e6d6",
                     "ponder": "h2h3"
                 },
                 "time": {
-                    "nodes": "176148",
+                    "nodes": "157334",
                     "time": "101"
                 }
             },
@@ -4050,36 +4210,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "h2h3",
                         "d6a6",
                         "h3h1",
                         "f6d5",
-                        "h1g1",
-                        "f4f5",
-                        "g1f1",
-                        "d5f4",
-                        "f1f3",
-                        "a6a7",
+                        "h1d1",
+                        "d5e3",
+                        "d1g1",
+                        "a6b6",
+                        "g1a1",
+                        "g5g6",
                         "f7f8",
-                        "a7a5"
+                        "e3f5",
+                        "a1f1",
+                        "f4e5",
+                        "f1e1",
+                        "e5f6"
                     ],
-                    "nodes": "165515",
-                    "nps": "1638762",
-                    "score": 5.67,
-                    "seldepth": "23",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "165356",
+                    "nps": "1621137",
+                    "score": 5.81,
+                    "seldepth": "25",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h2h3",
                     "ponder": "d6a6"
                 },
                 "time": {
-                    "nodes": "165515",
-                    "time": "101"
+                    "nodes": "165356",
+                    "time": "102"
                 }
             },
             "fen": "8/5k2/p2R1N2/1p4P1/5K2/P6P/7r/8 b - - 0 51",
@@ -4090,29 +4254,35 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "g5g6",
                         "f7e7",
                         "g6g7",
-                        "h2g2",
+                        "e7d6",
+                        "g7g8q",
+                        "h2f2",
+                        "f4g5",
+                        "f2g2",
                         "f6g4",
-                        "g2g4"
+                        "d6c5",
+                        "g8f8",
+                        "c5b6"
                     ],
-                    "nodes": "176353",
-                    "nps": "1746069",
-                    "score": 9.26,
+                    "nodes": "170241",
+                    "nps": "1685554",
+                    "score": 9.37,
                     "seldepth": "21",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g5g6",
                     "ponder": "f7e7"
                 },
                 "time": {
-                    "nodes": "176353",
+                    "nodes": "170241",
                     "time": "101"
                 }
             },
@@ -4124,41 +4294,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4",
-                        "a3b4",
-                        "a5b4",
-                        "d6b6",
                         "h2g2",
                         "g4f5",
                         "g2f2",
-                        "f5e4",
+                        "f5e5",
                         "f2e2",
-                        "e4d4",
-                        "e2d2",
-                        "d4e5",
-                        "d2e2",
                         "f6e4",
-                        "e2h2",
-                        "b6b7",
-                        "f7g6"
+                        "e2e3",
+                        "h3h4",
+                        "e3a3",
+                        "h4h5",
+                        "a3h3",
+                        "h5h6"
                     ],
-                    "nodes": "157302",
-                    "nps": "1557445",
-                    "score": 4.96,
-                    "seldepth": "21",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "150681",
+                    "nps": "1477264",
+                    "score": 4.79,
+                    "seldepth": "19",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "b5b4",
-                    "ponder": "a3b4"
+                    "move": "h2g2",
+                    "ponder": "g4f5"
                 },
                 "time": {
-                    "nodes": "157302",
-                    "time": "101"
+                    "nodes": "150681",
+                    "time": "102"
                 }
             },
             "fen": "8/5k2/3R1N2/pp4P1/6K1/P6P/7r/8 b - - 1 52",
@@ -4169,30 +4334,41 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
-                        "d6a6",
-                        "b2g2",
-                        "g4f5",
-                        "g2f2",
-                        "f5e4",
-                        "f2h2"
+                        "f6d5",
+                        "b2b3",
+                        "d6f6",
+                        "f7g7",
+                        "f6f3",
+                        "b3b1",
+                        "d5c7",
+                        "b5b4",
+                        "c7e6",
+                        "g7g6",
+                        "f3f6",
+                        "g6h7",
+                        "f6f7",
+                        "h7g8",
+                        "g5g6",
+                        "b1g1",
+                        "g4h5"
                     ],
-                    "nodes": "154651",
-                    "nps": "1531198",
-                    "score": 5.51,
-                    "seldepth": "16",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "160918",
+                    "nps": "1577627",
+                    "score": 5.58,
+                    "seldepth": "21",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "d6a6",
-                    "ponder": "b2g2"
+                    "move": "f6d5",
+                    "ponder": "b2b3"
                 },
                 "time": {
-                    "nodes": "154651",
-                    "time": "101"
+                    "nodes": "160918",
+                    "time": "102"
                 }
             },
             "fen": "8/5k2/3R1N2/pp4P1/6K1/P6P/1r6/8 w - - 2 53",
@@ -4203,37 +4379,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "11",
                     "multipv": "1",
                     "next_moves": [
                         "b5b4",
                         "f6e4",
-                        "b2b1",
+                        "a5a4",
+                        "h3h4",
+                        "b4b3",
+                        "d3d7",
+                        "f7f8",
+                        "d7b7",
+                        "b2a2",
                         "g4f5",
-                        "b1f1",
-                        "f5e5",
-                        "f1h1",
-                        "d3f3",
-                        "f7g6",
-                        "f3f6",
-                        "g6g7",
-                        "a3b4",
-                        "a5b4",
-                        "f6f3"
+                        "a2a3",
+                        "f5f6",
+                        "f8e8"
                     ],
-                    "nodes": "152133",
-                    "nps": "1506267",
-                    "score": 4.96,
+                    "nodes": "148378",
+                    "nps": "1469089",
+                    "score": 4.98,
                     "seldepth": "18",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b5b4",
                     "ponder": "f6e4"
                 },
                 "time": {
-                    "nodes": "152133",
+                    "nodes": "148378",
                     "time": "101"
                 }
             },
@@ -4245,27 +4420,30 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "11",
                     "multipv": "1",
                     "next_moves": [
-                        "d3f3",
-                        "b2b3",
                         "f6d5",
-                        "f7e6"
+                        "b2b3",
+                        "d3f3",
+                        "f7e6",
+                        "g5g6",
+                        "b3f3",
+                        "g4f3"
                     ],
-                    "nodes": "156709",
-                    "nps": "1551574",
-                    "score": 5.75,
-                    "seldepth": "22",
+                    "nodes": "160518",
+                    "nps": "1589287",
+                    "score": 5.59,
+                    "seldepth": "21",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "d3f3",
+                    "move": "f6d5",
                     "ponder": "b2b3"
                 },
                 "time": {
-                    "nodes": "156709",
+                    "nodes": "160518",
                     "time": "101"
                 }
             },
@@ -4278,32 +4456,26 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "13",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4",
-                        "a3b4",
-                        "b2b4",
-                        "d3d7",
-                        "f7e6",
-                        "d7a7",
-                        "b4d4",
-                        "a7a6",
-                        "e6f5"
+                        "b2b3",
+                        "f6g4",
+                        "f7f8",
+                        "g4e5"
                     ],
-                    "nodes": "162582",
-                    "nps": "1609722",
-                    "score": 4.99,
-                    "seldepth": "20",
+                    "nodes": "158887",
+                    "nps": "1573138",
+                    "score": 5.12,
+                    "seldepth": "19",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "b5b4",
-                    "ponder": "a3b4"
+                    "move": "b2b3",
+                    "ponder": "f6g4"
                 },
                 "time": {
-                    "nodes": "162582",
+                    "nodes": "158887",
                     "time": "101"
                 }
             },
@@ -4319,38 +4491,32 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "f6g4",
-                        "f7f8",
+                        "f7e8",
                         "g4e5",
                         "b5b4",
                         "a3b4",
                         "b3b4",
-                        "d3d8",
-                        "f8g7",
-                        "d8d7",
-                        "g7f8",
-                        "d7a7",
+                        "h5g6",
+                        "b4b6",
+                        "g6f5",
+                        "b6b4",
+                        "d3e3",
                         "b4b3",
-                        "e5d7",
-                        "f8e8",
-                        "d7f6",
-                        "e8d8",
-                        "h3h4",
-                        "a4a3",
-                        "g5g6"
+                        "e3b3"
                     ],
-                    "nodes": "169212",
-                    "nps": "1675366",
-                    "score": 5.55,
-                    "seldepth": "23",
+                    "nodes": "159084",
+                    "nps": "1575089",
+                    "score": 5.47,
+                    "seldepth": "25",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f6g4",
-                    "ponder": "f7f8"
+                    "ponder": "f7e8"
                 },
                 "time": {
-                    "nodes": "169212",
+                    "nodes": "159084",
                     "time": "101"
                 }
             },
@@ -4362,7 +4528,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "f7e6",
@@ -4371,31 +4537,21 @@ define(function(){var game=
                         "d7b7",
                         "a3b3",
                         "b7b6",
-                        "e6e7",
-                        "f6d5",
-                        "e7d7",
-                        "h5g4",
-                        "a4a3",
-                        "h4h5",
-                        "b3b2",
-                        "b6a6",
-                        "a3a2",
-                        "d5f6",
-                        "d7e7"
+                        "e6f5"
                     ],
-                    "nodes": "153238",
-                    "nps": "1517207",
-                    "score": 4.01,
-                    "seldepth": "24",
+                    "nodes": "161436",
+                    "nps": "1598376",
+                    "score": 4.07,
+                    "seldepth": "20",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f7e6",
                     "ponder": "h3h4"
                 },
                 "time": {
-                    "nodes": "153238",
+                    "nodes": "161436",
                     "time": "101"
                 }
             },
@@ -4416,24 +4572,24 @@ define(function(){var game=
                         "a3b3",
                         "b7b6",
                         "e6f5",
+                        "f6d7",
+                        "b3b1",
                         "g5g6",
-                        "b3g3",
-                        "f6e8",
-                        "a4a3"
+                        "b5b4"
                     ],
-                    "nodes": "162982",
-                    "nps": "1613683",
-                    "score": 4.38,
-                    "seldepth": "24",
+                    "nodes": "166292",
+                    "nps": "1646455",
+                    "score": 4.44,
+                    "seldepth": "22",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h3h4",
                     "ponder": "b3a3"
                 },
                 "time": {
-                    "nodes": "162982",
+                    "nodes": "166292",
                     "time": "101"
                 }
             },
@@ -4445,43 +4601,42 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "b3h3",
-                        "h5g6",
+                        "h5g4",
                         "h3a3",
                         "b7b6",
-                        "e6e7",
+                        "e6e5",
                         "b6b5",
-                        "a3b3",
+                        "e5d4",
                         "b5a5",
+                        "a3a1",
+                        "g4f5",
                         "a4a3",
-                        "g6f5",
-                        "b3f3",
-                        "f5e4",
-                        "f3b3",
-                        "f6d5",
-                        "e7d6",
-                        "a5a6",
-                        "d6c5",
+                        "a5a4",
+                        "d4c3",
                         "g5g6",
-                        "b3g3",
-                        "d5f4"
+                        "a3a2",
+                        "f6d5",
+                        "c3b2",
+                        "a4b4",
+                        "b2c2"
                     ],
-                    "nodes": "162546",
-                    "nps": "1609366",
-                    "score": 3.07,
+                    "nodes": "162025",
+                    "nps": "1604207",
+                    "score": 2.86,
                     "seldepth": "25",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b3h3",
-                    "ponder": "h5g6"
+                    "ponder": "h5g4"
                 },
                 "time": {
-                    "nodes": "162546",
+                    "nodes": "162025",
                     "time": "101"
                 }
             },
@@ -4493,46 +4648,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "16",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
-                        "h5g6",
+                        "h5g4",
                         "h3a3",
                         "b7b6",
                         "e6e7",
+                        "f6d5",
+                        "e7d7",
                         "b6b5",
-                        "a3b3",
+                        "a3a1",
                         "b5a5",
                         "a4a3",
-                        "g6f5",
-                        "b3f3",
-                        "f5e4",
-                        "f3b3",
-                        "f6d5",
-                        "e7f7",
+                        "g4f5",
+                        "a3a2",
                         "d5f4",
-                        "f7e7",
-                        "f4d3",
-                        "e7f8",
-                        "d3e5",
-                        "b3g3",
-                        "e4f4",
-                        "g3b3",
-                        "a5a7"
+                        "d7d6",
+                        "g5g6"
                     ],
-                    "nodes": "170571",
-                    "nps": "1688821",
-                    "score": 3.21,
-                    "seldepth": "28",
+                    "nodes": "171211",
+                    "nps": "1695158",
+                    "score": 2.93,
+                    "seldepth": "27",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "h5g6",
+                    "move": "h5g4",
                     "ponder": "h3a3"
                 },
                 "time": {
-                    "nodes": "170571",
+                    "nodes": "171211",
                     "time": "101"
                 }
             },
@@ -4544,32 +4691,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "h3a3",
                         "b7b6",
-                        "e6e7",
+                        "e6e5",
                         "b6b5",
-                        "a3a1",
+                        "e5e6",
+                        "f6d5",
+                        "e6e5",
                         "b5a5",
-                        "a4a3",
-                        "g4f5",
-                        "a3a2"
+                        "a3a1",
+                        "d5c3",
+                        "e5e6",
+                        "a5a4",
+                        "a1g1",
+                        "g4f4",
+                        "g1f1",
+                        "f4e3",
+                        "e6f5"
                     ],
-                    "nodes": "161424",
-                    "nps": "1598257",
-                    "score": 2.91,
-                    "seldepth": "23",
+                    "nodes": "170249",
+                    "nps": "1685633",
+                    "score": 3.15,
+                    "seldepth": "26",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "h3a3",
                     "ponder": "b7b6"
                 },
                 "time": {
-                    "nodes": "161424",
+                    "nodes": "170249",
                     "time": "101"
                 }
             },
@@ -4581,33 +4736,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "b7b6",
                         "e6e7",
+                        "f6d5",
+                        "e7e8",
                         "b6b5",
-                        "a3b3",
+                        "a3a1",
                         "b5a5",
                         "a4a3",
                         "g4f5",
-                        "b3f3",
-                        "f5e4",
-                        "f3b3"
+                        "a3a2",
+                        "d5f4",
+                        "e8f7",
+                        "a5a7",
+                        "f7g8",
+                        "g5g6"
                     ],
-                    "nodes": "175917",
-                    "nps": "1741752",
-                    "score": 3.21,
-                    "seldepth": "24",
+                    "nodes": "175932",
+                    "nps": "1741900",
+                    "score": 3.28,
+                    "seldepth": "31",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b7b6",
                     "ponder": "e6e7"
                 },
                 "time": {
-                    "nodes": "175917",
+                    "nodes": "175932",
                     "time": "101"
                 }
             },
@@ -4619,36 +4779,44 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
-                    "modifier": "upperbound",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "a3a1",
                         "b5a5",
                         "a1g1",
-                        "g4h5",
-                        "g1a1",
-                        "h5g6",
-                        "a4a3",
-                        "a5a6",
-                        "e6e7",
-                        "g6f5",
-                        "a3a2"
+                        "g4f4",
+                        "g1f1",
+                        "f4e3",
+                        "f1e1",
+                        "e3d3",
+                        "e1d1",
+                        "d3c4",
+                        "d1c1",
+                        "c4b4",
+                        "c1b1",
+                        "b4a4",
+                        "e6f7",
+                        "a5b5",
+                        "b1g1",
+                        "a4b4",
+                        "f7g6",
+                        "f6e4"
                     ],
-                    "nodes": "170539",
-                    "nps": "1671950",
-                    "score": 2.94,
-                    "seldepth": "28",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "161744",
+                    "nps": "1601425",
+                    "score": 2.7,
+                    "seldepth": "21",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a3a1",
                     "ponder": "b5a5"
                 },
                 "time": {
-                    "nodes": "170539",
-                    "time": "102"
+                    "nodes": "161744",
+                    "time": "101"
                 }
             },
             "fen": "8/8/4kN2/1R4P1/p5K1/r7/8/8 b - - 0 58",
@@ -4659,42 +4827,29 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "14",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "b5a5",
-                        "a4a3",
-                        "f6h5",
                         "a1g1",
-                        "h5g3",
+                        "g4h5",
                         "g1a1",
-                        "g3e2",
-                        "e6f7",
-                        "g4f5",
-                        "a1f1",
-                        "e2f4",
-                        "f1f3",
-                        "g5g6",
-                        "f7f8",
-                        "f5e4",
-                        "f3g3",
-                        "a5a7",
-                        "a3a2",
-                        "a7a2"
+                        "f6d5",
+                        "a4a3"
                     ],
-                    "nodes": "174973",
-                    "nps": "1732405",
-                    "score": 3.32,
-                    "seldepth": "23",
+                    "nodes": "167717",
+                    "nps": "1660564",
+                    "score": 3.11,
+                    "seldepth": "22",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b5a5",
-                    "ponder": "a4a3"
+                    "ponder": "a1g1"
                 },
                 "time": {
-                    "nodes": "174973",
+                    "nodes": "167717",
                     "time": "101"
                 }
             },
@@ -4706,33 +4861,31 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "11",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
                         "e6e5",
                         "b6a6",
                         "a4a3",
-                        "a6a5",
-                        "e5d4",
-                        "f6d5",
+                        "f6h5",
                         "a3a2",
-                        "d5b4",
-                        "a1g1"
+                        "h5g3",
+                        "e5d5"
                     ],
-                    "nodes": "174829",
-                    "nps": "1730980",
-                    "score": 2.01,
-                    "seldepth": "19",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "166767",
+                    "nps": "1634970",
+                    "score": 2.82,
+                    "seldepth": "21",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e6e5",
                     "ponder": "b6a6"
                 },
                 "time": {
-                    "nodes": "174829",
-                    "time": "101"
+                    "nodes": "166767",
+                    "time": "102"
                 }
             },
             "fen": "8/8/1R2kN2/6P1/p5K1/8/8/r7 b - - 2 59",
@@ -4751,34 +4904,23 @@ define(function(){var game=
                         "g4f5",
                         "a1f1",
                         "f5e5",
-                        "f1e1",
-                        "f6e4",
-                        "e1a1",
-                        "e4g3",
-                        "a1e1",
-                        "e5f5",
-                        "e1e3",
-                        "g5g6",
-                        "f7g7",
-                        "a6a7",
-                        "g7f8",
-                        "a7a8",
-                        "f8e7",
-                        "g3e4"
+                        "f1a1",
+                        "f6h5",
+                        "a3a2"
                     ],
-                    "nodes": "169337",
-                    "nps": "1676603",
-                    "score": 3.3,
-                    "seldepth": "22",
+                    "nodes": "176925",
+                    "nps": "1751732",
+                    "score": 3.32,
+                    "seldepth": "24",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b6a6",
                     "ponder": "a4a3"
                 },
                 "time": {
-                    "nodes": "169337",
+                    "nodes": "176925",
                     "time": "101"
                 }
             },
@@ -4790,27 +4932,42 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
                         "a4a3",
                         "b6f6",
                         "f7g7",
-                        "f6f2"
+                        "f6f2",
+                        "a3a2",
+                        "g4f4",
+                        "a1d1",
+                        "f2a2",
+                        "d1d5",
+                        "a2a6",
+                        "g7f7",
+                        "a6h6",
+                        "d5a5",
+                        "h6f6",
+                        "f7g7",
+                        "f6c6",
+                        "a5a4",
+                        "f4f5",
+                        "a4a5"
                     ],
-                    "nodes": "174677",
-                    "nps": "1729475",
-                    "score": 1.2,
-                    "seldepth": "24",
+                    "nodes": "171644",
+                    "nps": "1699445",
+                    "score": 1.27,
+                    "seldepth": "21",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a4a3",
                     "ponder": "b6f6"
                 },
                 "time": {
-                    "nodes": "174677",
+                    "nodes": "171644",
                     "time": "101"
                 }
             },
@@ -4822,44 +4979,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
+                        "b6b7",
+                        "f7f8",
+                        "d5c3",
+                        "a3a2",
+                        "c3a2",
+                        "a1a2",
+                        "b7b6",
+                        "f8f7",
                         "b6f6",
                         "f7g7",
-                        "f6f2",
-                        "a3a2",
-                        "f2g2",
-                        "a1d1",
-                        "g2a2",
-                        "d1d5",
-                        "a2a7",
-                        "g7g6",
-                        "a7a6",
-                        "g6g7",
-                        "g4h5",
-                        "d5d7",
-                        "a6g6",
-                        "g7h7",
-                        "g6f6",
-                        "h7g7",
-                        "f6a6",
-                        "g7f7",
-                        "a6b6"
+                        "f6c6",
+                        "a2a1",
+                        "c6d6",
+                        "a1g1",
+                        "g4f5"
                     ],
-                    "nodes": "173934",
-                    "nps": "1722118",
-                    "score": 1.27,
-                    "seldepth": "23",
+                    "nodes": "175233",
+                    "nps": "1734980",
+                    "score": 1.13,
+                    "seldepth": "22",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "b6f6",
-                    "ponder": "f7g7"
+                    "move": "b6b7",
+                    "ponder": "f7f8"
                 },
                 "time": {
-                    "nodes": "173934",
+                    "nodes": "175233",
                     "time": "101"
                 }
             },
@@ -4884,21 +5035,32 @@ define(function(){var game=
                         "f4e2",
                         "f6e5",
                         "a7a5",
-                        "e5d6"
+                        "e5d6",
+                        "g4g3",
+                        "d6c6",
+                        "g3f2",
+                        "c6b6",
+                        "a5a4",
+                        "b6c5",
+                        "e2c3",
+                        "a1h1",
+                        "c3a2",
+                        "h1h2",
+                        "f2e3"
                     ],
-                    "nodes": "175843",
-                    "nps": "1741019",
-                    "score": 0.42,
-                    "seldepth": "26",
+                    "nodes": "186936",
+                    "nps": "1850851",
+                    "score": 0.46,
+                    "seldepth": "28",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a3a2",
                     "ponder": "g5g6"
                 },
                 "time": {
-                    "nodes": "175843",
+                    "nodes": "186936",
                     "time": "101"
                 }
             },
@@ -4925,32 +5087,25 @@ define(function(){var game=
                         "e5d6",
                         "g4g3",
                         "d6c6",
-                        "a5a4",
-                        "c6b6",
                         "g3f2",
+                        "c6b6",
+                        "a5a4",
                         "b6c5",
-                        "e2c3",
-                        "a1c1",
-                        "c3a2",
-                        "c1c4",
-                        "a4a8",
-                        "c4c2",
-                        "f2e3",
-                        "c2g2"
+                        "e2c3"
                     ],
-                    "nodes": "176467",
-                    "nps": "1747198",
+                    "nodes": "175901",
+                    "nps": "1741594",
                     "score": 0.47,
                     "seldepth": "29",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g5g6",
                     "ponder": "f7g7"
                 },
                 "time": {
-                    "nodes": "176467",
+                    "nodes": "175901",
                     "time": "101"
                 }
             },
@@ -4971,20 +5126,20 @@ define(function(){var game=
                         "a8a7",
                         "g7f8"
                     ],
-                    "nodes": "183493",
-                    "nps": "1816762",
+                    "nodes": "184357",
+                    "nps": "1807421",
                     "score": 0.0,
                     "seldepth": "6",
-                    "time": "101",
-                    "unit": "pawns"
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f7f8",
                     "ponder": "a7a8"
                 },
                 "time": {
-                    "nodes": "183493",
-                    "time": "101"
+                    "nodes": "184357",
+                    "time": "102"
                 }
             },
             "fen": "8/R4k2/8/3N2P1/6K1/8/p7/r7 b - - 1 62",
@@ -4995,7 +5150,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "22",
+                    "depth": "21",
                     "multipv": "1",
                     "next_moves": [
                         "d5f6",
@@ -5006,34 +5161,22 @@ define(function(){var game=
                         "g1g5",
                         "g6g5",
                         "a2a1b",
-                        "a7a1",
-                        "f8e7",
-                        "a1a6",
-                        "e7d8",
-                        "a6c6",
-                        "d8e7",
-                        "g5g6",
-                        "e7d8",
-                        "g6f5",
-                        "d8e7",
-                        "f6d5",
-                        "e7d7",
-                        "c6a6"
+                        "a7a1"
                     ],
-                    "nodes": "224160",
-                    "nps": "2219405",
-                    "score": 47.5,
-                    "seldepth": "24",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "238214",
+                    "nps": "2335431",
+                    "score": 101.17,
+                    "seldepth": "22",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "d5f6",
                     "ponder": "g8f8"
                 },
                 "time": {
-                    "nodes": "224160",
-                    "time": "101"
+                    "nodes": "238214",
+                    "time": "102"
                 }
             },
             "fen": "6k1/R7/8/3N2P1/6K1/8/p7/r7 w - - 2 63",
@@ -5044,7 +5187,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "24",
+                    "depth": "17",
                     "multipv": "1",
                     "next_moves": [
                         "g8f8",
@@ -5057,35 +5200,34 @@ define(function(){var game=
                         "a7a1",
                         "f8e7",
                         "a1a6",
-                        "e7d8",
-                        "a6c6",
-                        "d8e7",
-                        "g5g6",
-                        "e7d8",
-                        "g6f5",
-                        "d8e7",
+                        "e7f7",
                         "f6d5",
-                        "e7d7",
-                        "c6b6",
-                        "d7e8",
-                        "f5e6",
-                        "e8f8",
-                        "d5c3",
-                        "f8g7"
+                        "f7f8",
+                        "g5f5",
+                        "f8e8",
+                        "f5f6",
+                        "e8d7",
+                        "a6b6",
+                        "d7d8",
+                        "f6e6",
+                        "d8c8",
+                        "b6b1",
+                        "c8d8",
+                        "b1b8"
                     ],
-                    "nodes": "244308",
-                    "nps": "2418891",
-                    "score": 47.54,
-                    "seldepth": "25",
+                    "nodes": "163329",
+                    "nps": "1617118",
+                    "score": 12,
+                    "seldepth": "15",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "mate"
                 },
                 "bestmove": {
                     "move": "g8f8",
                     "ponder": "g4f5"
                 },
                 "time": {
-                    "nodes": "244308",
+                    "nodes": "163329",
                     "time": "101"
                 }
             },
@@ -5097,7 +5239,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "24",
+                    "depth": "17",
                     "multipv": "1",
                     "next_moves": [
                         "g4f5",
@@ -5106,22 +5248,38 @@ define(function(){var game=
                         "g1g5",
                         "g6g5",
                         "a2a1b",
-                        "a7a1"
+                        "a7a1",
+                        "f8e7",
+                        "a1a6",
+                        "e7f7",
+                        "f6d5",
+                        "f7f8",
+                        "g5f5",
+                        "f8e8",
+                        "f5f6",
+                        "e8d7",
+                        "a6b6",
+                        "d7d8",
+                        "f6e6",
+                        "d8c8",
+                        "b6b1",
+                        "c8d8",
+                        "b1b8"
                     ],
-                    "nodes": "244191",
-                    "nps": "2394029",
-                    "score": 52.25,
-                    "seldepth": "26",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "162892",
+                    "nps": "1612792",
+                    "score": 12,
+                    "seldepth": "4",
+                    "time": "101",
+                    "unit": "mate"
                 },
                 "bestmove": {
                     "move": "g4f5",
                     "ponder": "a1g1"
                 },
                 "time": {
-                    "nodes": "244191",
-                    "time": "102"
+                    "nodes": "162892",
+                    "time": "101"
                 }
             },
             "fen": "5k2/R7/5N2/6P1/6K1/8/p7/r7 w - - 4 64",
@@ -5132,7 +5290,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "25",
+                    "depth": "23",
                     "multipv": "1",
                     "next_moves": [
                         "a1g1",
@@ -5142,16 +5300,16 @@ define(function(){var game=
                         "f1e1",
                         "e6d6",
                         "e1d1",
-                        "d6c5",
+                        "d6c6",
                         "d1c1",
-                        "c5b4",
-                        "c1b1",
-                        "b4c4",
-                        "b1c1",
-                        "c4d3",
+                        "c6d5",
                         "c1d1",
-                        "d3c2",
+                        "d5c4",
                         "d1c1",
+                        "c4b3",
+                        "c1b1",
+                        "b3c2",
+                        "b1c1",
                         "c2c1",
                         "a2a1r",
                         "a7a1",
@@ -5165,24 +5323,22 @@ define(function(){var game=
                         "c1c2",
                         "g6f5",
                         "c2d3",
-                        "f5f4",
-                        "e8f6",
-                        "f4f5"
+                        "f5g5"
                     ],
-                    "nodes": "210835",
-                    "nps": "2067009",
+                    "nodes": "185784",
+                    "nps": "1839445",
                     "score": 47.35,
-                    "seldepth": "34",
-                    "time": "102",
-                    "unit": "pawns"
+                    "seldepth": "32",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a1g1",
                     "ponder": "g4f5"
                 },
                 "time": {
-                    "nodes": "210835",
-                    "time": "102"
+                    "nodes": "185784",
+                    "time": "101"
                 }
             },
             "fen": "5k2/R7/5NP1/8/6K1/8/p7/r7 b - - 0 64",
@@ -5193,7 +5349,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "27",
+                    "depth": "26",
                     "multipv": "1",
                     "next_moves": [
                         "g4f5",
@@ -5202,16 +5358,16 @@ define(function(){var game=
                         "f1e1",
                         "e6d6",
                         "e1d1",
-                        "d6c5",
+                        "d6c6",
                         "d1c1",
-                        "c5b4",
-                        "c1b1",
-                        "b4c4",
-                        "b1c1",
-                        "c4d3",
+                        "c6d5",
                         "c1d1",
-                        "d3c2",
+                        "d5c4",
                         "d1c1",
+                        "c4b3",
+                        "c1b1",
+                        "b3c2",
+                        "b1c1",
                         "c2c1",
                         "a2a1r",
                         "a7a1",
@@ -5226,24 +5382,23 @@ define(function(){var game=
                         "g6f5",
                         "c2d3",
                         "f5f4",
-                        "e8f6",
-                        "f4f5",
-                        "f6e4",
-                        "f5g4"
+                        "e8g7",
+                        "f4f3",
+                        "g7h5"
                     ],
-                    "nodes": "234502",
-                    "nps": "2299039",
-                    "score": 47.35,
-                    "seldepth": "36",
+                    "nodes": "221414",
+                    "nps": "2170725",
+                    "score": 47.39,
+                    "seldepth": "34",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g4f5",
                     "ponder": "g1f1"
                 },
                 "time": {
-                    "nodes": "234502",
+                    "nodes": "221414",
                     "time": "102"
                 }
             },
@@ -5263,50 +5418,51 @@ define(function(){var game=
                         "f1e1",
                         "e6d6",
                         "e1d1",
-                        "d6c5",
+                        "d6c6",
                         "d1c1",
-                        "c5b4",
-                        "c1b1",
-                        "b4c4",
-                        "b1c1",
-                        "c4d3",
+                        "c6d5",
                         "c1d1",
-                        "d3c2",
+                        "d5c4",
                         "d1c1",
+                        "c4b3",
+                        "c1b1",
+                        "b3c2",
+                        "b1c1",
                         "c2c1",
                         "a2a1r",
                         "a7a1",
                         "f8g7",
-                        "f6e8",
+                        "f6e4",
                         "g7g6",
-                        "a1a7",
+                        "c1d2",
                         "g6f5",
-                        "a7e7",
-                        "f5g6",
-                        "c1c2",
-                        "g6f5",
-                        "c2d3",
-                        "f5f4",
-                        "e8g7",
-                        "f4g4",
-                        "d3e4",
-                        "g4g5",
-                        "e7a7"
+                        "d2e3",
+                        "f5e6",
+                        "e3d4",
+                        "e6d7",
+                        "d4d5",
+                        "d7c7",
+                        "a1a2",
+                        "c7b6",
+                        "a2a4",
+                        "b6b5",
+                        "e4c3",
+                        "b5b6"
                     ],
-                    "nodes": "246325",
-                    "nps": "2438861",
-                    "score": 47.43,
-                    "seldepth": "35",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "237580",
+                    "nps": "2329215",
+                    "score": 47.46,
+                    "seldepth": "37",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g1f1",
                     "ponder": "f5e6"
                 },
                 "time": {
-                    "nodes": "246325",
-                    "time": "101"
+                    "nodes": "237580",
+                    "time": "102"
                 }
             },
             "fen": "5k2/R7/5NP1/5K2/8/8/p7/6r1 b - - 2 65",
@@ -5317,56 +5473,52 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "27",
+                    "depth": "28",
                     "multipv": "1",
                     "next_moves": [
                         "f5e6",
                         "f1e1",
                         "e6d6",
                         "e1d1",
-                        "d6c5",
+                        "d6c6",
                         "d1c1",
-                        "c5b4",
-                        "c1b1",
-                        "b4c4",
-                        "b1c1",
-                        "c4d3",
+                        "c6d5",
                         "c1d1",
-                        "d3c2",
+                        "d5c4",
                         "d1c1",
+                        "c4b3",
+                        "c1b1",
+                        "b3c2",
+                        "b1c1",
                         "c2c1",
                         "a2a1r",
                         "a7a1",
                         "f8g7",
-                        "f6e8",
+                        "f6e4",
                         "g7g6",
-                        "a1a7",
+                        "c1d2",
                         "g6f5",
-                        "a7e7",
-                        "f5g6",
-                        "c1c2",
-                        "g6f5",
-                        "c2d3",
-                        "f5f4",
-                        "e8g7",
-                        "f4g4",
-                        "d3e4",
-                        "g4g5"
+                        "d2e3",
+                        "f5e6",
+                        "e3d4",
+                        "e6d7",
+                        "d4d5",
+                        "d7c7"
                     ],
-                    "nodes": "252650",
-                    "nps": "2501485",
-                    "score": 47.43,
-                    "seldepth": "22",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "240585",
+                    "nps": "2358676",
+                    "score": 47.5,
+                    "seldepth": "34",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f5e6",
                     "ponder": "f1e1"
                 },
                 "time": {
-                    "nodes": "252650",
-                    "time": "101"
+                    "nodes": "240585",
+                    "time": "102"
                 }
             },
             "fen": "5k2/R7/5NP1/5K2/8/8/p7/5r2 w - - 3 66",
@@ -5377,41 +5529,57 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "27",
+                    "depth": "28",
                     "multipv": "1",
                     "next_moves": [
                         "f1e1",
                         "e6d6",
                         "e1d1",
-                        "d6c5",
+                        "d6c6",
                         "d1c1",
-                        "c5b4",
-                        "c1b1",
-                        "b4c4",
-                        "b1c1",
-                        "c4d3",
+                        "c6d5",
                         "c1d1",
-                        "d3c2",
+                        "d5c4",
                         "d1c1",
+                        "c4b3",
+                        "c1b1",
+                        "b3c2",
+                        "b1c1",
                         "c2c1",
                         "a2a1r",
                         "a7a1",
-                        "f8g7"
+                        "f8g7",
+                        "f6e4",
+                        "g7g6",
+                        "c1d2",
+                        "g6f5",
+                        "d2e3",
+                        "f5e6",
+                        "e3d4",
+                        "e6d7",
+                        "d4d5",
+                        "d7c7",
+                        "a1a6",
+                        "c7b7",
+                        "a6f6",
+                        "b7c7",
+                        "f6d6",
+                        "c7b8"
                     ],
-                    "nodes": "250594",
-                    "nps": "2456803",
-                    "score": 47.46,
+                    "nodes": "241020",
+                    "nps": "2386336",
+                    "score": 47.5,
                     "seldepth": "34",
-                    "time": "102",
-                    "unit": "pawns"
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f1e1",
                     "ponder": "e6d6"
                 },
                 "time": {
-                    "nodes": "250594",
-                    "time": "102"
+                    "nodes": "241020",
+                    "time": "101"
                 }
             },
             "fen": "5k2/R7/4KNP1/8/8/8/p7/5r2 b - - 4 66",
@@ -5422,40 +5590,55 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "27",
+                    "depth": "28",
                     "multipv": "1",
                     "next_moves": [
                         "e6d6",
                         "e1d1",
-                        "d6c5",
+                        "d6c6",
                         "d1c1",
-                        "c5b4",
-                        "c1b1",
-                        "b4c4",
-                        "b1c1",
-                        "c4d3",
+                        "c6d5",
                         "c1d1",
-                        "d3c2",
+                        "d5c4",
                         "d1c1",
+                        "c4b3",
+                        "c1b1",
+                        "b3c2",
+                        "b1c1",
                         "c2c1",
                         "a2a1r",
                         "a7a1",
-                        "f8g7"
+                        "f8g7",
+                        "f6e4",
+                        "g7g6",
+                        "c1d2",
+                        "g6f5",
+                        "d2e3",
+                        "f5e6",
+                        "e3d4",
+                        "e6d7",
+                        "d4d5",
+                        "d7c7",
+                        "a1a6",
+                        "c7b7",
+                        "a6f6",
+                        "b7c7",
+                        "f6d6"
                     ],
-                    "nodes": "263014",
-                    "nps": "2578568",
-                    "score": 47.46,
-                    "seldepth": "33",
-                    "time": "102",
-                    "unit": "pawns"
+                    "nodes": "270401",
+                    "nps": "2677237",
+                    "score": 47.5,
+                    "seldepth": "20",
+                    "time": "101",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e6d6",
                     "ponder": "e1d1"
                 },
                 "time": {
-                    "nodes": "263014",
-                    "time": "102"
+                    "nodes": "270401",
+                    "time": "101"
                 }
             },
             "fen": "5k2/R7/4KNP1/8/8/8/p7/4r3 w - - 5 67",
@@ -5473,22 +5656,24 @@ define(function(){var game=
                         "a7a2",
                         "e7b7",
                         "f6h5",
-                        "b7b5"
+                        "b7b5",
+                        "d5e6",
+                        "b5h5"
                     ],
-                    "nodes": "178447",
-                    "nps": "1766801",
-                    "score": 5.05,
-                    "seldepth": "26",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "176689",
+                    "nps": "1732245",
+                    "score": 4.2,
+                    "seldepth": "27",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e1e7",
                     "ponder": "a7a2"
                 },
                 "time": {
-                    "nodes": "178447",
-                    "time": "101"
+                    "nodes": "176689",
+                    "time": "102"
                 }
             },
             "fen": "5k2/R7/5NP1/3K4/8/8/p7/4r3 b - - 6 67",
@@ -5499,31 +5684,33 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "15",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "a7a2",
-                        "f8g7",
-                        "a2a6",
                         "e7e1",
                         "f6h5",
-                        "g7h6",
-                        "g6g7",
-                        "h6h7"
+                        "e1d1",
+                        "d5e5",
+                        "d1e1",
+                        "e5f4",
+                        "e1f1",
+                        "f4e3",
+                        "f8g8"
                     ],
-                    "nodes": "174106",
-                    "nps": "1723821",
-                    "score": 10.62,
-                    "seldepth": "34",
+                    "nodes": "190621",
+                    "nps": "1887336",
+                    "score": 10.3,
+                    "seldepth": "36",
                     "time": "101",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a7a2",
-                    "ponder": "f8g7"
+                    "ponder": "e7e1"
                 },
                 "time": {
-                    "nodes": "174106",
+                    "nodes": "190621",
                     "time": "101"
                 }
             },
@@ -5540,32 +5727,38 @@ define(function(){var game=
                     "next_moves": [
                         "e7b7",
                         "f6h5",
-                        "b7b5",
+                        "b7b8",
+                        "a2a7",
+                        "b8b5",
                         "d5e6",
-                        "b5b6",
-                        "e6f5",
-                        "b6b5",
-                        "f5f6",
-                        "b5b6",
+                        "b5h5",
+                        "e6f6",
+                        "f8e8",
+                        "a7a8",
+                        "e8d7",
+                        "g6g7",
+                        "h5h6",
                         "f6g5",
-                        "b6b5",
-                        "g5h6",
-                        "b5b7"
+                        "h6h3",
+                        "g7g8q",
+                        "h3g3",
+                        "g5h4",
+                        "g3g8"
                     ],
-                    "nodes": "198909",
-                    "nps": "1969396",
-                    "score": 12.98,
-                    "seldepth": "32",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "187561",
+                    "nps": "1838833",
+                    "score": 10.89,
+                    "seldepth": "28",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e7b7",
                     "ponder": "f6h5"
                 },
                 "time": {
-                    "nodes": "198909",
-                    "time": "101"
+                    "nodes": "187561",
+                    "time": "102"
                 }
             },
             "fen": "5k2/4r3/5NP1/3K4/8/8/R7/8 b - - 0 68",
@@ -5584,38 +5777,39 @@ define(function(){var game=
                         "f6h5",
                         "g7h6",
                         "g6g7",
-                        "h6h5",
-                        "g7g8q",
-                        "b7b5",
-                        "d5c4",
-                        "b5g5",
-                        "g8g5",
-                        "h5g5",
-                        "a6c6",
-                        "g5f5",
-                        "c4d4",
-                        "f5g4",
-                        "c6f6",
-                        "g4h4",
-                        "d4e5",
-                        "h4g5",
-                        "e5e6",
-                        "g5g4"
+                        "h6h7",
+                        "a6a8",
+                        "b7d7",
+                        "d5e6",
+                        "d7g7",
+                        "h5g7",
+                        "h7g7",
+                        "a8a2",
+                        "g7g6",
+                        "a2g2",
+                        "g6h5",
+                        "e6f5",
+                        "h5h4",
+                        "g2g7",
+                        "h4h3",
+                        "f5f4",
+                        "h3h2",
+                        "g7a7"
                     ],
-                    "nodes": "196865",
-                    "nps": "1949158",
-                    "score": 44.26,
-                    "seldepth": "24",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "200056",
+                    "nps": "1961333",
+                    "score": 44.41,
+                    "seldepth": "25",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a2a6",
                     "ponder": "e7b7"
                 },
                 "time": {
-                    "nodes": "196865",
-                    "time": "101"
+                    "nodes": "200056",
+                    "time": "102"
                 }
             },
             "fen": "8/4r1k1/5NP1/3K4/8/8/R7/8 w - - 1 69",
@@ -5626,55 +5820,35 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "22",
+                    "depth": "20",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "e7e1",
+                        "e7b7",
                         "f6h5",
                         "g7h6",
                         "g6g7",
-                        "h6h5",
-                        "g7g8q",
-                        "e1d1",
-                        "d5e5",
-                        "d1e1",
-                        "e5d6",
-                        "e1d1",
-                        "g8d5",
-                        "d1d5",
-                        "d6d5",
-                        "h5g4",
-                        "d5e4",
-                        "g4g5",
-                        "e4e5",
-                        "g5g4",
-                        "a6a3",
-                        "g4g5",
-                        "a3a4",
-                        "g5g6",
-                        "a4a7",
-                        "g6h5",
-                        "a7g7",
-                        "h5h4",
-                        "e5f4",
-                        "h4h5",
-                        "g7g8",
-                        "h5h6",
-                        "f4f5"
+                        "h6h7",
+                        "a6a8",
+                        "b7d7",
+                        "d5e6",
+                        "d7g7",
+                        "h5g7",
+                        "h7g7"
                     ],
-                    "nodes": "220358",
-                    "nps": "2160372",
-                    "score": 44.41,
-                    "seldepth": "31",
+                    "nodes": "231214",
+                    "nps": "2266803",
+                    "score": 47.55,
+                    "seldepth": "25",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "e7e1",
+                    "move": "e7b7",
                     "ponder": "f6h5"
                 },
                 "time": {
-                    "nodes": "220358",
+                    "nodes": "231214",
                     "time": "102"
                 }
             },
@@ -5686,7 +5860,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "20",
+                    "depth": "19",
                     "multipv": "1",
                     "next_moves": [
                         "f6h5",
@@ -5697,32 +5871,28 @@ define(function(){var game=
                         "b7b5",
                         "d5c4",
                         "b5g5",
-                        "g8f7",
+                        "g8h7",
                         "h5g4",
                         "a6g6",
-                        "g5g6",
-                        "f7g6",
-                        "g4f4",
-                        "c4d4",
-                        "f4f3",
-                        "g6e4",
-                        "f3f2",
-                        "e4g4",
-                        "f2e1"
+                        "g4f5",
+                        "g6g8",
+                        "f5f4",
+                        "h7h4",
+                        "f4f3"
                     ],
-                    "nodes": "263676",
-                    "nps": "2585058",
-                    "score": 52.36,
-                    "seldepth": "26",
+                    "nodes": "253872",
+                    "nps": "2488941",
+                    "score": 56.26,
+                    "seldepth": "30",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "f6h5",
                     "ponder": "g7h6"
                 },
                 "time": {
-                    "nodes": "263676",
+                    "nodes": "253872",
                     "time": "102"
                 }
             },
@@ -5734,27 +5904,25 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "12",
-                    "modifier": "upperbound",
+                    "depth": "17",
                     "multipv": "1",
                     "next_moves": [
-                        "g7g8",
-                        "e8d6",
-                        "b7b8"
+                        "g7h8",
+                        "g6g7"
                     ],
-                    "nodes": "194051",
-                    "nps": "1902460",
-                    "score": 10.47,
-                    "seldepth": "23",
+                    "nodes": "194865",
+                    "nps": "1910441",
+                    "score": 19.78,
+                    "seldepth": "27",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "g7g8",
-                    "ponder": "e8d6"
+                    "move": "g7h8",
+                    "ponder": "g6g7"
                 },
                 "time": {
-                    "nodes": "194051",
+                    "nodes": "194865",
                     "time": "102"
                 }
             },
@@ -5766,48 +5934,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "21",
+                    "depth": "19",
                     "multipv": "1",
                     "next_moves": [
                         "e8d6",
                         "b7b8",
-                        "a6a7",
-                        "g8f8",
                         "d6f5",
-                        "b8b5",
-                        "d5e4",
-                        "b5b4",
-                        "e4e5",
-                        "f8e8",
+                        "b8e8",
                         "g6g7",
-                        "b4g4",
-                        "a7a8",
-                        "e8d7",
-                        "g7g8q",
-                        "g4g8",
-                        "a8g8",
-                        "d7c6",
-                        "e5e6",
-                        "c6c5",
-                        "g8c8",
-                        "c5b5",
-                        "e6d5",
-                        "b5a5"
+                        "e8b8",
+                        "d5e5",
+                        "g8f7",
+                        "a6a7",
+                        "f7g6",
+                        "g7g8r",
+                        "b8g8",
+                        "f5e7",
+                        "g6g7",
+                        "e7g8",
+                        "g7g6"
                     ],
-                    "nodes": "213383",
-                    "nps": "2112702",
-                    "score": 47.43,
-                    "seldepth": "30",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "227149",
+                    "nps": "2226950",
+                    "score": 47.53,
+                    "seldepth": "24",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e8d6",
                     "ponder": "b7b8"
                 },
                 "time": {
-                    "nodes": "213383",
-                    "time": "101"
+                    "nodes": "227149",
+                    "time": "102"
                 }
             },
             "fen": "4N1k1/1r6/R5P1/3K4/8/8/8/8 w - - 5 71",
@@ -5818,38 +5978,45 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "13",
+                    "depth": "14",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "b7b5",
-                        "d5d4",
-                        "b5b4",
-                        "d4e5",
-                        "b4b5",
-                        "e5f6",
-                        "b5b8",
-                        "e8d6",
-                        "g8h7",
-                        "d6f5",
-                        "b8a8",
-                        "f6f7",
-                        "a8a7",
-                        "f5e7",
-                        "a7a6"
+                        "d5c4",
+                        "b5g5",
+                        "a6h6",
+                        "g8f7",
+                        "h6h8",
+                        "g5g4",
+                        "c4d5",
+                        "g4g5",
+                        "d5c6",
+                        "g5g6",
+                        "c6d7",
+                        "g6g7",
+                        "e8g7",
+                        "f7g7",
+                        "h8a8",
+                        "g7g6",
+                        "a8a5",
+                        "g6g7",
+                        "d7e6",
+                        "g7f8"
                     ],
-                    "nodes": "202126",
-                    "nps": "1981627",
-                    "score": 10.17,
-                    "seldepth": "26",
+                    "nodes": "183003",
+                    "nps": "1794147",
+                    "score": 16.95,
+                    "seldepth": "31",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "b7b5",
-                    "ponder": "d5d4"
+                    "ponder": "d5c4"
                 },
                 "time": {
-                    "nodes": "202126",
+                    "nodes": "183003",
                     "time": "102"
                 }
             },
@@ -5861,49 +6028,50 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "22",
+                    "depth": "23",
                     "multipv": "1",
                     "next_moves": [
                         "a6h6",
                         "b8b5",
-                        "d5c4",
-                        "b5g5",
+                        "d5d4",
+                        "b5b4",
+                        "d4d3",
+                        "b4b3",
+                        "d3c4",
+                        "b3g3",
                         "h6h8",
                         "g8f7",
                         "h8f8",
                         "f7e7",
                         "g7g8q",
-                        "g5g8",
+                        "g3g8",
                         "f8g8",
-                        "e7e6",
+                        "e7f7",
+                        "g8h8",
+                        "f7e6",
                         "c4d4",
                         "e6f5",
-                        "g8f8",
+                        "h8h6",
                         "f5g4",
-                        "d4e5",
-                        "g4g3",
-                        "e5e4",
-                        "g3g2",
-                        "f8f7",
-                        "g2g3",
-                        "e4e5",
-                        "g3g4",
-                        "e5e4",
-                        "g4g5"
+                        "h6f6",
+                        "g4h4",
+                        "d4e3",
+                        "h4g4",
+                        "f6f8"
                     ],
-                    "nodes": "226279",
-                    "nps": "2218421",
-                    "score": 47.5,
-                    "seldepth": "26",
+                    "nodes": "212602",
+                    "nps": "2084333",
+                    "score": 47.43,
+                    "seldepth": "30",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "a6h6",
                     "ponder": "b8b5"
                 },
                 "time": {
-                    "nodes": "226279",
+                    "nodes": "212602",
                     "time": "102"
                 }
             },
@@ -5915,27 +6083,50 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "16",
+                    "depth": "21",
                     "multipv": "1",
                     "next_moves": [
-                        "b8b5",
-                        "d5c4",
-                        "b5g5",
-                        "e6h6"
+                        "b8d8",
+                        "d5e5",
+                        "d8d1",
+                        "e6h6",
+                        "d1e1",
+                        "e5f4",
+                        "e1f1",
+                        "f4g3",
+                        "g8f7",
+                        "h6h8",
+                        "f1g1",
+                        "g3f2",
+                        "g1g7",
+                        "e8g7",
+                        "f7g7",
+                        "h8e8",
+                        "g7g6",
+                        "f2e3",
+                        "g6f7",
+                        "e8a8",
+                        "f7e7",
+                        "e3d4",
+                        "e7e6",
+                        "a8a5",
+                        "e6d6",
+                        "a5a6",
+                        "d6c7"
                     ],
-                    "nodes": "173382",
-                    "nps": "1699823",
-                    "score": 19.59,
-                    "seldepth": "32",
+                    "nodes": "170208",
+                    "nps": "1668705",
+                    "score": 44.22,
+                    "seldepth": "31",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
-                    "move": "b8b5",
-                    "ponder": "d5c4"
+                    "move": "b8d8",
+                    "ponder": "d5e5"
                 },
                 "time": {
-                    "nodes": "173382",
+                    "nodes": "170208",
                     "time": "102"
                 }
             },
@@ -5947,48 +6138,51 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "22",
+                    "depth": "24",
                     "multipv": "1",
                     "next_moves": [
                         "e6h6",
                         "b7b5",
-                        "d5c4",
-                        "b5g5",
+                        "d5d4",
+                        "b5b4",
+                        "d4d3",
+                        "b4b3",
+                        "d3c4",
+                        "b3g3",
                         "h6h8",
                         "g8f7",
                         "h8f8",
                         "f7e7",
                         "g7g8q",
-                        "g5g8",
+                        "g3g8",
                         "f8g8",
-                        "e7e6",
+                        "e7f7",
+                        "g8h8",
+                        "f7e6",
                         "c4d4",
                         "e6f5",
-                        "g8f8",
+                        "h8h6",
                         "f5g4",
-                        "d4e5",
+                        "h6f6",
                         "g4g3",
-                        "e5e4",
+                        "d4e5",
                         "g3g2",
-                        "f8f7",
-                        "g2g3",
-                        "e4e5",
-                        "g3g4"
+                        "f6f8"
                     ],
-                    "nodes": "141581",
-                    "nps": "1401792",
-                    "score": 47.5,
-                    "seldepth": "26",
-                    "time": "101",
-                    "unit": "pawns"
+                    "nodes": "211861",
+                    "nps": "2077068",
+                    "score": 47.46,
+                    "seldepth": "29",
+                    "time": "102",
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "e6h6",
                     "ponder": "b7b5"
                 },
                 "time": {
-                    "nodes": "141581",
-                    "time": "101"
+                    "nodes": "211861",
+                    "time": "102"
                 }
             },
             "fen": "4N1k1/1r4P1/4R3/3K4/8/8/8/8 w - - 3 73",
@@ -5999,27 +6193,25 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "16",
+                    "depth": "18",
                     "multipv": "1",
                     "next_moves": [
                         "g8h7",
-                        "f6f8",
-                        "b7g7",
-                        "e8g7"
+                        "f6h6"
                     ],
-                    "nodes": "141454",
-                    "nps": "1386803",
-                    "score": 53.01,
-                    "seldepth": "21",
+                    "nodes": "204715",
+                    "nps": "2007009",
+                    "score": 47.72,
+                    "seldepth": "25",
                     "time": "102",
-                    "unit": "pawns"
+                    "unit": "p"
                 },
                 "bestmove": {
                     "move": "g8h7",
-                    "ponder": "f6f8"
+                    "ponder": "f6h6"
                 },
                 "time": {
-                    "nodes": "141454",
+                    "nodes": "204715",
                     "time": "102"
                 }
             },
@@ -6031,40 +6223,32 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "17",
+                    "depth": "16",
                     "multipv": "1",
                     "next_moves": [
-                        "d5e6",
-                        "f7g7",
-                        "e8g7",
-                        "g8g7",
-                        "e6f5",
-                        "g7h7",
-                        "f6a6",
-                        "h7g7",
-                        "a6a7",
-                        "g7f8",
-                        "f5e6",
-                        "f8g8",
-                        "e6f6",
-                        "g8h8",
                         "f6g6",
-                        "h8g8",
-                        "a7a8"
+                        "f7f2",
+                        "e8f6",
+                        "f2f6",
+                        "g6f6",
+                        "g8h7",
+                        "d5e5",
+                        "h7g7",
+                        "e5e6"
                     ],
-                    "nodes": "164325",
-                    "nps": "1611029",
+                    "nodes": "185538",
+                    "nps": "1819000",
                     "score": 9,
                     "seldepth": "18",
                     "time": "102",
                     "unit": "mate"
                 },
                 "bestmove": {
-                    "move": "d5e6",
-                    "ponder": "f7g7"
+                    "move": "f6g6",
+                    "ponder": "f7f2"
                 },
                 "time": {
-                    "nodes": "164325",
+                    "nodes": "185538",
                     "time": "102"
                 }
             },
@@ -6076,46 +6260,50 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "18",
+                    "depth": "19",
                     "multipv": "1",
                     "next_moves": [
-                        "f7d7",
-                        "d5c6",
-                        "d7g7",
+                        "f7g7",
                         "e8g7",
                         "g8g7",
-                        "h6e6",
-                        "g7h7",
-                        "c6d5",
-                        "h7g8",
-                        "d5e5",
-                        "g8g7",
-                        "e6a6",
+                        "h6a6",
                         "g7f7",
-                        "a6a7",
-                        "f7g6",
-                        "a7e7",
-                        "g6g5",
-                        "e7g7",
-                        "g5h6",
-                        "e5f6",
-                        "h6h5",
-                        "f6f5"
+                        "d5e5",
+                        "f7g7",
+                        "e5f5",
+                        "g7f7",
+                        "a6e6",
+                        "f7g7",
+                        "e6e7",
+                        "g7g8",
+                        "f5e6",
+                        "g8f8",
+                        "e6f6",
+                        "f8g8",
+                        "e7e6",
+                        "g8h8",
+                        "e6a6",
+                        "h8g8",
+                        "a6a8",
+                        "g8h7",
+                        "a8f8",
+                        "h7h6",
+                        "f8h8"
                     ],
-                    "nodes": "188906",
-                    "nps": "1870356",
-                    "score": 21,
+                    "nodes": "196200",
+                    "nps": "1923529",
+                    "score": 13,
                     "seldepth": "21",
-                    "time": "101",
+                    "time": "102",
                     "unit": "mate"
                 },
                 "bestmove": {
-                    "move": "f7d7",
-                    "ponder": "d5c6"
+                    "move": "f7g7",
+                    "ponder": "e8g7"
                 },
                 "time": {
-                    "nodes": "188906",
-                    "time": "101"
+                    "nodes": "196200",
+                    "time": "102"
                 }
             },
             "fen": "4N1k1/5rP1/7R/3K4/8/8/8/8 b - - 6 74",
@@ -6126,45 +6314,40 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "19",
+                    "depth": "16",
                     "multipv": "1",
                     "next_moves": [
-                        "d5c6",
-                        "d7g7",
+                        "d5e6",
+                        "d7e7",
+                        "e6f5",
+                        "e7g7",
                         "e8g7",
                         "g8g7",
-                        "h6e6",
-                        "g7h7",
-                        "c6d5",
-                        "h7g8",
-                        "d5e5",
-                        "g8g7",
-                        "e6a6",
+                        "h6a6",
                         "g7f7",
-                        "a6a7",
-                        "f7g6",
-                        "a7e7",
-                        "g6g5",
-                        "e7g7",
-                        "g5h6",
-                        "e5f6",
-                        "h6h5",
-                        "f6f5"
+                        "a6e6",
+                        "f7g7",
+                        "e6e7",
+                        "g7g8",
+                        "f5e6",
+                        "g8f8",
+                        "e6f6",
+                        "f8g8"
                     ],
-                    "nodes": "193951",
-                    "nps": "1901480",
-                    "score": 21,
-                    "seldepth": "21",
-                    "time": "102",
+                    "nodes": "192949",
+                    "nps": "1910386",
+                    "score": 12,
+                    "seldepth": "16",
+                    "time": "101",
                     "unit": "mate"
                 },
                 "bestmove": {
-                    "move": "d5c6",
-                    "ponder": "d7g7"
+                    "move": "d5e6",
+                    "ponder": "d7e7"
                 },
                 "time": {
-                    "nodes": "193951",
-                    "time": "102"
+                    "nodes": "192949",
+                    "time": "101"
                 }
             },
             "fen": "4N1k1/3r2P1/7R/3K4/8/8/8/8 w - - 7 75",
@@ -6175,31 +6358,31 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "23",
+                    "depth": "22",
                     "multipv": "1",
                     "next_moves": [
                         "d7e7",
                         "e6f5",
-                        "e7e8",
+                        "e7g7",
+                        "e8g7",
+                        "g8f7",
+                        "h6e6",
+                        "f7g7",
+                        "e6f6",
+                        "g7h7",
+                        "f6g6",
+                        "h7h8",
                         "f5f6",
-                        "e8e6",
-                        "f6e6",
-                        "g8g7",
-                        "h6f6",
-                        "g7g8",
+                        "h8h7",
                         "f6f7",
-                        "g8h8",
-                        "e6f5",
-                        "h8g8",
-                        "f5g6",
-                        "g8h8",
-                        "f7f8"
+                        "h7h8",
+                        "g6h6"
                     ],
-                    "nodes": "199898",
-                    "nps": "1959784",
+                    "nodes": "181511",
+                    "nps": "1797138",
                     "score": 8,
-                    "seldepth": "17",
-                    "time": "102",
+                    "seldepth": "19",
+                    "time": "101",
                     "unit": "mate"
                 },
                 "bestmove": {
@@ -6207,8 +6390,8 @@ define(function(){var game=
                     "ponder": "e6f5"
                 },
                 "time": {
-                    "nodes": "199898",
-                    "time": "102"
+                    "nodes": "181511",
+                    "time": "101"
                 }
             },
             "fen": "4N1k1/3r2P1/4K2R/8/8/8/8/8 b - - 8 75",
@@ -6228,11 +6411,11 @@ define(function(){var game=
                         "g7g8",
                         "h8g8"
                     ],
-                    "nodes": "74023",
-                    "nps": "2847038",
+                    "nodes": "54332",
+                    "nps": "2012296",
                     "score": 3,
                     "seldepth": "6",
-                    "time": "26",
+                    "time": "27",
                     "unit": "mate"
                 },
                 "bestmove": {
@@ -6240,8 +6423,8 @@ define(function(){var game=
                     "ponder": "g8f8"
                 },
                 "time": {
-                    "nodes": "74023",
-                    "time": "26"
+                    "nodes": "54332",
+                    "time": "27"
                 }
             },
             "fen": "4N1k1/6r1/4K2R/8/8/8/8/8 w - - 0 76",
@@ -6258,16 +6441,16 @@ define(function(){var game=
                         "g8g7",
                         "h6f6",
                         "g7g8",
+                        "f6g6",
+                        "g8h8",
+                        "e6f6",
+                        "h8h7",
                         "f6f7",
-                        "g8h8",
-                        "e6f5",
-                        "h8g8",
-                        "f5g6",
-                        "g8h8",
-                        "f7f8"
+                        "h7h8",
+                        "g6h6"
                     ],
-                    "nodes": "365771",
-                    "nps": "3621495",
+                    "nodes": "358424",
+                    "nps": "3548752",
                     "score": 5,
                     "seldepth": "11",
                     "time": "101",
@@ -6278,7 +6461,7 @@ define(function(){var game=
                     "ponder": "h6f6"
                 },
                 "time": {
-                    "nodes": "365771",
+                    "nodes": "358424",
                     "time": "101"
                 }
             },
@@ -6295,16 +6478,16 @@ define(function(){var game=
                     "next_moves": [
                         "h6f6",
                         "g7g8",
+                        "f6g6",
+                        "g8h8",
+                        "e6f6",
+                        "h8h7",
                         "f6f7",
-                        "g8h8",
-                        "e6f5",
-                        "h8g8",
-                        "f5g6",
-                        "g8h8",
-                        "f7f8"
+                        "h7h8",
+                        "g6h6"
                     ],
-                    "nodes": "368295",
-                    "nps": "3646485",
+                    "nodes": "372640",
+                    "nps": "3689504",
                     "score": 5,
                     "seldepth": "10",
                     "time": "101",
@@ -6315,7 +6498,7 @@ define(function(){var game=
                     "ponder": "g7g8"
                 },
                 "time": {
-                    "nodes": "368295",
+                    "nodes": "372640",
                     "time": "101"
                 }
             },
@@ -6327,20 +6510,20 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "108",
+                    "depth": "110",
                     "multipv": "1",
                     "next_moves": [
                         "g7g8",
+                        "f6g6",
+                        "g8h8",
+                        "e6f6",
+                        "h8h7",
                         "f6f7",
-                        "g8h8",
-                        "e6f5",
-                        "h8g8",
-                        "f5g6",
-                        "g8h8",
-                        "f7f8"
+                        "h7h8",
+                        "g6h6"
                     ],
-                    "nodes": "343725",
-                    "nps": "3369852",
+                    "nodes": "340876",
+                    "nps": "3341921",
                     "score": 4,
                     "seldepth": "9",
                     "time": "102",
@@ -6348,10 +6531,10 @@ define(function(){var game=
                 },
                 "bestmove": {
                     "move": "g7g8",
-                    "ponder": "f6f7"
+                    "ponder": "f6g6"
                 },
                 "time": {
-                    "nodes": "343725",
+                    "nodes": "340876",
                     "time": "102"
                 }
             },
@@ -6366,28 +6549,28 @@ define(function(){var game=
                     "depth": "120",
                     "multipv": "1",
                     "next_moves": [
+                        "f6g6",
+                        "g8h8",
+                        "e6f6",
+                        "h8h7",
                         "f6f7",
-                        "g8h8",
-                        "e6f5",
-                        "h8g8",
-                        "f5g6",
-                        "g8h8",
-                        "f7f8"
+                        "h7h8",
+                        "g6h6"
                     ],
-                    "nodes": "111689",
-                    "nps": "3284970",
+                    "nodes": "87544",
+                    "nps": "3018758",
                     "score": 4,
                     "seldepth": "8",
-                    "time": "34",
+                    "time": "29",
                     "unit": "mate"
                 },
                 "bestmove": {
-                    "move": "f6f7",
+                    "move": "f6g6",
                     "ponder": "g8h8"
                 },
                 "time": {
-                    "nodes": "111689",
-                    "time": "34"
+                    "nodes": "87544",
+                    "time": "29"
                 }
             },
             "fen": "6k1/8/4KR2/8/8/8/8/8 w - - 2 78",
@@ -6401,28 +6584,28 @@ define(function(){var game=
                     "depth": "120",
                     "multipv": "1",
                     "next_moves": [
+                        "f6g6",
+                        "g8h8",
+                        "e6f6",
+                        "h8h7",
                         "f6f7",
-                        "g8h8",
-                        "e6f5",
-                        "h8g8",
-                        "f5g6",
-                        "g8h8",
-                        "f7f8"
+                        "h7h8",
+                        "g6h6"
                     ],
-                    "nodes": "24861",
-                    "nps": "2260090",
+                    "nodes": "17862",
+                    "nps": "1984666",
                     "score": -4,
                     "seldepth": "2",
-                    "time": "11",
+                    "time": "9",
                     "unit": "mate"
                 },
                 "bestmove": {
-                    "move": "f6f7",
+                    "move": "f6g6",
                     "ponder": "g8h8"
                 },
                 "time": {
-                    "nodes": "24861",
-                    "time": "11"
+                    "nodes": "17862",
+                    "time": "9"
                 }
             },
             "fen": "6k1/8/4KR2/8/8/8/8/8 w - - 2 78",

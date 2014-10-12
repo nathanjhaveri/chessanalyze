@@ -54,8 +54,6 @@ var MoveView = Backbone.View.extend({
 
         var selector = '.moves-table tr:nth-child(' + (move + 2) + ')';
         this.$(selector).css({'background-color': '#ff0000'});
-        var scrollDest = this.$(selector).offset().top - 175;
-        $(document).scrollTop(scrollDest);
 
         this.selected_move = move;
 

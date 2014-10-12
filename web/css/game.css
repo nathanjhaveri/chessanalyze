@@ -1,5 +1,4 @@
 div.move-details {
-    position: fixed;
     float: left;
     width: 350px;
 }
@@ -12,10 +11,9 @@ div.move-details {
     width: 350px;
 }
 
-
 #move-list {
-    margin-left: 350px;
     float: left;
+    height: 620px;
     overflow-y: scroll;
 }
 
@@ -31,5 +29,8 @@ div.move-details {
 
 .game-info {
     display: inline-block;
+}
+
+@media only screen and (max-width: 480px) {
 }
 

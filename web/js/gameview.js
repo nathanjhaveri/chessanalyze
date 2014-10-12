@@ -1,41 +1,64 @@
-define(["jquery", "underscore", "backbone", "chessboard", "moveview", "game"],
-function ($, _, backbone, chessboard, MoveView, game) {
+define([
+    "jquery",
+    "underscore",
+    "backbone",
+    "chessboard",
+    "moveview",
+    "movedetailsview"],
+function ($, _, backbone, chessboard, MoveView, MoveDetailsView) {
 "use strict";
 
 var GameView = Backbone.View.extend({
     initialize: function() {
-        this.board = new ChessBoard('board', 'start');
+        var board_cfg = {
+            draggable: true,
+            dropOffBoard: 'snapback',
+            position: 'start'
+        };
 
-        var gameModel = new Backbone.Model(game);
+        this.board = new ChessBoard('board', board_cfg);
+
         this.moveView = new MoveView({
             el: $("#move-list"),
-            model: gameModel
+            model: this.model
         });
 
-        gameModel.on("selected: move", function(move) {
-            this.board.position(move.fen);
-        }, this);
+        this.movmeDetailsView = new MoveDetailsView({
+            el: $("#analysis"),
+            model: this.model
+        });
+
+        this.model.on("selected: move", this.move_selected, this);
 
 
-        // set original position on load
-        //$board.data("top", $board.offset().top); 
-        //$moves.data("left", $moves.offset().left);
-        //$(window).scroll(function() { fixDiv($board, $moves); });
+        // Keep board visible after scrolls
+        var that = this;
+        var $board = this.$(".move-details");
+        var starting_top = $board.offset().top;
+        $(window).scroll(function() { that.fix_board($board, starting_top); });
     },
 
     render: function() {
         this.moveView.render();
+        var title = this.model.get("white") + " VS. " + this.model.get("black");
+        this.$("#matchup").text(title);
+        this.$("#event").text(this.model.get("event"));
+        this.$("#date").text(this.model.get("date"));
+
         return this;
     },
 
-    fix_board: function() {
+    move_selected: function(move) {
+        this.board.position(move.fen);
+    },
+
+    fix_board: function($board, starting_top) {
+        var fudge = 17; // Not sure why this is needed, but prevents jumping
         var scrollTop = $(window).scrollTop();
-        if (scrollTop > $board.data("top")) { 
-            $board.css({'position': 'fixed', 'top': '0'});
-            $moves.css({'margin-left': $moves.data('left') - 78});
+        if (scrollTop  > starting_top + fudge) {
+            $board.css({'top': 0});
         } else {
-            $board.css({'position': 'static', 'top': $board.data("top") - scrollTop});
-            $moves.css({'margin-left': 0});
+            $board.css({'top': starting_top - scrollTop + fudge});
         }
     }
 });

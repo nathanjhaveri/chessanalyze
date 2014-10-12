@@ -158,32 +158,6 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-#board {
-    float: left;
-    width: 400px;
-}
-
-#move-list {
-    float: left;
-}
-
-.moves-table tr:nth-child(odd){
-    background: #CCC;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries

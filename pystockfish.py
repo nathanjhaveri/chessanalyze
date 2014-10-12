@@ -13,7 +13,7 @@ import subprocess
 
 class Engine(subprocess.Popen):
     def __init__(self, stockfishpath, ponder=False, param={}):
-        subprocess.Popen.__init__(self, 
+        subprocess.Popen.__init__(self,
             stockfishpath,
             universal_newlines=True,
             stdin=subprocess.PIPE,
@@ -63,7 +63,7 @@ class Engine(subprocess.Popen):
         """
         The last 3 lines of output from stockfish contain
         the relevant information we need and look like this:
-        info depth 20 seldepth 43 score cp -287 nodes 7019143 nps 1403267 time 5002 multipv 1 pv e2d4 h4g4 b2g2 g4f4 d7d6 
+        info depth 20 seldepth 43 score cp -287 nodes 7019143 nps 1403267 time 5002 multipv 1 pv e2d4 h4g4 b2g2 g4f4 d7d6
         info nodes 7019143 time 5002
         bestmove e2d4 ponder h4g4
         """
@@ -125,7 +125,7 @@ class Engine(subprocess.Popen):
         return {
                 'analysis': score,
                 'time': time,
-                'bestmove': bestmove,
+                'best_move': bestmove,
         }
 
     def fen(self):

@@ -1,0 +1,35 @@
+div.move-details {
+    position: fixed;
+    float: left;
+    width: 350px;
+}
+
+#board {
+    width: 100%;
+}
+
+#analysis {
+    width: 350px;
+}
+
+
+#move-list {
+    margin-left: 350px;
+    float: left;
+    overflow-y: scroll;
+}
+
+.moves-table, td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.moves-table tr:nth-child(odd){
+    background: #CCC;
+    width: 100%;
+}
+
+.game-info {
+    display: inline-block;
+}
+

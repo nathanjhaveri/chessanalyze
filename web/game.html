@@ -10,14 +10,24 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
-
+        <link rel="stylesheet" href="css/game.css">
+        <!--
+        <link rel="stylesheet/less" type="text/css" href="css/game.less">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
+        -->
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script data-main="js/main" src="js/require.js"></script>
+
     </head>
     <body>
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">Chess</h1>
+                <div class="game-info">
+                    <h1 id="matchup"></h1>
+                    <span id="event"></span>
+                    <span>-</span>
+                    <span id="date"></span>
+                </div>
                 <nav>
                     <ul>
                         <li><a href="#">Games</a></li>
@@ -28,8 +38,17 @@
         </div>
         <div class="main-container">
             <div class="main wrapper clearfix">
-                <h1>Game name</h1>
-                <div id="board" ></div>
+                <div class="move-details">
+                    <div id="board"></div>
+                    <div id="analysis">
+                        <span id="move-no"></span>
+                        <span id="move"></span>
+                        <div id="score"></div>
+                        <div id="depth"></div>
+                        <div id="best-line"></div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
                 <div id="move-list"></div>
             </div> <!-- #main -->
         </div> <!-- #main-container -->
@@ -43,17 +62,22 @@
     <script type="text/template" class="moves-template">
         <table class="moves-table">
             <tr>
+                <th>#</th>
                 <th>Move</th>
-                <th>Move</th>
-                <th>Unit</th>
                 <th>Score</th>
+                <th>Best Move</th>
             </tr>
-        <% _.each(positions, function(position){ %>
+        <% _.each(positions, function(position){                    %>
+        <%      var anal = position.details.analysis;               %>
             <tr>
                 <td><%- position.move_number %></td>
                 <td><%- position.move %></td>
-                <td><%- position.details.analysis.unit %></td>
-                <td><%- position.details.analysis.score %></td>
+                <% if (anal.unit === "mate") { %>
+                    <td>Mate in <%- anal.score %></td>
+                <% } else { %>
+                    <td><%- anal.score %></td>
+                <% } %>
+                <td><%- position.details.best_move.move %></td>
             </tr>
         <% }); %>
         </table>

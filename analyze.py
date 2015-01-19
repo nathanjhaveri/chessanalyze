@@ -10,6 +10,8 @@ stockfish_path = "./external/stockfish/src/stockfish"
 
 parser = argparse.ArgumentParser(description="Analyze a game")
 parser.add_argument("gamefile", help="PGN file containing game to analyze")
+parser.add_argument("--outfile", help="JSON file to output analysis")
+
 args = parser.parse_args()
 
 f = open(args.gamefile, 'r')
@@ -57,7 +59,15 @@ for i in range(len(game.moves)):
     game_analysis['positions'].append(position)
 
 json_text = json.dumps(game_analysis)
-f = open('output.json', 'w')
+if args.outfile is None:
+    outfile_name = "{} vs {} on {}.json".format(
+            game_analysis['white'],
+            game_analysis['black'],
+            game_analysis['date'])
+else:
+    outfile_name = args.outfile
+
+f = open(outfile_name, 'w')
 f.write(json_text)
 f.close()
 

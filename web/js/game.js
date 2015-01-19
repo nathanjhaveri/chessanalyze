@@ -1,6 +1,6 @@
 define(function(){var game=
 {
-    "analysis_date": "2014-10-11 00:19:18.661671",
+    "analysis_date": "2014-11-30 16:07:17.947891",
     "black": "nnnnnnnn",
     "date": "2014.04.11",
     "event": "Playing on Chess Time",
@@ -15,10 +15,10 @@ define(function(){var game=
                         "a2a3"
                     ],
                     "nodes": "2",
-                    "nps": "666",
+                    "nps": "1000",
                     "score": 0,
                     "seldepth": "1",
-                    "time": "3",
+                    "time": "2",
                     "unit": "mate"
                 },
                 "best_move": {
@@ -27,7 +27,7 @@ define(function(){var game=
                 },
                 "time": {
                     "nodes": "2",
-                    "time": "3"
+                    "time": "2"
                 }
             },
             "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
@@ -76,8 +76,8 @@ define(function(){var game=
                         "g8f6",
                         "b1c3"
                     ],
-                    "nodes": "2108",
-                    "nps": "351333",
+                    "nodes": "1874",
+                    "nps": "312333",
                     "score": 0.22,
                     "seldepth": "6",
                     "time": "6",
@@ -88,7 +88,7 @@ define(function(){var game=
                     "ponder": "g8f6"
                 },
                 "time": {
-                    "nodes": "2108",
+                    "nodes": "1874",
                     "time": "6"
                 }
             },
@@ -110,9 +110,9 @@ define(function(){var game=
                         "g1f3",
                         "e7e6"
                     ],
-                    "nodes": "2118",
-                    "nps": "353000",
-                    "score": 0.23,
+                    "nodes": "2375",
+                    "nps": "395833",
+                    "score": 0.31,
                     "seldepth": "6",
                     "time": "6",
                     "unit": "p"
@@ -122,8 +122,8 @@ define(function(){var game=
                     "ponder": "b1c3"
                 },
                 "time": {
-                    "nodes": "2118",
-                    "time": "6"
+                    "nodes": "2375",
+                    "time": "7"
                 }
             },
             "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4P3/PPP2PPP/RNBQKBNR w KQkq - 1 3",
@@ -135,20 +135,17 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "6",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "b1c3",
                         "c8f5",
-                        "g1f3",
-                        "e7e6",
-                        "f3e5"
+                        "g1f3"
                     ],
-                    "nodes": "1833",
-                    "nps": "305500",
-                    "score": 0.24,
+                    "nodes": "2598",
+                    "nps": "371142",
+                    "score": 0.17,
                     "seldepth": "6",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -156,8 +153,8 @@ define(function(){var game=
                     "ponder": "c8f5"
                 },
                 "time": {
-                    "nodes": "1833",
-                    "time": "6"
+                    "nodes": "2598",
+                    "time": "7"
                 }
             },
             "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/4PN2/PPP2PPP/RNBQKB1R b KQkq - 2 3",
@@ -198,31 +195,28 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "5",
+                    "depth": "4",
                     "multipv": "1",
                     "next_moves": [
-                        "f1d3",
-                        "b8c6",
-                        "e1g1",
-                        "c6b4",
                         "b1c3",
-                        "b4d3",
-                        "d1d3"
+                        "a7a6",
+                        "f3e5",
+                        "f8b4"
                     ],
-                    "nodes": "2479",
-                    "nps": "413166",
-                    "score": 0.58,
+                    "nodes": "1389",
+                    "nps": "198428",
+                    "score": 0.13,
                     "seldepth": "5",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "f1d3",
-                    "ponder": "b8c6"
+                    "move": "b1c3",
+                    "ponder": "a7a6"
                 },
                 "time": {
-                    "nodes": "2479",
-                    "time": "6"
+                    "nodes": "1389",
+                    "time": "7"
                 }
             },
             "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/4PN2/PP3PPP/RNBQKB1R b KQkq - 0 4",
@@ -241,11 +235,11 @@ define(function(){var game=
                         "f8e7",
                         "f1b5"
                     ],
-                    "nodes": "1974",
-                    "nps": "329000",
+                    "nodes": "2076",
+                    "nps": "296571",
                     "score": 0.21,
                     "seldepth": "4",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -253,8 +247,8 @@ define(function(){var game=
                     "ponder": "c4c5"
                 },
                 "time": {
-                    "nodes": "1974",
-                    "time": "6"
+                    "nodes": "2076",
+                    "time": "7"
                 }
             },
             "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/2PP4/4PN2/PP3PPP/RNBQKB1R w KQkq - 0 5",
@@ -265,17 +259,18 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "2",
+                    "depth": "3",
                     "multipv": "1",
                     "next_moves": [
                         "b1c3",
-                        "b8c6"
+                        "b8c6",
+                        "d1a4"
                     ],
-                    "nodes": "2270",
-                    "nps": "378333",
-                    "score": 0.09,
-                    "seldepth": "2",
-                    "time": "6",
+                    "nodes": "2783",
+                    "nps": "397571",
+                    "score": 0.33,
+                    "seldepth": "3",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -283,8 +278,8 @@ define(function(){var game=
                     "ponder": "b8c6"
                 },
                 "time": {
-                    "nodes": "2270",
-                    "time": "6"
+                    "nodes": "2783",
+                    "time": "7"
                 }
             },
             "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQkq - 1 5",
@@ -299,23 +294,26 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "b8c6",
-                        "c1d2",
-                        "b7b6"
+                        "f1e2",
+                        "d5c4",
+                        "e2c4",
+                        "c5d4",
+                        "e3d4"
                     ],
-                    "nodes": "2441",
-                    "nps": "406833",
-                    "score": 0.01,
+                    "nodes": "3109",
+                    "nps": "444142",
+                    "score": 0.25,
                     "seldepth": "4",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "b8c6",
-                    "ponder": "c1d2"
+                    "ponder": "f1e2"
                 },
                 "time": {
-                    "nodes": "2441",
-                    "time": "6"
+                    "nodes": "3109",
+                    "time": "7"
                 }
             },
             "fen": "r1bqkb1r/pp3ppp/2n1pn2/2pp4/2PP4/2N1PN2/PP3PPP/R1BQKB1R w KQkq - 2 6",
@@ -331,13 +329,13 @@ define(function(){var game=
                     "next_moves": [
                         "f1e2",
                         "d5c4",
-                        "e2c4",
+                        "e1g1",
                         "c5d4",
                         "e3d4"
                     ],
-                    "nodes": "2993",
-                    "nps": "498833",
-                    "score": 0.25,
+                    "nodes": "3182",
+                    "nps": "530333",
+                    "score": 0.31,
                     "seldepth": "6",
                     "time": "6",
                     "unit": "p"
@@ -347,7 +345,7 @@ define(function(){var game=
                     "ponder": "d5c4"
                 },
                 "time": {
-                    "nodes": "2993",
+                    "nodes": "3182",
                     "time": "6"
                 }
             },
@@ -367,13 +365,13 @@ define(function(){var game=
                         "e8g8",
                         "b2b3",
                         "b7b6",
-                        "c4d5",
-                        "e6d5",
                         "d4c5",
-                        "d6c5"
+                        "d6c5",
+                        "c4d5",
+                        "e6d5"
                     ],
-                    "nodes": "3003",
-                    "nps": "500500",
+                    "nodes": "3148",
+                    "nps": "524666",
                     "score": 0.1,
                     "seldepth": "6",
                     "time": "6",
@@ -384,7 +382,7 @@ define(function(){var game=
                     "ponder": "e1g1"
                 },
                 "time": {
-                    "nodes": "3003",
+                    "nodes": "3148",
                     "time": "6"
                 }
             },
@@ -396,85 +394,14 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "5",
-                    "multipv": "1",
-                    "next_moves": [
-                        "e1g1",
-                        "d5c4",
-                        "d4c5",
-                        "d8d1",
-                        "f1d1",
-                        "f8c5",
-                        "e2c4"
-                    ],
-                    "nodes": "3240",
-                    "nps": "540000",
-                    "score": 0.52,
-                    "seldepth": "6",
-                    "time": "6",
-                    "unit": "p"
-                },
-                "best_move": {
-                    "move": "e1g1",
-                    "ponder": "d5c4"
-                },
-                "time": {
-                    "nodes": "3240",
-                    "time": "6"
-                }
-            },
-            "fen": "r1bqkb1r/1p3ppp/p1n1pn2/2pp2N1/2PP4/2N1P3/PP2BPPP/R1BQK2R b KQkq - 1 7",
-            "move": "Ng5",
-            "move_number": "7.",
-            "side": "white"
-        },
-        {
-            "details": {
-                "analysis": {
-                    "depth": "6",
-                    "multipv": "1",
-                    "next_moves": [
-                        "d5c4",
-                        "e1g1",
-                        "c5d4",
-                        "e3d4",
-                        "d8d4",
-                        "d1d4",
-                        "c6d4",
-                        "e2c4"
-                    ],
-                    "nodes": "3350",
-                    "nps": "558333",
-                    "score": -0.58,
-                    "seldepth": "6",
-                    "time": "6",
-                    "unit": "p"
-                },
-                "best_move": {
-                    "move": "d5c4",
-                    "ponder": "e1g1"
-                },
-                "time": {
-                    "nodes": "3350",
-                    "time": "6"
-                }
-            },
-            "fen": "r1bqkb1r/1p3ppp/p1n1pn2/3p2N1/2Pp4/2N1P3/PP2BPPP/R1BQK2R w KQkq - 0 8",
-            "move": "cxd4",
-            "move_number": "7...",
-            "side": "black"
-        },
-        {
-            "details": {
-                "analysis": {
                     "depth": "1",
                     "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "a2a3"
                     ],
-                    "nodes": "65",
-                    "nps": "32500",
+                    "nodes": "90",
+                    "nps": "45000",
                     "score": 0,
                     "seldepth": "1",
                     "time": "2",
@@ -485,8 +412,75 @@ define(function(){var game=
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "65",
+                    "nodes": "90",
                     "time": "2"
+                }
+            },
+            "fen": "r1bqkb1r/1p3ppp/p1n1pn2/2pp2N1/2PP4/2N1P3/PP2BPPP/R1BQK2R b KQkq - 1 7",
+            "move": "Ng5",
+            "move_number": "7.",
+            "side": "white"
+        },
+        {
+            "details": {
+                "analysis": {
+                    "depth": "5",
+                    "modifier": "upperbound",
+                    "multipv": "1",
+                    "next_moves": [
+                        "d5c4",
+                        "e1g1",
+                        "c5d4"
+                    ],
+                    "nodes": "2489",
+                    "nps": "355571",
+                    "score": -0.68,
+                    "seldepth": "6",
+                    "time": "7",
+                    "unit": "p"
+                },
+                "best_move": {
+                    "move": "d5c4",
+                    "ponder": "e1g1"
+                },
+                "time": {
+                    "nodes": "2489",
+                    "time": "7"
+                }
+            },
+            "fen": "r1bqkb1r/1p3ppp/p1n1pn2/3p2N1/2Pp4/2N1P3/PP2BPPP/R1BQK2R w KQkq - 0 8",
+            "move": "cxd4",
+            "move_number": "7...",
+            "side": "black"
+        },
+        {
+            "details": {
+                "analysis": {
+                    "depth": "6",
+                    "multipv": "1",
+                    "next_moves": [
+                        "e3d4",
+                        "d5c4",
+                        "e1g1",
+                        "d8d4",
+                        "d1d4",
+                        "c6d4",
+                        "e2c4"
+                    ],
+                    "nodes": "3133",
+                    "nps": "522166",
+                    "score": -0.58,
+                    "seldepth": "6",
+                    "time": "6",
+                    "unit": "p"
+                },
+                "best_move": {
+                    "move": "e3d4",
+                    "ponder": "d5c4"
+                },
+                "time": {
+                    "nodes": "3133",
+                    "time": "6"
                 }
             },
             "fen": "r1bqkb1r/1p3ppp/p1n1pn2/3p2N1/2PP4/2N5/PP2BPPP/R1BQK2R b KQkq - 0 8",
@@ -497,34 +491,30 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
                         "d5c4",
-                        "e1g1",
-                        "h7h6",
-                        "g5e4",
-                        "f6e4",
-                        "c3e4",
+                        "e2c4",
                         "d8d4",
                         "d1d4",
                         "c6d4",
-                        "e2c4"
+                        "e1g1"
                     ],
-                    "nodes": "3106",
-                    "nps": "517666",
+                    "nodes": "4565",
+                    "nps": "652142",
                     "score": -0.64,
-                    "seldepth": "6",
-                    "time": "6",
+                    "seldepth": "7",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "d5c4",
-                    "ponder": "e1g1"
+                    "ponder": "e2c4"
                 },
                 "time": {
-                    "nodes": "3106",
-                    "time": "6"
+                    "nodes": "4565",
+                    "time": "7"
                 }
             },
             "fen": "r1bqkb1r/1p3ppp/p1n1pn2/6N1/2pP4/2N5/PP2BPPP/R1BQK2R w KQkq - 0 9",
@@ -535,27 +525,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
-                    "modifier": "upperbound",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "e2c4",
-                        "d8d4",
-                        "d1d4"
+                        "e1g1",
+                        "h7h6",
+                        "g5e4"
                     ],
-                    "nodes": "3679",
-                    "nps": "613166",
-                    "score": -0.7,
-                    "seldepth": "6",
+                    "nodes": "3894",
+                    "nps": "649000",
+                    "score": -0.73,
+                    "seldepth": "7",
                     "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "e2c4",
-                    "ponder": "d8d4"
+                    "move": "e1g1",
+                    "ponder": "h7h6"
                 },
                 "time": {
-                    "nodes": "3679",
+                    "nodes": "3894",
                     "time": "6"
                 }
             },
@@ -573,16 +562,14 @@ define(function(){var game=
                         "d8d4",
                         "d1d4",
                         "c6d4",
-                        "c4d3",
-                        "h7h6",
-                        "g5f3",
-                        "d4f3",
-                        "g2f3"
+                        "e1g1",
+                        "b7b5",
+                        "c4d3"
                     ],
-                    "nodes": "4051",
-                    "nps": "675166",
-                    "score": -1.0,
-                    "seldepth": "8",
+                    "nodes": "4761",
+                    "nps": "793500",
+                    "score": -0.63,
+                    "seldepth": "7",
                     "time": "6",
                     "unit": "p"
                 },
@@ -591,7 +578,7 @@ define(function(){var game=
                     "ponder": "d1d4"
                 },
                 "time": {
-                    "nodes": "4051",
+                    "nodes": "4761",
                     "time": "6"
                 }
             },
@@ -633,32 +620,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "c6d4",
-                        "c4d3",
-                        "h7h6",
-                        "g5f3",
-                        "d4f3",
-                        "g2f3",
-                        "f8d6",
-                        "c1e3"
+                        "a6a5"
                     ],
-                    "nodes": "3981",
-                    "nps": "663500",
-                    "score": -1.0,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "41",
+                    "nps": "20500",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "c6d4",
-                    "ponder": "c4d3"
+                    "move": "a6a5",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "3981",
-                    "time": "6"
+                    "nodes": "41",
+                    "time": "2"
                 }
             },
             "fen": "r1b1kb1r/1p3ppp/p3pn2/6N1/2Bn4/2N5/PP3PPP/R1B1K2R w KQkq - 0 11",
@@ -675,8 +656,8 @@ define(function(){var game=
                     "next_moves": [
                         "a2a3"
                     ],
-                    "nodes": "67",
-                    "nps": "33500",
+                    "nodes": "70",
+                    "nps": "35000",
                     "score": 0,
                     "seldepth": "1",
                     "time": "2",
@@ -687,7 +668,7 @@ define(function(){var game=
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "67",
+                    "nodes": "70",
                     "time": "2"
                 }
             },
@@ -699,30 +680,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
+                    "depth": "1",
                     "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "h7h6",
-                        "g5e4",
-                        "f6e4",
-                        "c3e4",
-                        "b7b5"
+                        "a6a5"
                     ],
-                    "nodes": "4638",
-                    "nps": "773000",
-                    "score": -0.84,
-                    "seldepth": "6",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "18",
+                    "nps": "9000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "h7h6",
-                    "ponder": "g5e4"
+                    "move": "a6a5",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "4638",
-                    "time": "6"
+                    "nodes": "18",
+                    "time": "2"
                 }
             },
             "fen": "r1b1k2r/1p2bppp/p3pn2/6N1/2Bn4/2N5/PP3PPP/R1B2RK1 w kq - 2 12",
@@ -739,8 +716,8 @@ define(function(){var game=
                     "next_moves": [
                         "a2a3"
                     ],
-                    "nodes": "9",
-                    "nps": "4500",
+                    "nodes": "10",
+                    "nps": "5000",
                     "score": 0,
                     "seldepth": "1",
                     "time": "2",
@@ -751,7 +728,7 @@ define(function(){var game=
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "9",
+                    "nodes": "10",
                     "time": "2"
                 }
             },
@@ -763,21 +740,20 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
                         "d4c2",
                         "a1b1",
                         "h7h6",
                         "c4b3",
-                        "c2b4",
-                        "g5e4",
-                        "e8g8"
+                        "h6g5",
+                        "b3c2"
                     ],
-                    "nodes": "4560",
-                    "nps": "760000",
-                    "score": -0.45,
-                    "seldepth": "9",
+                    "nodes": "3805",
+                    "nps": "634166",
+                    "score": -0.44,
+                    "seldepth": "7",
                     "time": "6",
                     "unit": "p"
                 },
@@ -786,7 +762,7 @@ define(function(){var game=
                     "ponder": "a1b1"
                 },
                 "time": {
-                    "nodes": "4560",
+                    "nodes": "3805",
                     "time": "6"
                 }
             },
@@ -798,26 +774,28 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "5",
                     "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
+                        "c1e3",
+                        "e8g8",
                         "a2a3"
                     ],
-                    "nodes": "4",
-                    "nps": "2000",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "3992",
+                    "nps": "665333",
+                    "score": -0.21,
+                    "seldepth": "5",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a2a3",
-                    "ponder": "(none)"
+                    "move": "c1e3",
+                    "ponder": "e8g8"
                 },
                 "time": {
-                    "nodes": "4",
-                    "time": "2"
+                    "nodes": "3992",
+                    "time": "6"
                 }
             },
             "fen": "r1b1k2r/1p2bppp/p1n1pn2/6N1/2B2P2/2N5/PP4PP/R1BR2K1 b kq - 0 13",
@@ -828,26 +806,33 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "a6a5"
+                        "b7b5",
+                        "c4e2",
+                        "e7c5",
+                        "g1h1",
+                        "e8g8",
+                        "g5e4",
+                        "c5d4",
+                        "e4f6",
+                        "d4f6"
                     ],
-                    "nodes": "20",
-                    "nps": "10000",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "5598",
+                    "nps": "799714",
+                    "score": -0.83,
+                    "seldepth": "9",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a6a5",
-                    "ponder": "(none)"
+                    "move": "b7b5",
+                    "ponder": "c4e2"
                 },
                 "time": {
-                    "nodes": "20",
-                    "time": "2"
+                    "nodes": "5598",
+                    "time": "7"
                 }
             },
             "fen": "r1b2rk1/1p2bppp/p1n1pn2/6N1/2B2P2/2N5/PP4PP/R1BR2K1 w - - 1 14",
@@ -859,20 +844,21 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "6",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "c1e3",
                         "c8d7",
-                        "a1c1",
-                        "b7b5",
-                        "c4e2"
+                        "g5e4",
+                        "f8d8",
+                        "e4f6",
+                        "e7f6",
+                        "e3b6"
                     ],
-                    "nodes": "5826",
-                    "nps": "971000",
-                    "score": -0.55,
-                    "seldepth": "6",
-                    "time": "6",
+                    "nodes": "6177",
+                    "nps": "882428",
+                    "score": -0.43,
+                    "seldepth": "7",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -880,8 +866,8 @@ define(function(){var game=
                     "ponder": "c8d7"
                 },
                 "time": {
-                    "nodes": "5826",
-                    "time": "6"
+                    "nodes": "6177",
+                    "time": "7"
                 }
             },
             "fen": "r1b2rk1/1p2bppp/p1n1pn2/6N1/2B2P2/2N4P/PP4P1/R1BR2K1 b - - 0 14",
@@ -892,19 +878,23 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
                         "b7b5",
                         "c4e2",
                         "e7c5",
                         "g1h2",
-                        "c8b7"
+                        "c8b7",
+                        "g5e4",
+                        "c5d4",
+                        "e4f6",
+                        "d4f6"
                     ],
-                    "nodes": "5471",
-                    "nps": "911833",
-                    "score": -1.12,
-                    "seldepth": "7",
+                    "nodes": "5886",
+                    "nps": "981000",
+                    "score": -1.22,
+                    "seldepth": "9",
                     "time": "6",
                     "unit": "p"
                 },
@@ -913,7 +903,7 @@ define(function(){var game=
                     "ponder": "c4e2"
                 },
                 "time": {
-                    "nodes": "5471",
+                    "nodes": "5886",
                     "time": "6"
                 }
             },
@@ -925,26 +915,28 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
-                        "c4e2",
-                        "e7c5"
+                        "a2a3",
+                        "e7c5",
+                        "g1h2",
+                        "b5c4"
                     ],
-                    "nodes": "3569",
-                    "nps": "594833",
-                    "score": -1.13,
-                    "seldepth": "9",
-                    "time": "6",
+                    "nodes": "10",
+                    "nps": "5000",
+                    "score": -4.82,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "c4e2",
+                    "move": "a2a3",
                     "ponder": "e7c5"
                 },
                 "time": {
-                    "nodes": "3569",
-                    "time": "6"
+                    "nodes": "10",
+                    "time": "2"
                 }
             },
             "fen": "r1b2rk1/4bppp/p1n1pn2/1p4N1/5P2/1BN4P/PP4P1/R1BR2K1 b - - 1 15",
@@ -955,21 +947,19 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
+                    "depth": "7",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "e7c5",
                         "g1h2",
-                        "c8b7",
-                        "g5e4",
-                        "c5b6",
-                        "c1d2"
+                        "c5b6"
                     ],
-                    "nodes": "4384",
-                    "nps": "730666",
-                    "score": -1.39,
-                    "seldepth": "7",
-                    "time": "6",
+                    "nodes": "5968",
+                    "nps": "852571",
+                    "score": -1.32,
+                    "seldepth": "8",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -977,8 +967,8 @@ define(function(){var game=
                     "ponder": "g1h2"
                 },
                 "time": {
-                    "nodes": "4384",
-                    "time": "6"
+                    "nodes": "5968",
+                    "time": "7"
                 }
             },
             "fen": "r4rk1/1b2bppp/p1n1pn2/1p4N1/5P2/1BN4P/PP4P1/R1BR2K1 w - - 2 16",
@@ -990,28 +980,27 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "6",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
                         "c1e3",
-                        "f8d8",
-                        "a2a4",
                         "c6a5",
                         "b3c2"
                     ],
-                    "nodes": "5218",
-                    "nps": "869666",
-                    "score": -1.15,
+                    "nodes": "6479",
+                    "nps": "925571",
+                    "score": -1.37,
                     "seldepth": "7",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "c1e3",
-                    "ponder": "f8d8"
+                    "ponder": "c6a5"
                 },
                 "time": {
-                    "nodes": "5218",
-                    "time": "6"
+                    "nodes": "6479",
+                    "time": "7"
                 }
             },
             "fen": "r4rk1/1b2bppp/p1n1pn2/1p4N1/5P2/1BN1B2P/PP4P1/R2R2K1 b - - 3 16",
@@ -1022,34 +1011,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
                         "c6a5",
-                        "g5f3",
-                        "a5b3",
-                        "a2b3",
-                        "f8d8",
-                        "e3b6",
-                        "d8d1",
-                        "a1d1",
-                        "b7f3",
-                        "g2f3"
+                        "e3b6"
                     ],
-                    "nodes": "5326",
-                    "nps": "887666",
-                    "score": -1.5,
-                    "seldepth": "9",
-                    "time": "6",
+                    "nodes": "4995",
+                    "nps": "713571",
+                    "score": -1.48,
+                    "seldepth": "8",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "c6a5",
-                    "ponder": "g5f3"
+                    "ponder": "e3b6"
                 },
                 "time": {
-                    "nodes": "5326",
-                    "time": "6"
+                    "nodes": "4995",
+                    "time": "7"
                 }
             },
             "fen": "3r1rk1/1b2bppp/p1n1pn2/1p4N1/5P2/1BN1B2P/PP4P1/R2R2K1 w - - 4 17",
@@ -1060,26 +1041,25 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "5",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
-                        "a2a3",
-                        "h7h6"
+                        "a2a3"
                     ],
-                    "nodes": "6098",
-                    "nps": "1016333",
-                    "score": -0.92,
-                    "seldepth": "6",
-                    "time": "6",
+                    "nodes": "52",
+                    "nps": "26000",
+                    "score": -1.1,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "a2a3",
-                    "ponder": "h7h6"
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6098",
-                    "time": "6"
+                    "nodes": "52",
+                    "time": "2"
                 }
             },
             "fen": "3R1rk1/1b2bppp/p1n1pn2/1p4N1/5P2/1BN1B2P/PP4P1/R5K1 b - - 0 17",
@@ -1090,33 +1070,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "f8d8",
-                        "a1d1",
-                        "d8d1",
-                        "b3d1",
-                        "c6b4",
-                        "a2a3",
-                        "b4d5",
-                        "c3d5",
-                        "f6d5"
+                        "b5b4"
                     ],
-                    "nodes": "6225",
-                    "nps": "1037500",
-                    "score": -1.42,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "74",
+                    "nps": "37000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "f8d8",
-                    "ponder": "a1d1"
+                    "move": "b5b4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6225",
-                    "time": "6"
+                    "nodes": "74",
+                    "time": "2"
                 }
             },
             "fen": "3b1rk1/1b3ppp/p1n1pn2/1p4N1/5P2/1BN1B2P/PP4P1/R5K1 w - - 0 18",
@@ -1168,8 +1141,8 @@ define(function(){var game=
                         "g5f3",
                         "d3b2"
                     ],
-                    "nodes": "5854",
-                    "nps": "975666",
+                    "nodes": "5353",
+                    "nps": "892166",
                     "score": -1.56,
                     "seldepth": "7",
                     "time": "6",
@@ -1180,7 +1153,7 @@ define(function(){var game=
                     "ponder": "c2d1"
                 },
                 "time": {
-                    "nodes": "5854",
+                    "nodes": "5353",
                     "time": "6"
                 }
             },
@@ -1192,30 +1165,25 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
-                        "a1d1",
-                        "c6b4",
-                        "c2b1",
-                        "b4d5",
-                        "c3d5",
-                        "b7d5"
+                        "a1d1"
                     ],
-                    "nodes": "5252",
-                    "nps": "875333",
-                    "score": -1.16,
-                    "seldepth": "7",
-                    "time": "6",
+                    "nodes": "49",
+                    "nps": "24500",
+                    "score": -0.78,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "a1d1",
-                    "ponder": "c6b4"
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "5252",
-                    "time": "6"
+                    "nodes": "49",
+                    "time": "2"
                 }
             },
             "fen": "5rk1/1bb2ppp/p1n1pn2/1p4N1/4NP2/4B2P/PPB3P1/R5K1 b - - 3 19",
@@ -1226,26 +1194,28 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4"
+                        "f6d5",
+                        "e3c5",
+                        "f8d8",
+                        "g2g3"
                     ],
-                    "nodes": "33",
-                    "nps": "16500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "6515",
+                    "nps": "930714",
+                    "score": -1.79,
+                    "seldepth": "8",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "b5b4",
-                    "ponder": "(none)"
+                    "move": "f6d5",
+                    "ponder": "e3c5"
                 },
                 "time": {
-                    "nodes": "33",
-                    "time": "2"
+                    "nodes": "6515",
+                    "time": "7"
                 }
             },
             "fen": "5rk1/1bb2pp1/p1n1pn1p/1p4N1/4NP2/4B2P/PPB3P1/R5K1 w - - 0 20",
@@ -1256,26 +1226,27 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
-                        "a2a3"
+                        "e4f6",
+                        "g7f6",
+                        "g5h7"
                     ],
-                    "nodes": "15",
-                    "nps": "7500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "6957",
+                    "nps": "993857",
+                    "score": -0.36,
+                    "seldepth": "15",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a2a3",
-                    "ponder": "(none)"
+                    "move": "e4f6",
+                    "ponder": "g7f6"
                 },
                 "time": {
-                    "nodes": "15",
-                    "time": "2"
+                    "nodes": "6957",
+                    "time": "7"
                 }
             },
             "fen": "5rk1/1bb2pp1/p1n1pN1p/1p4N1/5P2/4B2P/PPB3P1/R5K1 b - - 0 20",
@@ -1286,25 +1257,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
-                        "g7f6"
+                        "g7f6",
+                        "g5h7",
+                        "c6b4",
+                        "h7f6",
+                        "g8g7",
+                        "c2e4",
+                        "b7e4",
+                        "f6e4",
+                        "b4d5",
+                        "e3d4",
+                        "g7g6",
+                        "g2g3"
                     ],
-                    "nodes": "21",
-                    "nps": "10500",
-                    "score": -0.9,
-                    "seldepth": "1",
-                    "time": "2",
+                    "nodes": "8171",
+                    "nps": "1361833",
+                    "score": -0.42,
+                    "seldepth": "16",
+                    "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "g7f6",
-                    "ponder": "(none)"
+                    "ponder": "g5h7"
                 },
                 "time": {
-                    "nodes": "21",
-                    "time": "2"
+                    "nodes": "8171",
+                    "time": "7"
                 }
             },
             "fen": "5rk1/1bb2p2/p1n1pp1p/1p4N1/5P2/4B2P/PPB3P1/R5K1 w - - 0 21",
@@ -1315,7 +1297,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "g5h7",
@@ -1325,13 +1307,18 @@ define(function(){var game=
                         "c2e4",
                         "b7e4",
                         "f6e4",
-                        "b4c2"
+                        "b4d5",
+                        "e3d4",
+                        "g7g6",
+                        "g2g3",
+                        "f8d8",
+                        "e4c5"
                     ],
-                    "nodes": "5768",
-                    "nps": "961333",
-                    "score": -0.46,
-                    "seldepth": "11",
-                    "time": "6",
+                    "nodes": "6467",
+                    "nps": "923857",
+                    "score": -0.48,
+                    "seldepth": "15",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -1339,8 +1326,8 @@ define(function(){var game=
                     "ponder": "c6b4"
                 },
                 "time": {
-                    "nodes": "5768",
-                    "time": "6"
+                    "nodes": "6467",
+                    "time": "7"
                 }
             },
             "fen": "5rk1/1bb2p1N/p1n1pp1p/1p6/5P2/4B2P/PPB3P1/R5K1 b - - 1 21",
@@ -1351,34 +1338,27 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
-                        "c6b4",
-                        "h7f6",
-                        "g8g7",
-                        "c2e4",
-                        "b7e4",
-                        "f6e4",
-                        "b4d3",
-                        "e3d4",
-                        "f7f6",
-                        "g2g3"
+                        "f6f5",
+                        "h7f8",
+                        "g8f8"
                     ],
-                    "nodes": "7017",
-                    "nps": "1169500",
-                    "score": -0.35,
-                    "seldepth": "15",
-                    "time": "6",
+                    "nodes": "49",
+                    "nps": "24500",
+                    "score": 0.8,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "c6b4",
-                    "ponder": "h7f6"
+                    "move": "f6f5",
+                    "ponder": "h7f8"
                 },
                 "time": {
-                    "nodes": "7017",
-                    "time": "6"
+                    "nodes": "49",
+                    "time": "2"
                 }
             },
             "fen": "3r2k1/1bb2p1N/p1n1pp1p/1p6/5P2/4B2P/PPB3P1/R5K1 w - - 2 22",
@@ -1396,24 +1376,20 @@ define(function(){var game=
                         "g8g7",
                         "f6h5",
                         "g7f8",
+                        "a1d1",
+                        "d8d1",
+                        "c2d1",
+                        "f8e7",
                         "f4f5",
-                        "c6b4",
-                        "e3h6",
-                        "f8e8",
-                        "h5g7",
-                        "e8e7",
-                        "h6g5",
-                        "f7f6",
-                        "g7e6",
-                        "f6g5",
-                        "e6d8",
-                        "c7d8"
+                        "c7e5",
+                        "f5e6",
+                        "e7e6"
                     ],
-                    "nodes": "6696",
-                    "nps": "1116000",
-                    "score": -0.27,
-                    "seldepth": "16",
-                    "time": "6",
+                    "nodes": "5906",
+                    "nps": "843714",
+                    "score": -0.16,
+                    "seldepth": "14",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -1421,8 +1397,8 @@ define(function(){var game=
                     "ponder": "g8g7"
                 },
                 "time": {
-                    "nodes": "6696",
-                    "time": "6"
+                    "nodes": "5906",
+                    "time": "7"
                 }
             },
             "fen": "3r2k1/1bb2p2/p1n1pN1p/1p6/5P2/4B2P/PPB3P1/R5K1 b - - 0 22",
@@ -1433,20 +1409,27 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "g8g7",
                         "f6h5",
                         "g7f8",
-                        "f4f5",
-                        "c6b4"
+                        "a1d1",
+                        "d8d1",
+                        "c2d1",
+                        "f8e7",
+                        "d1f3",
+                        "c6a5",
+                        "g1f2",
+                        "b7f3",
+                        "f2f3"
                     ],
-                    "nodes": "13",
-                    "nps": "6500",
-                    "score": -0.27,
-                    "seldepth": "1",
-                    "time": "2",
+                    "nodes": "6148",
+                    "nps": "1024666",
+                    "score": 0.0,
+                    "seldepth": "17",
+                    "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
@@ -1454,8 +1437,8 @@ define(function(){var game=
                     "ponder": "f6h5"
                 },
                 "time": {
-                    "nodes": "13",
-                    "time": "2"
+                    "nodes": "6148",
+                    "time": "6"
                 }
             },
             "fen": "3r4/1bb2pk1/p1n1pN1p/1p6/5P2/4B2P/PPB3P1/R5K1 w - - 1 23",
@@ -1466,32 +1449,29 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
-                        "f6h5",
-                        "g7f8",
-                        "c2e4",
-                        "f7f5",
-                        "e4f3",
-                        "c6a5",
-                        "g1f2",
-                        "a5c6"
+                        "f4f5",
+                        "g7f6",
+                        "f5e6",
+                        "f7e6",
+                        "e3h6"
                     ],
-                    "nodes": "4977",
-                    "nps": "829500",
-                    "score": -0.01,
-                    "seldepth": "12",
-                    "time": "6",
+                    "nodes": "61",
+                    "nps": "30500",
+                    "score": -2.86,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "f6h5",
-                    "ponder": "g7f8"
+                    "move": "f4f5",
+                    "ponder": "g7f6"
                 },
                 "time": {
-                    "nodes": "4977",
-                    "time": "6"
+                    "nodes": "61",
+                    "time": "2"
                 }
             },
             "fen": "3r4/1bb2pk1/p1n1p2p/1p5N/5P2/4B2P/PPB3P1/R5K1 b - - 2 23",
@@ -1506,26 +1486,29 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "g7f8",
-                        "c2e4",
-                        "f7f5",
-                        "e4f3",
+                        "a1d1",
+                        "d8d1",
+                        "c2d1",
+                        "f8e7",
+                        "d1f3",
                         "c6a5",
                         "g1f2",
-                        "a5c6"
+                        "b7f3",
+                        "f2f3"
                     ],
-                    "nodes": "23",
-                    "nps": "11500",
-                    "score": -0.01,
+                    "nodes": "30",
+                    "nps": "15000",
+                    "score": 0.0,
                     "seldepth": "1",
                     "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "g7f8",
-                    "ponder": "c2e4"
+                    "ponder": "a1d1"
                 },
                 "time": {
-                    "nodes": "23",
+                    "nodes": "30",
                     "time": "2"
                 }
             },
@@ -1543,8 +1526,8 @@ define(function(){var game=
                     "next_moves": [
                         "a2a3"
                     ],
-                    "nodes": "8",
-                    "nps": "4000",
+                    "nodes": "7",
+                    "nps": "3500",
                     "score": 0,
                     "seldepth": "1",
                     "time": "2",
@@ -1555,7 +1538,7 @@ define(function(){var game=
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "8",
+                    "nodes": "7",
                     "time": "2"
                 }
             },
@@ -1567,32 +1550,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
                     "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "c6d4",
-                        "h5f6",
-                        "g8f8",
-                        "e3h6",
-                        "f8e7",
-                        "c2e4",
-                        "b7e4"
+                        "b5b4"
                     ],
-                    "nodes": "5237",
-                    "nps": "872833",
-                    "score": -0.65,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "15",
+                    "nps": "7500",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "c6d4",
-                    "ponder": "h5f6"
+                    "move": "b5b4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "5237",
-                    "time": "6"
+                    "nodes": "15",
+                    "time": "2"
                 }
             },
             "fen": "3r2k1/1bb2p2/p3p2p/1p3P1N/1n6/4B2P/PPB3P1/R5K1 w - - 1 25",
@@ -1603,7 +1580,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
                         "c2b3",
@@ -1617,11 +1594,11 @@ define(function(){var game=
                         "f5e6",
                         "f7e6"
                     ],
-                    "nodes": "5825",
-                    "nps": "970833",
+                    "nodes": "6904",
+                    "nps": "986285",
                     "score": -0.2,
-                    "seldepth": "8",
-                    "time": "6",
+                    "seldepth": "10",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -1629,8 +1606,8 @@ define(function(){var game=
                     "ponder": "b4d5"
                 },
                 "time": {
-                    "nodes": "5825",
-                    "time": "6"
+                    "nodes": "6904",
+                    "time": "7"
                 }
             },
             "fen": "3r2k1/1bb2p2/p3p2p/1p3P1N/1n6/1B2B2P/PP4P1/R5K1 b - - 2 25",
@@ -1701,26 +1678,32 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "e5e4"
+                        "c7b6",
+                        "g1h2",
+                        "d8d6",
+                        "h6g5",
+                        "b4d3",
+                        "h5f6",
+                        "g8f8",
+                        "a1d1"
                     ],
-                    "nodes": "11",
-                    "nps": "5500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "5425",
+                    "nps": "904166",
+                    "score": 0.22,
+                    "seldepth": "9",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "e5e4",
-                    "ponder": "(none)"
+                    "move": "c7b6",
+                    "ponder": "g1h2"
                 },
                 "time": {
-                    "nodes": "11",
-                    "time": "2"
+                    "nodes": "5425",
+                    "time": "6"
                 }
             },
             "fen": "6k1/1bb2p2/p2r3B/1p2pP1N/1n6/1B5P/PP4P1/R5K1 w - - 1 27",
@@ -1731,32 +1714,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "h6g5",
-                        "c7b6",
-                        "g1h2",
-                        "b4d3",
-                        "h5f6",
-                        "g8f8",
-                        "a1d1",
-                        "e5e4"
+                        "a2a3"
                     ],
-                    "nodes": "4625",
-                    "nps": "770833",
-                    "score": 0.16,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "49",
+                    "nps": "24500",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "h6g5",
-                    "ponder": "c7b6"
+                    "move": "a2a3",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "4625",
-                    "time": "6"
+                    "nodes": "49",
+                    "time": "2"
                 }
             },
             "fen": "6k1/1bb2p2/p2r4/1p2pPBN/1n6/1B5P/PP4P1/R5K1 b - - 2 27",
@@ -1767,28 +1744,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "c7b6",
-                        "g1h2",
-                        "b4d3",
-                        "h5f6"
+                        "e5e4"
                     ],
-                    "nodes": "6093",
-                    "nps": "1015500",
-                    "score": 0.2,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "17",
+                    "nps": "8500",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "c7b6",
-                    "ponder": "g1h2"
+                    "move": "e5e4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6093",
-                    "time": "6"
+                    "nodes": "17",
+                    "time": "2"
                 }
             },
             "fen": "3b2k1/1b3p2/p2r4/1p2pPBN/1n6/1B5P/PP4P1/R5K1 w - - 3 28",
@@ -1799,32 +1774,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g5d8",
-                        "d6d8",
-                        "a1c1",
-                        "d8d2",
-                        "c1c7",
-                        "b7g2",
-                        "c7f7",
-                        "g8h8"
+                        "a2a3"
                     ],
-                    "nodes": "6120",
-                    "nps": "1020000",
-                    "score": 0.27,
-                    "seldepth": "12",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "22",
+                    "nps": "11000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "g5d8",
-                    "ponder": "d6d8"
+                    "move": "a2a3",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6120",
-                    "time": "6"
+                    "nodes": "22",
+                    "time": "2"
                 }
             },
             "fen": "3B2k1/1b3p2/p2r4/1p2pP1N/1n6/1B5P/PP4P1/R5K1 b - - 0 28",
@@ -1841,8 +1810,8 @@ define(function(){var game=
                     "next_moves": [
                         "e5e4"
                     ],
-                    "nodes": "14",
-                    "nps": "7000",
+                    "nodes": "17",
+                    "nps": "8500",
                     "score": 0,
                     "seldepth": "1",
                     "time": "2",
@@ -1853,7 +1822,7 @@ define(function(){var game=
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "14",
+                    "nodes": "17",
                     "time": "2"
                 }
             },
@@ -1865,31 +1834,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "a1c1",
-                        "d8d2",
-                        "c1c7",
-                        "b7g2",
-                        "c7f7",
-                        "g2d5",
-                        "f7d7"
+                        "a2a3"
                     ],
-                    "nodes": "5890",
-                    "nps": "981666",
-                    "score": 0.58,
-                    "seldepth": "10",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "6",
+                    "nps": "3000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "a1c1",
-                    "ponder": "d8d2"
+                    "move": "a2a3",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "5890",
-                    "time": "6"
+                    "nodes": "6",
+                    "time": "2"
                 }
             },
             "fen": "3r2k1/1b3p2/p7/1p2pP1N/1n6/PB5P/1P4P1/R5K1 b - - 0 29",
@@ -1900,26 +1864,33 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
-                        "e5e4"
+                        "b4d3",
+                        "a1d1",
+                        "d8d4",
+                        "d1d2",
+                        "a6a5",
+                        "g2g4",
+                        "a5a4",
+                        "h5f6",
+                        "g8g7"
                     ],
-                    "nodes": "11",
-                    "nps": "5500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "5576",
+                    "nps": "929333",
+                    "score": 0.13,
+                    "seldepth": "9",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "e5e4",
-                    "ponder": "(none)"
+                    "move": "b4d3",
+                    "ponder": "a1d1"
                 },
                 "time": {
-                    "nodes": "11",
-                    "time": "2"
+                    "nodes": "5576",
+                    "time": "6"
                 }
             },
             "fen": "3r2k1/1b3p2/p1n5/1p2pP1N/8/PB5P/1P4P1/R5K1 w - - 1 30",
@@ -1931,24 +1902,23 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "1",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g2g3"
+                        "g2g4"
                     ],
-                    "nodes": "4",
-                    "nps": "2000",
-                    "score": 0,
-                    "seldepth": "1",
+                    "nodes": "35",
+                    "nps": "17500",
+                    "score": 0.69,
+                    "seldepth": "2",
                     "time": "2",
-                    "unit": "mate"
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "g2g3",
+                    "move": "g2g4",
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "4",
+                    "nodes": "35",
                     "time": "2"
                 }
             },
@@ -1960,34 +1930,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "d8d2",
-                        "b3d5",
-                        "d2b2",
-                        "g2g4",
-                        "b5b4",
-                        "h5f6",
-                        "g8g7",
-                        "d5c6",
-                        "b7c6",
-                        "e1e5"
+                        "b5b4"
                     ],
-                    "nodes": "5520",
-                    "nps": "920000",
-                    "score": 0.6,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "34",
+                    "nps": "17000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "d8d2",
-                    "ponder": "b3d5"
+                    "move": "b5b4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "5520",
-                    "time": "6"
+                    "nodes": "34",
+                    "time": "2"
                 }
             },
             "fen": "2br2k1/5p2/p1n5/1p2pP1N/8/PB5P/1P4P1/4R1K1 w - - 3 31",
@@ -1998,34 +1960,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "b3d5",
-                        "c6e7",
-                        "d5f3",
-                        "e7f5",
-                        "e1e5",
-                        "c8e6",
-                        "h5f4",
-                        "f5d4",
-                        "f4e6",
-                        "d4e6"
+                        "g2g3"
                     ],
-                    "nodes": "6433",
-                    "nps": "1072166",
-                    "score": 1.4,
-                    "seldepth": "8",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "10",
+                    "nps": "5000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "b3d5",
-                    "ponder": "c6e7"
+                    "move": "g2g3",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6433",
-                    "time": "6"
+                    "nodes": "10",
+                    "time": "2"
                 }
             },
             "fen": "2br2k1/5p2/p1n5/1p2pP1N/6P1/PB5P/1P6/4R1K1 b - - 0 31",
@@ -2037,24 +1991,24 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4",
-                        "a3b4"
+                        "b5b4"
                     ],
-                    "nodes": "6",
-                    "nps": "3000",
-                    "score": 1.86,
+                    "nodes": "37",
+                    "nps": "18500",
+                    "score": 0,
                     "seldepth": "1",
                     "time": "2",
-                    "unit": "p"
+                    "unit": "mate"
                 },
                 "best_move": {
                     "move": "b5b4",
-                    "ponder": "a3b4"
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6",
+                    "nodes": "37",
                     "time": "2"
                 }
             },
@@ -2066,30 +2020,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "b3d5",
-                        "c8b7",
-                        "h3h4",
-                        "d3d4",
-                        "h5f6",
-                        "g8g7"
+                        "a3a4"
                     ],
-                    "nodes": "3710",
-                    "nps": "618333",
-                    "score": 1.45,
-                    "seldepth": "7",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "26",
+                    "nps": "13000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "b3d5",
-                    "ponder": "c8b7"
+                    "move": "a3a4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "3710",
-                    "time": "6"
+                    "nodes": "26",
+                    "time": "2"
                 }
             },
             "fen": "2b3k1/5p2/p1n5/1p1BpP1N/6P1/P2r3P/1P6/4R1K1 b - - 2 32",
@@ -2100,31 +2050,100 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "6",
                     "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4"
+                        "c8b7",
+                        "h3h4",
+                        "d3d4"
                     ],
-                    "nodes": "17",
-                    "nps": "8500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "7228",
+                    "nps": "1204666",
+                    "score": 1.1,
+                    "seldepth": "9",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "b5b4",
-                    "ponder": "(none)"
+                    "move": "c8b7",
+                    "ponder": "h3h4"
                 },
                 "time": {
-                    "nodes": "17",
-                    "time": "2"
+                    "nodes": "7228",
+                    "time": "6"
                 }
             },
             "fen": "2b3k1/4np2/p7/1p1BpP1N/6P1/P2r3P/1P6/4R1K1 w - - 3 33",
             "move": "Ne7",
             "move_number": "32...",
+            "side": "black"
+        },
+        {
+            "details": {
+                "analysis": {
+                    "depth": "8",
+                    "multipv": "1",
+                    "next_moves": [
+                        "d5g2",
+                        "g8f8",
+                        "e1e5",
+                        "d3d2",
+                        "b2b4",
+                        "d2d1",
+                        "g1f2",
+                        "d1d2",
+                        "f2f1"
+                    ],
+                    "nodes": "7607",
+                    "nps": "1267833",
+                    "score": 2.36,
+                    "seldepth": "11",
+                    "time": "6",
+                    "unit": "p"
+                },
+                "best_move": {
+                    "move": "d5g2",
+                    "ponder": "g8f8"
+                },
+                "time": {
+                    "nodes": "7607",
+                    "time": "6"
+                }
+            },
+            "fen": "2b3k1/4np2/p7/1p2pP1N/6P1/P2r3P/1P4B1/4R1K1 b - - 4 33",
+            "move": "Bg2",
+            "move_number": "33.",
+            "side": "white"
+        },
+        {
+            "details": {
+                "analysis": {
+                    "depth": "1",
+                    "multipv": "1",
+                    "next_moves": [
+                        "d3d2",
+                        "e1e5"
+                    ],
+                    "nodes": "45",
+                    "nps": "22500",
+                    "score": 2.36,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "p"
+                },
+                "best_move": {
+                    "move": "d3d2",
+                    "ponder": "e1e5"
+                },
+                "time": {
+                    "nodes": "45",
+                    "time": "2"
+                }
+            },
+            "fen": "2b2k2/4np2/p7/1p2pP1N/6P1/P2r3P/1P4B1/4R1K1 w - - 5 34",
+            "move": "Kf8",
+            "move_number": "33...",
             "side": "black"
         },
         {
@@ -2152,66 +2171,6 @@ define(function(){var game=
                     "time": "2"
                 }
             },
-            "fen": "2b3k1/4np2/p7/1p2pP1N/6P1/P2r3P/1P4B1/4R1K1 b - - 4 33",
-            "move": "Bg2",
-            "move_number": "33.",
-            "side": "white"
-        },
-        {
-            "details": {
-                "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
-                    "multipv": "1",
-                    "next_moves": [
-                        "b5b4"
-                    ],
-                    "nodes": "45",
-                    "nps": "22500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
-                },
-                "best_move": {
-                    "move": "b5b4",
-                    "ponder": "(none)"
-                },
-                "time": {
-                    "nodes": "45",
-                    "time": "2"
-                }
-            },
-            "fen": "2b2k2/4np2/p7/1p2pP1N/6P1/P2r3P/1P4B1/4R1K1 w - - 5 34",
-            "move": "Kf8",
-            "move_number": "33...",
-            "side": "black"
-        },
-        {
-            "details": {
-                "analysis": {
-                    "depth": "7",
-                    "multipv": "1",
-                    "next_moves": [
-                        "e1e5",
-                        "d3d2"
-                    ],
-                    "nodes": "5713",
-                    "nps": "952166",
-                    "score": 2.29,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
-                },
-                "best_move": {
-                    "move": "e1e5",
-                    "ponder": "d3d2"
-                },
-                "time": {
-                    "nodes": "5713",
-                    "time": "6"
-                }
-            },
             "fen": "2b2k2/4np2/p7/1p2RP1N/6P1/P2r3P/1P4B1/6K1 b - - 0 34",
             "move": "Rxe5",
             "move_number": "34.",
@@ -2220,26 +2179,27 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4"
+                        "d3d2",
+                        "h5f6",
+                        "d2b2"
                     ],
-                    "nodes": "7",
-                    "nps": "3500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "7644",
+                    "nps": "1092000",
+                    "score": 2.66,
+                    "seldepth": "10",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "b5b4",
-                    "ponder": "(none)"
+                    "move": "d3d2",
+                    "ponder": "h5f6"
                 },
                 "time": {
-                    "nodes": "7",
-                    "time": "2"
+                    "nodes": "7644",
+                    "time": "7"
                 }
             },
             "fen": "5k2/3bnp2/p7/1p2RP1N/6P1/P2r3P/1P4B1/6K1 w - - 1 35",
@@ -2250,26 +2210,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "b2b3",
-                        "d3b3"
+                        "h5f6",
+                        "f8g7"
                     ],
-                    "nodes": "6",
-                    "nps": "3000",
-                    "score": 1.01,
-                    "seldepth": "1",
-                    "time": "2",
+                    "nodes": "7958",
+                    "nps": "1136857",
+                    "score": 2.98,
+                    "seldepth": "9",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "b2b3",
-                    "ponder": "d3b3"
+                    "move": "h5f6",
+                    "ponder": "f8g7"
                 },
                 "time": {
-                    "nodes": "6",
-                    "time": "2"
+                    "nodes": "7958",
+                    "time": "7"
                 }
             },
             "fen": "5k2/3bnp2/p4P2/1p2R2N/6P1/P2r3P/1P4B1/6K1 b - - 0 35",
@@ -2316,17 +2276,18 @@ define(function(){var game=
                         "e5d5",
                         "d3d5",
                         "g2d5",
-                        "b5b4",
+                        "c6e5",
                         "h5f4",
-                        "b4a3",
-                        "b2a3",
-                        "c6d4"
+                        "d7c6",
+                        "d5c6",
+                        "e5c6",
+                        "g4g5"
                     ],
-                    "nodes": "6095",
-                    "nps": "1015833",
-                    "score": 2.34,
+                    "nodes": "7460",
+                    "nps": "1065714",
+                    "score": 2.46,
                     "seldepth": "11",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -2334,13 +2295,78 @@ define(function(){var game=
                     "ponder": "d3d5"
                 },
                 "time": {
-                    "nodes": "6095",
-                    "time": "6"
+                    "nodes": "7460",
+                    "time": "7"
                 }
             },
             "fen": "5k2/3b1p2/p1n2P2/1pR4N/6P1/P2r3P/1P4B1/6K1 b - - 2 36",
             "move": "Rc5",
             "move_number": "36.",
+            "side": "white"
+        },
+        {
+            "details": {
+                "analysis": {
+                    "depth": "7",
+                    "multipv": "1",
+                    "next_moves": [
+                        "c6a5",
+                        "h5f4",
+                        "d3d1",
+                        "g1h2",
+                        "a5c4",
+                        "c5h5",
+                        "f8g8"
+                    ],
+                    "nodes": "5773",
+                    "nps": "962166",
+                    "score": 2.18,
+                    "seldepth": "9",
+                    "time": "6",
+                    "unit": "p"
+                },
+                "best_move": {
+                    "move": "c6a5",
+                    "ponder": "h5f4"
+                },
+                "time": {
+                    "nodes": "5773",
+                    "time": "6"
+                }
+            },
+            "fen": "5k2/3b1p2/p4P2/1pR4N/3n2P1/P2r3P/1P4B1/6K1 w - - 3 37",
+            "move": "Nd4",
+            "move_number": "36...",
+            "side": "black"
+        },
+        {
+            "details": {
+                "analysis": {
+                    "depth": "1",
+                    "multipv": "1",
+                    "next_moves": [
+                        "b2b3",
+                        "d4b3"
+                    ],
+                    "nodes": "63",
+                    "nps": "31500",
+                    "score": 0.39,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "p"
+                },
+                "best_move": {
+                    "move": "b2b3",
+                    "ponder": "d4b3"
+                },
+                "time": {
+                    "nodes": "63",
+                    "time": "2"
+                }
+            },
+            "fen": "5k2/3b1p2/p4P2/1pR4N/3n2P1/P2r3P/1P4BK/8 b - - 4 37",
+            "move": "Kh2",
+            "move_number": "37.",
             "side": "white"
         },
         {
@@ -2352,8 +2378,8 @@ define(function(){var game=
                     "next_moves": [
                         "b5b4"
                     ],
-                    "nodes": "29",
-                    "nps": "14500",
+                    "nodes": "11",
+                    "nps": "5500",
                     "score": 0,
                     "seldepth": "1",
                     "time": "2",
@@ -2364,75 +2390,8 @@ define(function(){var game=
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "29",
+                    "nodes": "11",
                     "time": "2"
-                }
-            },
-            "fen": "5k2/3b1p2/p4P2/1pR4N/3n2P1/P2r3P/1P4B1/6K1 w - - 3 37",
-            "move": "Nd4",
-            "move_number": "36...",
-            "side": "black"
-        },
-        {
-            "details": {
-                "analysis": {
-                    "depth": "7",
-                    "multipv": "1",
-                    "next_moves": [
-                        "c5d5",
-                        "d3d1",
-                        "g1h2",
-                        "d7e8",
-                        "h5f4",
-                        "d1d2",
-                        "h3h4"
-                    ],
-                    "nodes": "6646",
-                    "nps": "1107666",
-                    "score": 2.46,
-                    "seldepth": "10",
-                    "time": "6",
-                    "unit": "p"
-                },
-                "best_move": {
-                    "move": "c5d5",
-                    "ponder": "d3d1"
-                },
-                "time": {
-                    "nodes": "6646",
-                    "time": "6"
-                }
-            },
-            "fen": "5k2/3b1p2/p4P2/1pR4N/3n2P1/P2r3P/1P4BK/8 b - - 4 37",
-            "move": "Kh2",
-            "move_number": "37.",
-            "side": "white"
-        },
-        {
-            "details": {
-                "analysis": {
-                    "depth": "6",
-                    "modifier": "upperbound",
-                    "multipv": "1",
-                    "next_moves": [
-                        "d3d2",
-                        "h2g3",
-                        "d2b2"
-                    ],
-                    "nodes": "6570",
-                    "nps": "1095000",
-                    "score": 1.56,
-                    "seldepth": "8",
-                    "time": "6",
-                    "unit": "p"
-                },
-                "best_move": {
-                    "move": "d3d2",
-                    "ponder": "h2g3"
-                },
-                "time": {
-                    "nodes": "6570",
-                    "time": "6"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1pR4N/3n2P1/P6P/1P1r2BK/8 w - - 5 38",
@@ -2446,22 +2405,27 @@ define(function(){var game=
                     "depth": "7",
                     "multipv": "1",
                     "next_moves": [
+                        "h2g3",
+                        "d7e6",
                         "h5f4",
-                        "d2b2"
+                        "d2b2",
+                        "f4e6",
+                        "f7e6",
+                        "g2f3"
                     ],
-                    "nodes": "6400",
-                    "nps": "1066666",
-                    "score": 1.86,
-                    "seldepth": "9",
+                    "nodes": "7162",
+                    "nps": "1193666",
+                    "score": 1.68,
+                    "seldepth": "8",
                     "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "h5f4",
-                    "ponder": "d2b2"
+                    "move": "h2g3",
+                    "ponder": "d7e6"
                 },
                 "time": {
-                    "nodes": "6400",
+                    "nodes": "7162",
                     "time": "6"
                 }
             },
@@ -2476,26 +2440,24 @@ define(function(){var game=
                     "depth": "1",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4",
-                        "a3b4",
+                        "d7e6",
+                        "h5f4",
                         "d2b2",
-                        "c5d5",
-                        "b2b3",
-                        "g3f4"
+                        "f4e6"
                     ],
-                    "nodes": "22",
-                    "nps": "11000",
-                    "score": 1.7,
+                    "nodes": "38",
+                    "nps": "19000",
+                    "score": 1.68,
                     "seldepth": "1",
                     "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "b5b4",
-                    "ponder": "a3b4"
+                    "move": "d7e6",
+                    "ponder": "h5f4"
                 },
                 "time": {
-                    "nodes": "22",
+                    "nodes": "38",
                     "time": "2"
                 }
             },
@@ -2507,28 +2469,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
-                    "modifier": "upperbound",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
-                        "c5d5",
-                        "b2g2",
-                        "g3g2"
+                        "a3a4",
+                        "b5a4"
                     ],
-                    "nodes": "6045",
-                    "nps": "1007500",
-                    "score": 1.03,
-                    "seldepth": "9",
-                    "time": "6",
+                    "nodes": "6",
+                    "nps": "3000",
+                    "score": -0.91,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "c5d5",
-                    "ponder": "b2g2"
+                    "move": "a3a4",
+                    "ponder": "b5a4"
                 },
                 "time": {
-                    "nodes": "6045",
-                    "time": "6"
+                    "nodes": "6",
+                    "time": "2"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1p1R3N/3n2P1/P5KP/1r4B1/8 b - - 1 39",
@@ -2539,37 +2499,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "10",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
-                        "b2g2",
-                        "g3g2",
-                        "d7c6",
-                        "h5f4",
-                        "d4c2",
-                        "g2f3",
-                        "c6d5",
-                        "f4d5",
-                        "c2a3",
-                        "g4g5",
-                        "a3c4",
-                        "h3h4",
-                        "a6a5"
+                        "d4e2",
+                        "g3h2"
                     ],
-                    "nodes": "6663",
-                    "nps": "1110500",
-                    "score": 0.58,
-                    "seldepth": "14",
-                    "time": "6",
+                    "nodes": "53",
+                    "nps": "26500",
+                    "score": 3.28,
+                    "seldepth": "2",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "b2g2",
-                    "ponder": "g3g2"
+                    "move": "d4e2",
+                    "ponder": "g3h2"
                 },
                 "time": {
-                    "nodes": "6663",
-                    "time": "6"
+                    "nodes": "53",
+                    "time": "2"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1p1R3N/6P1/P5KP/1r2n1B1/8 w - - 2 40",
@@ -2580,31 +2529,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g3h4",
-                        "d7e8",
-                        "d5d8",
-                        "e2c3",
-                        "g2c6",
-                        "b2e2",
-                        "h5f4"
+                        "g3f2"
                     ],
-                    "nodes": "5090",
-                    "nps": "848333",
-                    "score": 2.31,
-                    "seldepth": "8",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "146",
+                    "nps": "73000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "g3h4",
-                    "ponder": "d7e8"
+                    "move": "g3f2",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "5090",
-                    "time": "6"
+                    "nodes": "146",
+                    "time": "2"
                 }
             },
             "fen": "5k2/3b1p2/p4P2/1p1R3N/6PK/P6P/1r2n1B1/8 b - - 3 40",
@@ -2619,23 +2563,22 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "f8e8",
-                        "d5d6",
-                        "e2c3"
+                        "d5g5"
                     ],
-                    "nodes": "4746",
-                    "nps": "791000",
-                    "score": 2.37,
+                    "nodes": "6667",
+                    "nps": "952428",
+                    "score": 1.84,
                     "seldepth": "9",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "f8e8",
-                    "ponder": "d5d6"
+                    "ponder": "d5g5"
                 },
                 "time": {
-                    "nodes": "4746",
-                    "time": "6"
+                    "nodes": "6667",
+                    "time": "7"
                 }
             },
             "fen": "4k3/3b1p2/p4P2/1p1R3N/6PK/P6P/1r2n1B1/8 w - - 4 41",
@@ -2676,25 +2619,33 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "9",
                     "multipv": "1",
                     "next_moves": [
-                        "e8f8"
+                        "e8f8",
+                        "g2b7",
+                        "b5b4",
+                        "e5d5",
+                        "d7e8",
+                        "a3b4",
+                        "a6a5",
+                        "d5a5",
+                        "b2b4"
                     ],
-                    "nodes": "15",
-                    "nps": "7500",
-                    "score": 1.63,
-                    "seldepth": "1",
-                    "time": "2",
+                    "nodes": "7985",
+                    "nps": "1330833",
+                    "score": 1.9,
+                    "seldepth": "12",
+                    "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "e8f8",
-                    "ponder": "(none)"
+                    "ponder": "g2b7"
                 },
                 "time": {
-                    "nodes": "15",
-                    "time": "2"
+                    "nodes": "7985",
+                    "time": "6"
                 }
             },
             "fen": "4k3/5p2/p3bP2/1p2R2N/6PK/P6P/1r2n1B1/8 w - - 6 42",
@@ -2744,11 +2695,11 @@ define(function(){var game=
                         "h4g3",
                         "f2f1"
                     ],
-                    "nodes": "5968",
-                    "nps": "994666",
-                    "score": 2.14,
+                    "nodes": "7617",
+                    "nps": "1088142",
+                    "score": 1.91,
                     "seldepth": "8",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -2756,8 +2707,8 @@ define(function(){var game=
                     "ponder": "h5f4"
                 },
                 "time": {
-                    "nodes": "5968",
-                    "time": "6"
+                    "nodes": "7617",
+                    "time": "7"
                 }
             },
             "fen": "8/3k1p2/p3bP2/1p1BR2N/6PK/P6P/1r2n3/8 w - - 8 43",
@@ -2768,26 +2719,32 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
-                        "a3a4"
+                        "d5e6",
+                        "f7e6",
+                        "h4g5",
+                        "b2a2",
+                        "e5e3",
+                        "a6a5",
+                        "h5f4",
+                        "e2d4"
                     ],
-                    "nodes": "31",
-                    "nps": "15500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "7291",
+                    "nps": "1041571",
+                    "score": 2.74,
+                    "seldepth": "15",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a3a4",
-                    "ponder": "(none)"
+                    "move": "d5e6",
+                    "ponder": "f7e6"
                 },
                 "time": {
-                    "nodes": "31",
-                    "time": "2"
+                    "nodes": "7291",
+                    "time": "7"
                 }
             },
             "fen": "8/3k1p2/p3BP2/1p2R2N/6PK/P6P/1r2n3/8 b - - 0 43",
@@ -2798,28 +2755,27 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
-                    "modifier": "upperbound",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
                         "f7e6",
-                        "e5e4",
-                        "a6a5"
+                        "h4g5",
+                        "b2a2"
                     ],
-                    "nodes": "6400",
-                    "nps": "1066666",
-                    "score": 3.23,
-                    "seldepth": "10",
-                    "time": "6",
+                    "nodes": "33",
+                    "nps": "16500",
+                    "score": 2.74,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "f7e6",
-                    "ponder": "e5e4"
+                    "ponder": "h4g5"
                 },
                 "time": {
-                    "nodes": "6400",
-                    "time": "6"
+                    "nodes": "33",
+                    "time": "2"
                 }
             },
             "fen": "8/3k4/p3pP2/1p2R2N/6PK/P6P/1r2n3/8 w - - 0 44",
@@ -2830,26 +2786,31 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
-                        "a3a4"
+                        "e5e4",
+                        "a6a5",
+                        "h5g7",
+                        "b5b4",
+                        "a3b4",
+                        "a5b4",
+                        "g7e6"
                     ],
-                    "nodes": "7",
-                    "nps": "3500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "5681",
+                    "nps": "946833",
+                    "score": 2.98,
+                    "seldepth": "8",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a3a4",
-                    "ponder": "(none)"
+                    "move": "e5e4",
+                    "ponder": "a6a5"
                 },
                 "time": {
-                    "nodes": "7",
-                    "time": "2"
+                    "nodes": "5681",
+                    "time": "6"
                 }
             },
             "fen": "8/3k4/p3pP2/1p2R1PN/7K/P6P/1r2n3/8 b - - 0 44",
@@ -2860,26 +2821,32 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4"
+                        "e2d4",
+                        "h4g3",
+                        "b2b3",
+                        "g3f4",
+                        "b3a3",
+                        "g5g6",
+                        "a3f3",
+                        "f4g4"
                     ],
-                    "nodes": "9",
-                    "nps": "4500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "5363",
+                    "nps": "893833",
+                    "score": 1.63,
+                    "seldepth": "10",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "b5b4",
-                    "ponder": "(none)"
+                    "move": "e2d4",
+                    "ponder": "h4g3"
                 },
                 "time": {
-                    "nodes": "9",
-                    "time": "2"
+                    "nodes": "5363",
+                    "time": "6"
                 }
             },
             "fen": "8/3k4/p3pP2/1p2R1PN/3n3K/P6P/1r6/8 w - - 1 45",
@@ -2890,34 +2857,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
                         "h4g4",
-                        "b2g2",
-                        "g4f4",
-                        "d7d6",
-                        "h3h4",
-                        "g2f2",
-                        "f4e4",
-                        "f2e2",
-                        "e4d4",
-                        "e2e5"
+                        "d4c6"
                     ],
-                    "nodes": "5042",
-                    "nps": "840333",
-                    "score": 1.31,
-                    "seldepth": "9",
-                    "time": "6",
+                    "nodes": "8017",
+                    "nps": "1145285",
+                    "score": 2.44,
+                    "seldepth": "10",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "h4g4",
-                    "ponder": "b2g2"
+                    "ponder": "d4c6"
                 },
                 "time": {
-                    "nodes": "5042",
-                    "time": "6"
+                    "nodes": "8017",
+                    "time": "7"
                 }
             },
             "fen": "8/3k4/p3pP2/1p4PN/3nR2K/P6P/1r6/8 b - - 2 45",
@@ -2928,26 +2887,33 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4"
+                        "d4f5",
+                        "h4g4",
+                        "b2g2",
+                        "g4f4",
+                        "f5d6",
+                        "e4e1",
+                        "g2a2",
+                        "e1d1",
+                        "a2a3"
                     ],
-                    "nodes": "33",
-                    "nps": "16500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "8067",
+                    "nps": "1152428",
+                    "score": 2.0,
+                    "seldepth": "14",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "b5b4",
-                    "ponder": "(none)"
+                    "move": "d4f5",
+                    "ponder": "h4g4"
                 },
                 "time": {
-                    "nodes": "33",
-                    "time": "2"
+                    "nodes": "8067",
+                    "time": "7"
                 }
             },
             "fen": "8/3k4/p3pP2/1p3nPN/4R2K/P6P/1r6/8 w - - 3 46",
@@ -2958,20 +2924,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "9",
                     "multipv": "1",
                     "next_moves": [
                         "h4g4",
                         "b2g2",
                         "g4f4",
+                        "g2f2",
+                        "f4e5",
                         "f5d6",
-                        "e4e1",
-                        "g2a2"
+                        "e4g4",
+                        "f2f3",
+                        "h3h4",
+                        "f3e3",
+                        "e5d4",
+                        "e3a3"
                     ],
-                    "nodes": "7039",
-                    "nps": "1173166",
-                    "score": 2.23,
-                    "seldepth": "12",
+                    "nodes": "7597",
+                    "nps": "1266166",
+                    "score": 0.98,
+                    "seldepth": "17",
                     "time": "6",
                     "unit": "p"
                 },
@@ -2980,7 +2952,7 @@ define(function(){var game=
                     "ponder": "b2g2"
                 },
                 "time": {
-                    "nodes": "7039",
+                    "nodes": "7597",
                     "time": "6"
                 }
             },
@@ -3002,16 +2974,16 @@ define(function(){var game=
                         "f5d6",
                         "e4g4",
                         "f2f3",
-                        "h3h4",
-                        "f3e3",
+                        "h5g3",
+                        "d6f7",
                         "e5d4",
-                        "e3a3"
+                        "f3a3"
                     ],
-                    "nodes": "5431",
-                    "nps": "905166",
-                    "score": 0.98,
+                    "nodes": "7401",
+                    "nps": "1057285",
+                    "score": 1.2,
                     "seldepth": "16",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3019,8 +2991,8 @@ define(function(){var game=
                     "ponder": "g4f4"
                 },
                 "time": {
-                    "nodes": "5431",
-                    "time": "6"
+                    "nodes": "7401",
+                    "time": "7"
                 }
             },
             "fen": "8/3k4/p3pP2/1p3nPN/4R1K1/P6P/6r1/8 w - - 5 47",
@@ -3040,16 +3012,13 @@ define(function(){var game=
                         "f5d6",
                         "e4g4",
                         "f2f3",
-                        "h3h4",
-                        "d6f7",
-                        "e5e4",
-                        "f3a3"
+                        "h5g3"
                     ],
-                    "nodes": "6040",
-                    "nps": "1006666",
-                    "score": 0.89,
-                    "seldepth": "15",
-                    "time": "6",
+                    "nodes": "8629",
+                    "nps": "1232714",
+                    "score": 1.18,
+                    "seldepth": "16",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3057,8 +3026,8 @@ define(function(){var game=
                     "ponder": "g2f2"
                 },
                 "time": {
-                    "nodes": "6040",
-                    "time": "6"
+                    "nodes": "8629",
+                    "time": "7"
                 }
             },
             "fen": "8/3k4/p3pP2/1p3nPN/4RK2/P6P/6r1/8 b - - 6 47",
@@ -3069,19 +3038,31 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "9",
                     "multipv": "1",
                     "next_moves": [
                         "g2f2",
                         "f4e5",
                         "f5d6",
                         "e4g4",
-                        "f2f3"
+                        "f2f5",
+                        "e5d4",
+                        "f5d5",
+                        "d4e3",
+                        "d6c4",
+                        "e3e4",
+                        "c4d2",
+                        "e4f4",
+                        "d5f5",
+                        "f4e3",
+                        "d2c4",
+                        "e3d4",
+                        "c4a3"
                     ],
-                    "nodes": "4553",
-                    "nps": "758833",
-                    "score": 1.11,
-                    "seldepth": "14",
+                    "nodes": "6873",
+                    "nps": "1145500",
+                    "score": 1.23,
+                    "seldepth": "20",
                     "time": "6",
                     "unit": "p"
                 },
@@ -3090,7 +3071,7 @@ define(function(){var game=
                     "ponder": "f4e5"
                 },
                 "time": {
-                    "nodes": "4553",
+                    "nodes": "6873",
                     "time": "6"
                 }
             },
@@ -3102,26 +3083,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "6",
                     "multipv": "1",
                     "next_moves": [
-                        "a3a4"
+                        "g5g6",
+                        "h2f2",
+                        "f4g5",
+                        "f5d6",
+                        "e4e3",
+                        "f2g2",
+                        "h5g3",
+                        "d6e4",
+                        "e3e4",
+                        "g2g3",
+                        "g5h6",
+                        "g3a3"
                     ],
-                    "nodes": "30",
-                    "nps": "15000",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "4846",
+                    "nps": "807666",
+                    "score": 3.3,
+                    "seldepth": "9",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a3a4",
-                    "ponder": "(none)"
+                    "move": "g5g6",
+                    "ponder": "h2f2"
                 },
                 "time": {
-                    "nodes": "30",
-                    "time": "2"
+                    "nodes": "4846",
+                    "time": "6"
                 }
             },
             "fen": "8/3k1P2/p3p3/1p3nPN/4RK2/P6P/7r/8 b - - 0 48",
@@ -3132,28 +3123,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "h2f2",
-                        "f4g4",
-                        "d7e7",
-                        "e4e6"
+                        "b5b4"
                     ],
-                    "nodes": "6176",
-                    "nps": "1029333",
-                    "score": 2.8,
-                    "seldepth": "16",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "140",
+                    "nps": "70000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "h2f2",
-                    "ponder": "f4g4"
+                    "move": "b5b4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6176",
-                    "time": "6"
+                    "nodes": "140",
+                    "time": "2"
                 }
             },
             "fen": "8/3k1P2/p2np3/1p4PN/4RK2/P6P/7r/8 w - - 1 49",
@@ -3164,26 +3153,33 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "9",
                     "multipv": "1",
                     "next_moves": [
-                        "a3a4"
+                        "h5f6",
+                        "d7e7",
+                        "e4e6",
+                        "e7f7",
+                        "e6d6",
+                        "a6a5",
+                        "f4g3",
+                        "h2a2",
+                        "d6d3"
                     ],
-                    "nodes": "51",
-                    "nps": "25500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "5925",
+                    "nps": "846428",
+                    "score": 4.81,
+                    "seldepth": "13",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a3a4",
-                    "ponder": "(none)"
+                    "move": "h5f6",
+                    "ponder": "d7e7"
                 },
                 "time": {
-                    "nodes": "51",
-                    "time": "2"
+                    "nodes": "5925",
+                    "time": "7"
                 }
             },
             "fen": "8/3k1P2/p2npN2/1p4P1/4RK2/P6P/7r/8 b - - 2 49",
@@ -3201,13 +3197,13 @@ define(function(){var game=
                         "e4e6",
                         "e7f7",
                         "e6d6",
-                        "h2h3"
+                        "a6a5"
                     ],
-                    "nodes": "7620",
-                    "nps": "1270000",
-                    "score": 5.11,
+                    "nodes": "9283",
+                    "nps": "1326142",
+                    "score": 5.16,
                     "seldepth": "14",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3215,8 +3211,8 @@ define(function(){var game=
                     "ponder": "e4e6"
                 },
                 "time": {
-                    "nodes": "7620",
-                    "time": "6"
+                    "nodes": "9283",
+                    "time": "7"
                 }
             },
             "fen": "8/4kP2/p2npN2/1p4P1/4RK2/P6P/7r/8 w - - 3 50",
@@ -3227,24 +3223,17 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "e4e6",
                         "e7f7",
-                        "e6d6",
-                        "a6a5",
-                        "d6d3",
-                        "b5b4",
-                        "f6g4",
-                        "h2g2",
-                        "g4e5",
-                        "f7e6"
+                        "e6d6"
                     ],
-                    "nodes": "5889",
-                    "nps": "981500",
-                    "score": 4.89,
-                    "seldepth": "13",
+                    "nodes": "7624",
+                    "nps": "1270666",
+                    "score": 5.19,
+                    "seldepth": "16",
                     "time": "6",
                     "unit": "p"
                 },
@@ -3253,7 +3242,7 @@ define(function(){var game=
                     "ponder": "e7f7"
                 },
                 "time": {
-                    "nodes": "5889",
+                    "nodes": "7624",
                     "time": "6"
                 }
             },
@@ -3265,26 +3254,28 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "e7f7",
                         "e6d6",
-                        "a6a5",
-                        "d6d3",
-                        "b5b4",
+                        "h2h3",
+                        "d6a6",
+                        "h3h1",
                         "f6d5",
-                        "h2c2",
-                        "a3b4",
-                        "c2c4",
-                        "f4f5",
-                        "a5b4"
+                        "h1f1",
+                        "f4e5",
+                        "f1e1",
+                        "e5d4",
+                        "e1g1",
+                        "a6f6",
+                        "f7g7"
                     ],
-                    "nodes": "6145",
-                    "nps": "1024166",
-                    "score": 5.08,
-                    "seldepth": "12",
-                    "time": "6",
+                    "nodes": "6498",
+                    "nps": "928285",
+                    "score": 5.26,
+                    "seldepth": "15",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3292,8 +3283,8 @@ define(function(){var game=
                     "ponder": "e6d6"
                 },
                 "time": {
-                    "nodes": "6145",
-                    "time": "6"
+                    "nodes": "6498",
+                    "time": "7"
                 }
             },
             "fen": "8/5k2/p2nRN2/1p4P1/5K2/P6P/7r/8 w - - 0 51",
@@ -3304,17 +3295,24 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "e6d6",
-                        "h2h3"
+                        "h2h3",
+                        "d6a6",
+                        "h3h1",
+                        "f6d5",
+                        "h1f1",
+                        "f4e5",
+                        "f1e1",
+                        "e5d4"
                     ],
-                    "nodes": "7556",
-                    "nps": "1259333",
-                    "score": 5.28,
-                    "seldepth": "10",
-                    "time": "6",
+                    "nodes": "7382",
+                    "nps": "1054571",
+                    "score": 5.2,
+                    "seldepth": "16",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3322,8 +3320,8 @@ define(function(){var game=
                     "ponder": "h2h3"
                 },
                 "time": {
-                    "nodes": "7556",
-                    "time": "6"
+                    "nodes": "7382",
+                    "time": "7"
                 }
             },
             "fen": "8/5k2/p2R1N2/1p4P1/5K2/P6P/7r/8 b - - 0 51",
@@ -3334,21 +3332,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "9",
                     "multipv": "1",
                     "next_moves": [
                         "h2h3",
                         "d6a6",
                         "h3h1",
-                        "f6e4",
+                        "f6d5",
                         "h1f1",
                         "f4e5",
-                        "f1e1"
+                        "f1a1",
+                        "d5c3",
+                        "a1e1",
+                        "e5f5",
+                        "e1f1",
+                        "f5e5"
                     ],
-                    "nodes": "7845",
-                    "nps": "1307500",
-                    "score": 5.29,
-                    "seldepth": "10",
+                    "nodes": "8081",
+                    "nps": "1346833",
+                    "score": 5.22,
+                    "seldepth": "18",
                     "time": "6",
                     "unit": "p"
                 },
@@ -3357,7 +3360,7 @@ define(function(){var game=
                     "ponder": "d6a6"
                 },
                 "time": {
-                    "nodes": "7845",
+                    "nodes": "8081",
                     "time": "6"
                 }
             },
@@ -3369,38 +3372,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g5g6",
-                        "f7e7",
-                        "g6g7",
-                        "e7d6",
-                        "f6e4",
-                        "d6c7",
-                        "g7g8q",
-                        "h2h3",
-                        "g8f7",
-                        "c7b8",
-                        "f7e8",
-                        "b8c7",
-                        "e8b5",
-                        "h3a3"
+                        "a3a4"
                     ],
-                    "nodes": "6215",
-                    "nps": "1035833",
-                    "score": 7.75,
-                    "seldepth": "16",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "10",
+                    "nps": "5000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "g5g6",
-                    "ponder": "f7e7"
+                    "move": "a3a4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6215",
-                    "time": "6"
+                    "nodes": "10",
+                    "time": "2"
                 }
             },
             "fen": "8/5k2/3R1N2/pp4P1/6K1/P6P/7r/8 b - - 1 52",
@@ -3411,34 +3402,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4",
-                        "d6d3",
-                        "h2g2",
-                        "g4f4",
-                        "g2f2",
-                        "f4e4",
-                        "f2e2",
-                        "e4f5",
-                        "e2f2",
-                        "f5e4"
+                        "a5a4"
                     ],
-                    "nodes": "6578",
-                    "nps": "1096333",
-                    "score": 4.49,
-                    "seldepth": "11",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "7",
+                    "nps": "3500",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "b5b4",
-                    "ponder": "d6d3"
+                    "move": "a5a4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6578",
-                    "time": "6"
+                    "nodes": "7",
+                    "time": "2"
                 }
             },
             "fen": "8/5k2/3R1N2/pp4P1/6K1/P6P/1r6/8 w - - 2 53",
@@ -3450,27 +3433,26 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "5",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "d6a6",
-                        "b5b4",
-                        "a6a5",
-                        "b4b3",
-                        "a5b5"
+                        "d6d7",
+                        "f7g6",
+                        "h3h4"
                     ],
-                    "nodes": "6764",
-                    "nps": "1127333",
-                    "score": 5.56,
+                    "nodes": "6357",
+                    "nps": "1059500",
+                    "score": 5.11,
                     "seldepth": "8",
                     "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "d6a6",
-                    "ponder": "b5b4"
+                    "move": "d6d7",
+                    "ponder": "f7g6"
                 },
                 "time": {
-                    "nodes": "6764",
+                    "nodes": "6357",
                     "time": "6"
                 }
             },
@@ -3482,27 +3464,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "b5b4",
-                        "a3b4",
-                        "a5b4"
+                        "a5a4"
                     ],
-                    "nodes": "6474",
-                    "nps": "1079000",
-                    "score": 4.94,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "7",
+                    "nps": "3500",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "b5b4",
-                    "ponder": "a3b4"
+                    "move": "a5a4",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "6474",
-                    "time": "6"
+                    "nodes": "7",
+                    "time": "2"
                 }
             },
             "fen": "8/5k2/5N2/1p4P1/p5K1/P2R3P/1r6/8 w - - 0 54",
@@ -3518,17 +3499,15 @@ define(function(){var game=
                     "next_moves": [
                         "d3f3",
                         "b2b3",
-                        "f6d5",
-                        "f7e6",
-                        "d5f4",
-                        "e6f7",
-                        "f4d3",
-                        "f7g7"
+                        "f6e4",
+                        "f7g7",
+                        "h3h4",
+                        "b5b4"
                     ],
-                    "nodes": "6214",
-                    "nps": "1035666",
-                    "score": 5.52,
-                    "seldepth": "9",
+                    "nodes": "6315",
+                    "nps": "1052500",
+                    "score": 5.53,
+                    "seldepth": "8",
                     "time": "6",
                     "unit": "p"
                 },
@@ -3537,7 +3516,7 @@ define(function(){var game=
                     "ponder": "b2b3"
                 },
                 "time": {
-                    "nodes": "6214",
+                    "nodes": "6315",
                     "time": "6"
                 }
             },
@@ -3555,8 +3534,8 @@ define(function(){var game=
                     "next_moves": [
                         "b5b4"
                     ],
-                    "nodes": "10",
-                    "nps": "5000",
+                    "nodes": "11",
+                    "nps": "5500",
                     "score": 0,
                     "seldepth": "1",
                     "time": "2",
@@ -3567,7 +3546,7 @@ define(function(){var game=
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "10",
+                    "nodes": "11",
                     "time": "2"
                 }
             },
@@ -3618,11 +3597,11 @@ define(function(){var game=
                         "d7b7",
                         "a3b3"
                     ],
-                    "nodes": "7807",
-                    "nps": "1301166",
+                    "nodes": "8852",
+                    "nps": "1264571",
                     "score": 3.28,
                     "seldepth": "13",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3630,8 +3609,8 @@ define(function(){var game=
                     "ponder": "h3h4"
                 },
                 "time": {
-                    "nodes": "7807",
-                    "time": "6"
+                    "nodes": "8852",
+                    "time": "7"
                 }
             },
             "fen": "8/3R4/4kN2/1p4PK/p7/Pr5P/8/8 w - - 4 56",
@@ -3642,26 +3621,27 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "9",
                     "multipv": "1",
                     "next_moves": [
-                        "h3h4"
+                        "h3h4",
+                        "b3a3",
+                        "d7b7"
                     ],
-                    "nodes": "3",
-                    "nps": "1500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "8383",
+                    "nps": "1197571",
+                    "score": 3.33,
+                    "seldepth": "13",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
                     "move": "h3h4",
-                    "ponder": "(none)"
+                    "ponder": "b3a3"
                 },
                 "time": {
-                    "nodes": "3",
-                    "time": "2"
+                    "nodes": "8383",
+                    "time": "7"
                 }
             },
             "fen": "8/1R6/4kN2/1p4PK/p7/Pr5P/8/8 b - - 5 56",
@@ -3672,20 +3652,20 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
                         "b3h3",
                         "h5g4",
                         "h3a3",
                         "b7b5",
-                        "a3d3"
+                        "a3b3"
                     ],
-                    "nodes": "6218",
-                    "nps": "1036333",
-                    "score": 2.34,
-                    "seldepth": "11",
-                    "time": "6",
+                    "nodes": "41",
+                    "nps": "20500",
+                    "score": 2.08,
+                    "seldepth": "2",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3693,8 +3673,8 @@ define(function(){var game=
                     "ponder": "h5g4"
                 },
                 "time": {
-                    "nodes": "6218",
-                    "time": "6"
+                    "nodes": "41",
+                    "time": "2"
                 }
             },
             "fen": "8/1R6/4kN2/1p4PK/p7/P6r/8/8 w - - 0 57",
@@ -3705,19 +3685,24 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
                         "h5g4",
                         "h3a3",
                         "b7b5",
-                        "a3d3"
+                        "a3a1",
+                        "b5b6",
+                        "e6f7",
+                        "g4f5",
+                        "a1f1",
+                        "f5e5"
                     ],
-                    "nodes": "16",
-                    "nps": "8000",
-                    "score": 2.7,
-                    "seldepth": "1",
-                    "time": "2",
+                    "nodes": "7312",
+                    "nps": "1218666",
+                    "score": 2.45,
+                    "seldepth": "10",
+                    "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3725,8 +3710,8 @@ define(function(){var game=
                     "ponder": "h3a3"
                 },
                 "time": {
-                    "nodes": "16",
-                    "time": "2"
+                    "nodes": "7312",
+                    "time": "6"
                 }
             },
             "fen": "8/1R6/4kN2/1p4P1/p5K1/P6r/8/8 b - - 1 57",
@@ -3737,23 +3722,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "9",
                     "multipv": "1",
                     "next_moves": [
                         "h3a3",
                         "b7b6",
                         "e6f7",
                         "b6b5",
-                        "a3d3",
+                        "a3a2",
                         "b5a5",
                         "a4a3",
-                        "g4f5"
+                        "g4f4",
+                        "a2a1",
+                        "a5a7",
+                        "f7g6"
                     ],
-                    "nodes": "7941",
-                    "nps": "1323500",
+                    "nodes": "7647",
+                    "nps": "1092428",
                     "score": 2.58,
-                    "seldepth": "11",
-                    "time": "6",
+                    "seldepth": "13",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3761,8 +3749,8 @@ define(function(){var game=
                     "ponder": "b7b6"
                 },
                 "time": {
-                    "nodes": "7941",
-                    "time": "6"
+                    "nodes": "7647",
+                    "time": "7"
                 }
             },
             "fen": "8/1R6/4kN2/1p4P1/p5K1/r7/8/8 w - - 0 58",
@@ -3773,24 +3761,21 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
                         "b7b6",
                         "e6f7",
                         "b6b5",
-                        "f7g6",
+                        "a3a2",
                         "b5a5",
-                        "a3a1",
-                        "f6e4",
-                        "a4a3",
-                        "g4f4"
+                        "a4a3"
                     ],
-                    "nodes": "7348",
-                    "nps": "1224666",
-                    "score": 2.56,
+                    "nodes": "8231",
+                    "nps": "1175857",
+                    "score": 2.64,
                     "seldepth": "14",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3798,8 +3783,8 @@ define(function(){var game=
                     "ponder": "e6f7"
                 },
                 "time": {
-                    "nodes": "7348",
-                    "time": "6"
+                    "nodes": "8231",
+                    "time": "7"
                 }
             },
             "fen": "8/8/4kN2/1R4P1/p5K1/r7/8/8 b - - 0 58",
@@ -3810,26 +3795,17 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
                         "a3a1",
-                        "b5b6",
-                        "e6e5",
-                        "f6d7",
-                        "e5d5",
-                        "b6a6",
-                        "a4a3",
-                        "a6a5",
-                        "d5e4",
-                        "d7c5",
-                        "e4e3"
+                        "b5b6"
                     ],
-                    "nodes": "7412",
-                    "nps": "1235333",
-                    "score": 2.27,
-                    "seldepth": "11",
-                    "time": "6",
+                    "nodes": "24",
+                    "nps": "12000",
+                    "score": 2.41,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3837,8 +3813,8 @@ define(function(){var game=
                     "ponder": "b5b6"
                 },
                 "time": {
-                    "nodes": "7412",
-                    "time": "6"
+                    "nodes": "24",
+                    "time": "2"
                 }
             },
             "fen": "8/8/4kN2/1R4P1/p5K1/8/8/r7 w - - 1 59",
@@ -3850,24 +3826,24 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "1",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g5g6"
+                        "f6e4",
+                        "a4a3"
                     ],
-                    "nodes": "16",
-                    "nps": "8000",
-                    "score": 0,
+                    "nodes": "38",
+                    "nps": "19000",
+                    "score": 1.74,
                     "seldepth": "1",
                     "time": "2",
-                    "unit": "mate"
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "g5g6",
-                    "ponder": "(none)"
+                    "move": "f6e4",
+                    "ponder": "a4a3"
                 },
                 "time": {
-                    "nodes": "16",
+                    "nodes": "38",
                     "time": "2"
                 }
             },
@@ -3879,24 +3855,19 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
                         "e6e5",
                         "f6d7",
                         "e5d5",
-                        "b6a6",
-                        "a4a3",
-                        "d7f6",
-                        "d5c4",
-                        "g4f5",
-                        "a3a2"
+                        "b6a6"
                     ],
-                    "nodes": "6956",
-                    "nps": "1159333",
-                    "score": 2.11,
-                    "seldepth": "11",
-                    "time": "6",
+                    "nodes": "29",
+                    "nps": "14500",
+                    "score": 2.34,
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
@@ -3904,8 +3875,8 @@ define(function(){var game=
                     "ponder": "f6d7"
                 },
                 "time": {
-                    "nodes": "6956",
-                    "time": "6"
+                    "nodes": "29",
+                    "time": "2"
                 }
             },
             "fen": "8/5k2/1R3N2/6P1/p5K1/8/8/r7 w - - 3 60",
@@ -3917,24 +3888,24 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "1",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g5g6"
+                        "f6d5",
+                        "a4a3"
                     ],
-                    "nodes": "6",
-                    "nps": "3000",
-                    "score": 0,
+                    "nodes": "41",
+                    "nps": "20500",
+                    "score": 1.79,
                     "seldepth": "1",
                     "time": "2",
-                    "unit": "mate"
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "g5g6",
-                    "ponder": "(none)"
+                    "move": "f6d5",
+                    "ponder": "a4a3"
                 },
                 "time": {
-                    "nodes": "6",
+                    "nodes": "41",
                     "time": "2"
                 }
             },
@@ -3977,24 +3948,23 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "1",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g5g6"
+                        "d5c3"
                     ],
-                    "nodes": "2",
-                    "nps": "1000",
-                    "score": 0,
+                    "nodes": "32",
+                    "nps": "16000",
+                    "score": 2.05,
                     "seldepth": "2",
                     "time": "2",
-                    "unit": "mate"
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "g5g6",
+                    "move": "d5c3",
                     "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "2",
+                    "nodes": "32",
                     "time": "2"
                 }
             },
@@ -4006,26 +3976,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "a3a2",
-                        "a6a7"
+                        "a3a2"
                     ],
-                    "nodes": "7651",
-                    "nps": "1275166",
-                    "score": 0.2,
-                    "seldepth": "9",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "14",
+                    "nps": "7000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
                     "move": "a3a2",
-                    "ponder": "a6a7"
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "7651",
-                    "time": "6"
+                    "nodes": "14",
+                    "time": "2"
                 }
             },
             "fen": "8/5k2/R7/3N2P1/6K1/8/p7/r7 w - - 0 62",
@@ -4036,19 +4006,17 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
                         "g5g6",
-                        "f7g7",
-                        "a6a7",
-                        "g7g6"
+                        "f7g7"
                     ],
-                    "nodes": "7437",
-                    "nps": "1239500",
-                    "score": 0.36,
-                    "seldepth": "11",
-                    "time": "6",
+                    "nodes": "46",
+                    "nps": "23000",
+                    "score": 1.74,
+                    "seldepth": "2",
+                    "time": "2",
                     "unit": "p"
                 },
                 "best_move": {
@@ -4056,8 +4024,8 @@ define(function(){var game=
                     "ponder": "f7g7"
                 },
                 "time": {
-                    "nodes": "7437",
-                    "time": "6"
+                    "nodes": "46",
+                    "time": "2"
                 }
             },
             "fen": "8/R4k2/8/3N2P1/6K1/8/p7/r7 b - - 1 62",
@@ -4077,10 +4045,10 @@ define(function(){var game=
                         "a8a7",
                         "g7f8"
                     ],
-                    "nodes": "5329",
-                    "nps": "888166",
+                    "nodes": "8407",
+                    "nps": "1401166",
                     "score": 0.0,
-                    "seldepth": "6",
+                    "seldepth": "7",
                     "time": "6",
                     "unit": "p"
                 },
@@ -4089,7 +4057,7 @@ define(function(){var game=
                     "ponder": "a7a8"
                 },
                 "time": {
-                    "nodes": "5329",
+                    "nodes": "8407",
                     "time": "6"
                 }
             },
@@ -4101,26 +4069,28 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "g5g6"
+                        "d5f6",
+                        "g8f8",
+                        "g4f5",
+                        "a1g1"
                     ],
-                    "nodes": "23",
-                    "nps": "11500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "9929",
+                    "nps": "1418428",
+                    "score": 3.6,
+                    "seldepth": "11",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "g5g6",
-                    "ponder": "(none)"
+                    "move": "d5f6",
+                    "ponder": "g8f8"
                 },
                 "time": {
-                    "nodes": "23",
-                    "time": "2"
+                    "nodes": "9929",
+                    "time": "7"
                 }
             },
             "fen": "6k1/R7/5N2/6P1/6K1/8/p7/r7 b - - 3 63",
@@ -4131,19 +4101,19 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "g8f8",
                         "g4f5",
-                        "a1h1",
-                        "a7a2",
-                        "h1f1"
+                        "a1f1",
+                        "f5g6",
+                        "f1f6"
                     ],
-                    "nodes": "7865",
-                    "nps": "1310833",
-                    "score": 3.64,
-                    "seldepth": "10",
+                    "nodes": "8806",
+                    "nps": "1467666",
+                    "score": 45.59,
+                    "seldepth": "14",
                     "time": "6",
                     "unit": "p"
                 },
@@ -4152,7 +4122,7 @@ define(function(){var game=
                     "ponder": "g4f5"
                 },
                 "time": {
-                    "nodes": "7865",
+                    "nodes": "8806",
                     "time": "6"
                 }
             },
@@ -4165,24 +4135,27 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "1",
-                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g5g6"
+                        "g5g6",
+                        "a1g1",
+                        "g4h3",
+                        "g1g6",
+                        "f6d5"
                     ],
-                    "nodes": "25",
-                    "nps": "12500",
-                    "score": 0,
-                    "seldepth": "1",
+                    "nodes": "61",
+                    "nps": "30500",
+                    "score": 0.15,
+                    "seldepth": "2",
                     "time": "2",
-                    "unit": "mate"
+                    "unit": "p"
                 },
                 "best_move": {
                     "move": "g5g6",
-                    "ponder": "(none)"
+                    "ponder": "a1g1"
                 },
                 "time": {
-                    "nodes": "25",
+                    "nodes": "61",
                     "time": "2"
                 }
             },
@@ -4194,20 +4167,25 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "7",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
                         "a1g1",
                         "g4f5",
                         "g1f1",
                         "f5e6",
-                        "f1e1"
+                        "f1e1",
+                        "e6d5",
+                        "e1e7",
+                        "f6h7",
+                        "f8g8",
+                        "a7a2",
+                        "g8g7"
                     ],
-                    "nodes": "7983",
-                    "nps": "1330500",
-                    "score": 3.15,
-                    "seldepth": "13",
+                    "nodes": "8926",
+                    "nps": "1487666",
+                    "score": 2.87,
+                    "seldepth": "15",
                     "time": "6",
                     "unit": "p"
                 },
@@ -4216,7 +4194,7 @@ define(function(){var game=
                     "ponder": "g4f5"
                 },
                 "time": {
-                    "nodes": "7983",
+                    "nodes": "8926",
                     "time": "6"
                 }
             },
@@ -4228,37 +4206,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g4f5",
-                        "g1f1",
-                        "f5e6",
-                        "f1e1",
-                        "e6d5",
-                        "e1d1",
-                        "d5e4",
-                        "d1e1",
-                        "e4d3",
-                        "e1e7",
-                        "f6h7",
-                        "f8g8",
-                        "a7a2"
+                        "g4f3"
                     ],
-                    "nodes": "5702",
-                    "nps": "950333",
-                    "score": 2.95,
-                    "seldepth": "17",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "30",
+                    "nps": "15000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "g4f5",
-                    "ponder": "g1f1"
+                    "move": "g4f3",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "5702",
-                    "time": "6"
+                    "nodes": "30",
+                    "time": "2"
                 }
             },
             "fen": "5k2/R7/5NP1/5K2/8/8/p7/6r1 b - - 2 65",
@@ -4269,26 +4236,32 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
-                        "a2a1q"
+                        "g1f1",
+                        "f5e6",
+                        "f1e1",
+                        "e6d5",
+                        "e1e7",
+                        "a7a2",
+                        "f8g7",
+                        "a2a6"
                     ],
-                    "nodes": "16",
-                    "nps": "8000",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "8451",
+                    "nps": "1207285",
+                    "score": 3.07,
+                    "seldepth": "16",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a2a1q",
-                    "ponder": "(none)"
+                    "move": "g1f1",
+                    "ponder": "f5e6"
                 },
                 "time": {
-                    "nodes": "16",
-                    "time": "2"
+                    "nodes": "8451",
+                    "time": "7"
                 }
             },
             "fen": "5k2/R7/5NP1/5K2/8/8/p7/5r2 w - - 3 66",
@@ -4305,13 +4278,21 @@ define(function(){var game=
                         "f5e6",
                         "f1e1",
                         "e6d5",
-                        "e1d1"
+                        "e1e7",
+                        "a7a2",
+                        "e7b7",
+                        "a2a6",
+                        "b7b5",
+                        "d5e4",
+                        "f8g7",
+                        "f6e8",
+                        "g7f8"
                     ],
-                    "nodes": "8085",
-                    "nps": "1347500",
-                    "score": 3.37,
-                    "seldepth": "18",
-                    "time": "6",
+                    "nodes": "9304",
+                    "nps": "1329142",
+                    "score": 3.5,
+                    "seldepth": "17",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -4319,8 +4300,8 @@ define(function(){var game=
                     "ponder": "f1e1"
                 },
                 "time": {
-                    "nodes": "8085",
-                    "time": "6"
+                    "nodes": "9304",
+                    "time": "7"
                 }
             },
             "fen": "5k2/R7/4KNP1/8/8/8/p7/5r2 b - - 4 66",
@@ -4331,31 +4312,42 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "f1e1",
-                        "e6d6",
-                        "e1d1",
-                        "d6c5",
-                        "d1c1",
-                        "c5b4",
-                        "a2a1q"
+                        "e6d5",
+                        "e1e7",
+                        "a7a2",
+                        "e7b7",
+                        "a2a6",
+                        "b7b5",
+                        "d5e4",
+                        "b5b4",
+                        "e4e5",
+                        "b4b5",
+                        "e5f4",
+                        "f8g7",
+                        "f6e8",
+                        "g7f8",
+                        "e8c7",
+                        "b5b4",
+                        "f4f5"
                     ],
-                    "nodes": "8449",
-                    "nps": "1408166",
-                    "score": 4.37,
-                    "seldepth": "15",
-                    "time": "6",
+                    "nodes": "9720",
+                    "nps": "1388571",
+                    "score": 3.47,
+                    "seldepth": "21",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
                     "move": "f1e1",
-                    "ponder": "e6d6"
+                    "ponder": "e6d5"
                 },
                 "time": {
-                    "nodes": "8449",
-                    "time": "6"
+                    "nodes": "9720",
+                    "time": "7"
                 }
             },
             "fen": "5k2/R7/4KNP1/8/8/8/p7/4r3 w - - 5 67",
@@ -4366,7 +4358,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "14",
                     "multipv": "1",
                     "next_moves": [
                         "e6d6",
@@ -4374,13 +4366,25 @@ define(function(){var game=
                         "d6c5",
                         "d1c1",
                         "c5b4",
-                        "a2a1q"
+                        "c1b1",
+                        "b4c4",
+                        "b1c1",
+                        "c4d3",
+                        "c1d1",
+                        "d3e2",
+                        "d1e1",
+                        "e2e1",
+                        "a2a1r",
+                        "a7a1",
+                        "f8g7",
+                        "f6d5",
+                        "g7g6"
                     ],
-                    "nodes": "35",
-                    "nps": "17500",
-                    "score": 4.37,
-                    "seldepth": "1",
-                    "time": "2",
+                    "nodes": "10189",
+                    "nps": "1455571",
+                    "score": 47.23,
+                    "seldepth": "20",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -4388,8 +4392,8 @@ define(function(){var game=
                     "ponder": "e1d1"
                 },
                 "time": {
-                    "nodes": "35",
-                    "time": "2"
+                    "nodes": "10189",
+                    "time": "7"
                 }
             },
             "fen": "5k2/R7/5NP1/3K4/8/8/p7/4r3 b - - 6 67",
@@ -4400,26 +4404,37 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
-                        "a2a1q"
+                        "e1e7",
+                        "a7a2",
+                        "e7b7",
+                        "a2a6",
+                        "b7b5",
+                        "d5e4",
+                        "b5b4",
+                        "e4e5",
+                        "b4b5",
+                        "e5f4",
+                        "f8g7",
+                        "f6e8",
+                        "g7f8"
                     ],
-                    "nodes": "17",
-                    "nps": "8500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "7815",
+                    "nps": "1116428",
+                    "score": 3.53,
+                    "seldepth": "18",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "a2a1q",
-                    "ponder": "(none)"
+                    "move": "e1e7",
+                    "ponder": "a7a2"
                 },
                 "time": {
-                    "nodes": "17",
-                    "time": "2"
+                    "nodes": "7815",
+                    "time": "7"
                 }
             },
             "fen": "5k2/R3r3/5NP1/3K4/8/8/p7/8 w - - 7 68",
@@ -4430,26 +4445,39 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
-                        "g6g7"
+                        "a7a2",
+                        "e7b7",
+                        "a2a6",
+                        "b7b5",
+                        "d5e4",
+                        "b5b4",
+                        "e4e5",
+                        "b4b5",
+                        "e5f4",
+                        "f8g7",
+                        "f6e8",
+                        "g7f8",
+                        "e8c7",
+                        "b5b4",
+                        "f4f5"
                     ],
-                    "nodes": "13",
-                    "nps": "6500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "7752",
+                    "nps": "1292000",
+                    "score": 3.6,
+                    "seldepth": "19",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "g6g7",
-                    "ponder": "(none)"
+                    "move": "a7a2",
+                    "ponder": "e7b7"
                 },
                 "time": {
-                    "nodes": "13",
-                    "time": "2"
+                    "nodes": "7752",
+                    "time": "6"
                 }
             },
             "fen": "5k2/4r3/5NP1/3K4/8/8/R7/8 b - - 0 68",
@@ -4460,33 +4488,26 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "e7b7",
-                        "a2g2",
-                        "b7e7",
-                        "f6h5",
-                        "e7d7",
-                        "d5e5",
-                        "d7e7",
-                        "e5f6",
-                        "e7e3"
+                        "e7e1"
                     ],
-                    "nodes": "5728",
-                    "nps": "954666",
-                    "score": 3.56,
-                    "seldepth": "11",
-                    "time": "6",
-                    "unit": "p"
+                    "nodes": "10",
+                    "nps": "5000",
+                    "score": 0,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "mate"
                 },
                 "best_move": {
-                    "move": "e7b7",
-                    "ponder": "a2g2"
+                    "move": "e7e1",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "5728",
-                    "time": "6"
+                    "nodes": "10",
+                    "time": "2"
                 }
             },
             "fen": "8/4r1k1/5NP1/3K4/8/8/R7/8 w - - 1 69",
@@ -4497,42 +4518,10 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
-                    "modifier": "upperbound",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "a2a6",
-                        "g7f8",
-                        "a6a1",
-                        "e7e2"
-                    ],
-                    "nodes": "7753",
-                    "nps": "1292166",
-                    "score": 3.96,
-                    "seldepth": "10",
-                    "time": "6",
-                    "unit": "p"
-                },
-                "best_move": {
-                    "move": "a2a6",
-                    "ponder": "g7f8"
-                },
-                "time": {
-                    "nodes": "7753",
-                    "time": "6"
-                }
-            },
-            "fen": "8/4r1k1/R4NP1/3K4/8/8/8/8 b - - 2 69",
-            "move": "Ra6",
-            "move_number": "69.",
-            "side": "white"
-        },
-        {
-            "details": {
-                "analysis": {
-                    "depth": "9",
-                    "multipv": "1",
-                    "next_moves": [
                         "g7f8",
                         "f6h5",
                         "e7e8",
@@ -4543,22 +4532,54 @@ define(function(){var game=
                         "h5f4",
                         "g6f6",
                         "f4e6",
-                        "e8c8"
+                        "e8b8"
                     ],
-                    "nodes": "7465",
-                    "nps": "1244166",
+                    "nodes": "6630",
+                    "nps": "947142",
                     "score": 3.95,
                     "seldepth": "17",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "g7f8",
+                    "move": "a2a6",
+                    "ponder": "g7f8"
+                },
+                "time": {
+                    "nodes": "6630",
+                    "time": "7"
+                }
+            },
+            "fen": "8/4r1k1/R4NP1/3K4/8/8/8/8 b - - 2 69",
+            "move": "Ra6",
+            "move_number": "69.",
+            "side": "white"
+        },
+        {
+            "details": {
+                "analysis": {
+                    "depth": "1",
+                    "multipv": "1",
+                    "next_moves": [
+                        "e7e1",
+                        "f6h5",
+                        "g7h6",
+                        "g6g7"
+                    ],
+                    "nodes": "33",
+                    "nps": "16500",
+                    "score": 3.34,
+                    "seldepth": "1",
+                    "time": "2",
+                    "unit": "p"
+                },
+                "best_move": {
+                    "move": "e7e1",
                     "ponder": "f6h5"
                 },
                 "time": {
-                    "nodes": "7465",
-                    "time": "6"
+                    "nodes": "33",
+                    "time": "2"
                 }
             },
             "fen": "8/1r4k1/R4NP1/3K4/8/8/8/8 w - - 3 70",
@@ -4573,13 +4594,15 @@ define(function(){var game=
                     "multipv": "1",
                     "next_moves": [
                         "f6h5",
-                        "g7h6"
+                        "g7h6",
+                        "g6g7",
+                        "h6h7"
                     ],
-                    "nodes": "5803",
-                    "nps": "967166",
-                    "score": 10.36,
+                    "nodes": "9713",
+                    "nps": "1387571",
+                    "score": 10.96,
                     "seldepth": "14",
-                    "time": "6",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -4587,8 +4610,8 @@ define(function(){var game=
                     "ponder": "g7h6"
                 },
                 "time": {
-                    "nodes": "5803",
-                    "time": "6"
+                    "nodes": "9713",
+                    "time": "7"
                 }
             },
             "fen": "4N3/1r4k1/R5P1/3K4/8/8/8/8 b - - 4 70",
@@ -4599,29 +4622,34 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "6",
-                    "modifier": "upperbound",
+                    "depth": "9",
                     "multipv": "1",
                     "next_moves": [
-                        "g7f8",
-                        "g6g7",
-                        "f8g8",
-                        "a6f6"
+                        "g7g8",
+                        "e8d6",
+                        "b7b8",
+                        "d5e5",
+                        "g8g7",
+                        "d6f5",
+                        "g7g8",
+                        "e5f6",
+                        "b8f8",
+                        "f6g5"
                     ],
-                    "nodes": "7920",
-                    "nps": "1320000",
-                    "score": 4.0,
-                    "seldepth": "9",
-                    "time": "6",
+                    "nodes": "9307",
+                    "nps": "1329571",
+                    "score": 3.83,
+                    "seldepth": "13",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "g7f8",
-                    "ponder": "g6g7"
+                    "move": "g7g8",
+                    "ponder": "e8d6"
                 },
                 "time": {
-                    "nodes": "7920",
-                    "time": "6"
+                    "nodes": "9307",
+                    "time": "7"
                 }
             },
             "fen": "4N1k1/1r6/R5P1/3K4/8/8/8/8 w - - 5 71",
@@ -4632,7 +4660,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "8",
+                    "depth": "10",
                     "multipv": "1",
                     "next_moves": [
                         "e8d6",
@@ -4640,17 +4668,13 @@ define(function(){var game=
                         "d5e5",
                         "g8g7",
                         "d6f5",
-                        "g7g8",
-                        "e5f6",
-                        "b8f8",
-                        "f6g5",
-                        "f8b8"
+                        "g7g8"
                     ],
-                    "nodes": "8651",
-                    "nps": "1441833",
-                    "score": 3.86,
-                    "seldepth": "11",
-                    "time": "6",
+                    "nodes": "9179",
+                    "nps": "1311285",
+                    "score": 3.87,
+                    "seldepth": "14",
+                    "time": "7",
                     "unit": "p"
                 },
                 "best_move": {
@@ -4658,8 +4682,8 @@ define(function(){var game=
                     "ponder": "b7b8"
                 },
                 "time": {
-                    "nodes": "8651",
-                    "time": "6"
+                    "nodes": "9179",
+                    "time": "7"
                 }
             },
             "fen": "4N1k1/1r4P1/R7/3K4/8/8/8/8 b - - 0 71",
@@ -4673,28 +4697,28 @@ define(function(){var game=
                     "depth": "7",
                     "multipv": "1",
                     "next_moves": [
-                        "b7b5",
-                        "d5d6",
-                        "b5b2",
-                        "d6e7",
-                        "b2e2",
+                        "b7b8",
                         "a6e6",
-                        "e2g2",
-                        "e7f6"
+                        "b8b5",
+                        "d5d4",
+                        "b5g5",
+                        "e6f6",
+                        "g5g4",
+                        "d4e5"
                     ],
-                    "nodes": "8322",
-                    "nps": "1387000",
-                    "score": 3.2,
-                    "seldepth": "10",
+                    "nodes": "7481",
+                    "nps": "1246833",
+                    "score": 3.18,
+                    "seldepth": "9",
                     "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "b7b5",
-                    "ponder": "d5d6"
+                    "move": "b7b8",
+                    "ponder": "a6e6"
                 },
                 "time": {
-                    "nodes": "8322",
+                    "nodes": "7481",
                     "time": "6"
                 }
             },
@@ -4706,26 +4730,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
-                        "e8d6"
+                        "a6e6",
+                        "b8d8",
+                        "d5e5",
+                        "d8d2",
+                        "e6e7",
+                        "d2e2",
+                        "e5f6",
+                        "e2f2",
+                        "f6e6",
+                        "f2e2",
+                        "e6d6",
+                        "e2d2",
+                        "d6e6",
+                        "d2e2"
                     ],
-                    "nodes": "6",
-                    "nps": "3000",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "5927",
+                    "nps": "987833",
+                    "score": 3.16,
+                    "seldepth": "13",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "e8d6",
-                    "ponder": "(none)"
+                    "move": "a6e6",
+                    "ponder": "b8d8"
                 },
                 "time": {
-                    "nodes": "6",
-                    "time": "2"
+                    "nodes": "5927",
+                    "time": "6"
                 }
             },
             "fen": "1r2N1k1/6P1/4R3/3K4/8/8/8/8 b - - 2 72",
@@ -4736,26 +4772,34 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
+                    "depth": "8",
                     "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "b8b1"
+                        "b8d8",
+                        "d5e5",
+                        "d8d2",
+                        "e6e7",
+                        "d2e2",
+                        "e5f6",
+                        "e2f2",
+                        "f6e6",
+                        "f2e2"
                     ],
-                    "nodes": "5",
-                    "nps": "2500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "9449",
+                    "nps": "1349857",
+                    "score": 3.22,
+                    "seldepth": "17",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "b8b1",
-                    "ponder": "(none)"
+                    "move": "b8d8",
+                    "ponder": "d5e5"
                 },
                 "time": {
-                    "nodes": "5",
-                    "time": "2"
+                    "nodes": "9449",
+                    "time": "7"
                 }
             },
             "fen": "4N1k1/1r4P1/4R3/3K4/8/8/8/8 w - - 3 73",
@@ -4766,35 +4810,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "9",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
-                        "e6f6",
-                        "g8h7",
-                        "f6h6",
-                        "h7h6",
-                        "g7g8q",
+                        "e6g6",
                         "b7b5",
                         "d5c6",
-                        "b5g5",
-                        "g8e6",
-                        "h6h5",
+                        "b5b8",
                         "e8f6",
-                        "h5h6"
+                        "g8f7",
+                        "g7g8q",
+                        "b8g8",
+                        "g6g8",
+                        "f7f6",
+                        "c6d5",
+                        "f6f5",
+                        "g8g7",
+                        "f5f4",
+                        "g7g6"
                     ],
-                    "nodes": "8061",
-                    "nps": "1343500",
-                    "score": 8.13,
-                    "seldepth": "18",
+                    "nodes": "6037",
+                    "nps": "1006166",
+                    "score": 44.18,
+                    "seldepth": "16",
                     "time": "6",
                     "unit": "p"
                 },
                 "best_move": {
-                    "move": "e6f6",
-                    "ponder": "g8h7"
+                    "move": "e6g6",
+                    "ponder": "b7b5"
                 },
                 "time": {
-                    "nodes": "8061",
+                    "nodes": "6037",
                     "time": "6"
                 }
             },
@@ -4806,26 +4853,27 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "8",
                     "multipv": "1",
                     "next_moves": [
-                        "b7b1"
+                        "g8h7",
+                        "f6g6",
+                        "b7b5"
                     ],
-                    "nodes": "2",
-                    "nps": "1000",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "9945",
+                    "nps": "1420714",
+                    "score": 8.34,
+                    "seldepth": "11",
+                    "time": "7",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "b7b1",
-                    "ponder": "(none)"
+                    "move": "g8h7",
+                    "ponder": "f6g6"
                 },
                 "time": {
-                    "nodes": "2",
-                    "time": "2"
+                    "nodes": "9945",
+                    "time": "7"
                 }
             },
             "fen": "4N1k1/5rP1/5R2/3K4/8/8/8/8 w - - 5 74",
@@ -4866,26 +4914,36 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "12",
                     "multipv": "1",
                     "next_moves": [
-                        "f7f1"
+                        "f7d7",
+                        "d5c6",
+                        "d7g7",
+                        "e8g7",
+                        "g8g7",
+                        "h6e6",
+                        "g7h7",
+                        "c6d7",
+                        "h7h8",
+                        "d7e7",
+                        "h8g7",
+                        "e6a6"
                     ],
-                    "nodes": "8",
-                    "nps": "4000",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "10605",
+                    "nps": "1767500",
+                    "score": 44.34,
+                    "seldepth": "13",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "f7f1",
-                    "ponder": "(none)"
+                    "move": "f7d7",
+                    "ponder": "d5c6"
                 },
                 "time": {
-                    "nodes": "8",
-                    "time": "2"
+                    "nodes": "10605",
+                    "time": "7"
                 }
             },
             "fen": "4N1k1/3r2P1/7R/3K4/8/8/8/8 w - - 7 75",
@@ -4896,26 +4954,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "15",
                     "multipv": "1",
                     "next_moves": [
-                        "d5c4"
+                        "d5c6",
+                        "d7g7",
+                        "e8g7",
+                        "g8g7",
+                        "h6e6",
+                        "g7f7",
+                        "c6d7",
+                        "f7f8",
+                        "e6e7",
+                        "f8g8",
+                        "d7e8",
+                        "g8h8",
+                        "e8f7",
+                        "h8h7"
                     ],
-                    "nodes": "10",
-                    "nps": "5000",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "10172",
+                    "nps": "1695333",
+                    "score": 44.41,
+                    "seldepth": "16",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "d5c4",
-                    "ponder": "(none)"
+                    "move": "d5c6",
+                    "ponder": "d7g7"
                 },
                 "time": {
-                    "nodes": "10",
-                    "time": "2"
+                    "nodes": "10172",
+                    "time": "6"
                 }
             },
             "fen": "4N1k1/3r2P1/4K2R/8/8/8/8/8 b - - 8 75",
@@ -4926,26 +4996,38 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "1",
-                    "modifier": "upperbound",
+                    "depth": "13",
                     "multipv": "1",
                     "next_moves": [
-                        "d7d1"
+                        "d7e7",
+                        "e6f5",
+                        "g8f7",
+                        "h6h8",
+                        "e7e8",
+                        "h8e8",
+                        "f7g7",
+                        "e8e7",
+                        "g7f8",
+                        "f5f6",
+                        "f8g8",
+                        "e7a7",
+                        "g8h8",
+                        "a7e7"
                     ],
-                    "nodes": "5",
-                    "nps": "2500",
-                    "score": 0,
-                    "seldepth": "1",
-                    "time": "2",
-                    "unit": "mate"
+                    "nodes": "8876",
+                    "nps": "1479333",
+                    "score": 44.45,
+                    "seldepth": "14",
+                    "time": "6",
+                    "unit": "p"
                 },
                 "best_move": {
-                    "move": "d7d1",
-                    "ponder": "(none)"
+                    "move": "d7e7",
+                    "ponder": "e6f5"
                 },
                 "time": {
-                    "nodes": "5",
-                    "time": "2"
+                    "nodes": "8876",
+                    "time": "6"
                 }
             },
             "fen": "4N1k1/6r1/4K2R/8/8/8/8/8 w - - 0 76",
@@ -4956,7 +5038,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "24",
+                    "depth": "30",
                     "multipv": "1",
                     "next_moves": [
                         "e8f6",
@@ -4965,8 +5047,8 @@ define(function(){var game=
                         "g7g8",
                         "h8g8"
                     ],
-                    "nodes": "8802",
-                    "nps": "1467000",
+                    "nodes": "13026",
+                    "nps": "2171000",
                     "score": 3,
                     "seldepth": "6",
                     "time": "6",
@@ -4977,7 +5059,7 @@ define(function(){var game=
                     "ponder": "g8f8"
                 },
                 "time": {
-                    "nodes": "8802",
+                    "nodes": "13026",
                     "time": "6"
                 }
             },
@@ -4989,7 +5071,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "18",
+                    "depth": "19",
                     "multipv": "1",
                     "next_moves": [
                         "g8g7",
@@ -4999,12 +5081,12 @@ define(function(){var game=
                         "g8h8",
                         "e6f7",
                         "h8h7",
-                        "g6f6",
+                        "g6e6",
                         "h7h8",
-                        "f6h6"
+                        "e6h6"
                     ],
-                    "nodes": "6424",
-                    "nps": "1070666",
+                    "nodes": "9286",
+                    "nps": "1547666",
                     "score": 5,
                     "seldepth": "11",
                     "time": "6",
@@ -5015,7 +5097,7 @@ define(function(){var game=
                     "ponder": "h6f6"
                 },
                 "time": {
-                    "nodes": "6424",
+                    "nodes": "9286",
                     "time": "6"
                 }
             },
@@ -5027,7 +5109,7 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "19",
+                    "depth": "1",
                     "multipv": "1",
                     "next_moves": [
                         "h6f6",
@@ -5036,15 +5118,15 @@ define(function(){var game=
                         "g8h8",
                         "e6f7",
                         "h8h7",
-                        "g6f6",
+                        "g6e6",
                         "h7h8",
-                        "f6h6"
+                        "e6h6"
                     ],
-                    "nodes": "9099",
-                    "nps": "1516500",
+                    "nodes": "40",
+                    "nps": "20000",
                     "score": 5,
-                    "seldepth": "10",
-                    "time": "6",
+                    "seldepth": "1",
+                    "time": "2",
                     "unit": "mate"
                 },
                 "best_move": {
@@ -5052,8 +5134,8 @@ define(function(){var game=
                     "ponder": "g7g8"
                 },
                 "time": {
-                    "nodes": "9099",
-                    "time": "6"
+                    "nodes": "40",
+                    "time": "2"
                 }
             },
             "fen": "8/6k1/4KR2/8/8/8/8/8 b - - 1 77",
@@ -5065,30 +5147,24 @@ define(function(){var game=
             "details": {
                 "analysis": {
                     "depth": "1",
+                    "modifier": "upperbound",
                     "multipv": "1",
                     "next_moves": [
-                        "g7g8",
-                        "f6g6",
-                        "g8h8",
-                        "e6f7",
-                        "h8h7",
-                        "g6f6",
-                        "h7h8",
-                        "f6h6"
+                        "g7h8"
                     ],
-                    "nodes": "30",
-                    "nps": "15000",
-                    "score": 4,
+                    "nodes": "7",
+                    "nps": "3500",
+                    "score": 0,
                     "seldepth": "1",
                     "time": "2",
                     "unit": "mate"
                 },
                 "best_move": {
-                    "move": "g7g8",
-                    "ponder": "f6g6"
+                    "move": "g7h8",
+                    "ponder": "(none)"
                 },
                 "time": {
-                    "nodes": "30",
+                    "nodes": "7",
                     "time": "2"
                 }
             },
@@ -5100,19 +5176,19 @@ define(function(){var game=
         {
             "details": {
                 "analysis": {
-                    "depth": "21",
+                    "depth": "20",
                     "multipv": "1",
                     "next_moves": [
                         "f6g6",
                         "g8h8",
                         "e6f7",
                         "h8h7",
-                        "g6f6",
+                        "g6e6",
                         "h7h8",
-                        "f6h6"
+                        "e6h6"
                     ],
-                    "nodes": "10435",
-                    "nps": "1739166",
+                    "nodes": "8540",
+                    "nps": "1423333",
                     "score": 4,
                     "seldepth": "8",
                     "time": "6",
@@ -5123,7 +5199,7 @@ define(function(){var game=
                     "ponder": "g8h8"
                 },
                 "time": {
-                    "nodes": "10435",
+                    "nodes": "8540",
                     "time": "6"
                 }
             },

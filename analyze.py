@@ -1,24 +1,25 @@
+import sys
 import argparse
-import subprocess
 from pystockfish import Engine
 import pgn
 import json
 from datetime import datetime
+from subprocess import Popen, PIPE
 
 pgn_extract_path = "./external/pgn-extract/pgn-extract"
 stockfish_path = "./external/stockfish/src/stockfish"
 
 parser = argparse.ArgumentParser(description="Analyze a game")
-parser.add_argument("gamefile", help="PGN file containing game to analyze")
+parser.add_argument('gamefile', help="PGN file containing game to analyze", nargs='?', type=argparse.FileType('r'), default=sys.stdin)
 parser.add_argument("--outfile", help="JSON file to output analysis")
 
 args = parser.parse_args()
 
-f = open(args.gamefile, 'r')
-pgn_text = f.read()
-f.close()
+pgn_text = args.gamefile.read()
+args.gamefile.close()
 
-formatted_uci = subprocess.check_output([pgn_extract_path, "-Wuci", args.gamefile])
+p = Popen([pgn_extract_path, "-Wuci"], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+formatted_uci, stderr = p.communicate(pgn_text)
 
 game_pgn = pgn.loads(pgn_text)[0]
 game = pgn.loads(formatted_uci)[0]
@@ -59,6 +60,7 @@ for i in range(len(game.moves)):
     game_analysis['positions'].append(position)
 
 json_text = json.dumps(game_analysis)
+
 if args.outfile is None:
     outfile_name = "{} vs {} on {}.json".format(
             game_analysis['white'],

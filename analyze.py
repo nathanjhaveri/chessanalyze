@@ -62,7 +62,7 @@ for i in range(len(game.moves)):
 json_text = json.dumps(game_analysis)
 
 if args.outfile is None:
-    outfile_name = "{} vs {} on {}.json".format(
+    outfile_name = "games/{} vs {} on {}.json".format(
             game_analysis['white'],
             game_analysis['black'],
             game_analysis['date'])

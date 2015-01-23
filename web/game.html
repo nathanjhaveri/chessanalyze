@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
         <link rel="stylesheet" href="css/game.css">
         <script data-main="js/main" src="js/require.js"></script>
     </head>
     <body>
-        <div class="header-container">
-            <header class="wrapper clearfix">
-                <div class="game-info">
-                    <h1 id="matchup"></h1>
+        <div>
+            <header>
+                <div>
+                    <h2 id="matchup"></h2>
                     <span id="event"></span>
                     <span>-</span>
                     <span id="date"></span>
@@ -24,6 +26,7 @@
         <div class="main-container">
             <div class="main wrapper clearfix">
                 <div class="move-details">
+                    <div id="board-spacer"></div>
                     <div id="board"></div>
                     <div id="analysis">
                         <span id="move-no">&nbsp;</span>
@@ -45,25 +48,29 @@
     </body>
     <script type="text/template" class="moves-template">
         <table class="moves-table">
-            <tr>
-                <th>#</th>
-                <th>Score</th>
-                <th>Move</th>
-                <th>Best Move</th>
-            </tr>
-        <% _.each(positions, function(position){                    %>
-        <%      var anal = position.details.analysis;               %>
-            <tr>
-                <td><%- position.move_number %></td>
-                <% if (anal.unit === "mate") { %>
-                    <td>Mate in <%- anal.score %></td>
-                <% } else { %>
-                    <td><%- anal.score %></td>
-                <% } %>
-                <td><%- position.move %></td>
-                <td><%- position.details.best_move.move %></td>
-            </tr>
-        <% }); %>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Score</th>
+                    <th>Move</th>
+                    <th>Best Move</th>
+                </tr>
+            </thead>
+            <tbody>
+            <% _.each(positions, function(position){                    %>
+            <%      var anal = position.details.analysis;               %>
+                <tr>
+                    <td><%- position.move_number %></td>
+                    <% if (anal.unit === "mate") { %>
+                        <td>Mate in <%- anal.score %></td>
+                    <% } else { %>
+                        <td><%- anal.score %></td>
+                    <% } %>
+                    <td><%- position.move %></td>
+                    <td><%- position.details.best_move.move %></td>
+                </tr>
+            <% }); %>
+            </tbody>
         </table>
     </script>
 </html>

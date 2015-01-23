@@ -1,14 +1,32 @@
-div.move-details {
-    float: left;
-    width: 350px;
-}
-
 #board {
     width: 100%;
+    position: relative;
+}
+
+#board-spacer {
+    display: none;
+    height: 316px;
+}
+
+.has-docked-board #board {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.has-docked-board #board-spacer {
+    display: block;
+}
+
+/*
+
+div.move-details {
+    float: left;
+    width: 320px;
 }
 
 #analysis {
-    width: 350px;
+    width: 320px;
 }
 
 #move-list {
@@ -33,4 +51,5 @@ div.move-details {
 
 @media only screen and (max-width: 480px) {
 }
+*/
 

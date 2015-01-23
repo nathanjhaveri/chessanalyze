@@ -1,23 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
         <link rel="stylesheet" href="css/game.css">
-        <!--
-        <link rel="stylesheet/less" type="text/css" href="css/game.less">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
-        -->
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script data-main="js/main" src="js/require.js"></script>
-
     </head>
     <body>
         <div class="header-container">
@@ -30,8 +16,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="/chess">Games</a></li>
                     </ul>
                 </nav>
             </header>
@@ -62,20 +47,20 @@
         <table class="moves-table">
             <tr>
                 <th>#</th>
-                <th>Move</th>
                 <th>Score</th>
+                <th>Move</th>
                 <th>Best Move</th>
             </tr>
         <% _.each(positions, function(position){                    %>
         <%      var anal = position.details.analysis;               %>
             <tr>
                 <td><%- position.move_number %></td>
-                <td><%- position.move %></td>
                 <% if (anal.unit === "mate") { %>
                     <td>Mate in <%- anal.score %></td>
                 <% } else { %>
                     <td><%- anal.score %></td>
                 <% } %>
+                <td><%- position.move %></td>
                 <td><%- position.details.best_move.move %></td>
             </tr>
         <% }); %>

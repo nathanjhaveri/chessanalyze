@@ -12,23 +12,28 @@
     <body>
         <div>
             <header>
-                <div>
-                    <h2 id="matchup"></h2>
-                    <span id="event"></span>
-                    <span>-</span>
-                    <span id="date"></span>
-                </div>
-                <nav>
+               <nav>
                     <ul>
                         <li><a href="/chess">Games</a></li>
                     </ul>
                 </nav>
-            </header>
+                <div>
+                    <h3 id="matchup"></h2>
+                    <span id="event"></span>
+                    <span>-</span>
+                    <span id="date"></span>
+                    <div id="white-name"></div>
+                    <div id="black-name"></div>
+                </div>
+             </header>
         </div>
         <div class="container">
             <div class="row">
                 <div id="board-spacer"></div>
                 <div id="board"></div>
+            </div>
+
+            <div class="row">
                 <div id="analysis">
                     <span id="move-no">&nbsp;</span>
                     <span id="move">&nbsp;</span>
@@ -37,7 +42,10 @@
                     <div id="best-line">&nbsp;</div>
                 </div>
             </div>
-            <div id="move-list"></div>
+
+            <div class="row">
+                <div id="move-list"></div>
+            </div>
         </div>
 
         <div class="footer-container">

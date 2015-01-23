@@ -45,6 +45,8 @@ var GameView = Backbone.View.extend({
         this.$("#matchup").text(title);
         this.$("#event").text(this.model.get("event"));
         this.$("#date").text(this.model.get("date"));
+        this.$("#white-name").text("White: " + this.model.get("white"));
+        this.$("#black-name").text("Black: " + this.model.get("black"));
 
         this.resize();
         return this;
@@ -57,6 +59,8 @@ var GameView = Backbone.View.extend({
     resize: function() {
         this.$body.removeClass(this.dockclass);
         this.board_offset = this.$board.offset().top;
+        $("#board-spacer").height(this.$board.height());
+        this.board.resize();
         this.onScroll();
     },
 

@@ -49,7 +49,7 @@ for i in range(len(game.moves)):
         'move_number': move_str,
         'side': 'white' if white_to_move else 'black',
         'move': move_pgn,
-        'details': engine.go_time(5000),
+        'details': engine.go_time(2),
     }
 
     move = game.moves[i]

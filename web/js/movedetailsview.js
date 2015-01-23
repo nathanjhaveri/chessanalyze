@@ -11,7 +11,9 @@ var MoveDetailsView = Backbone.View.extend({
         this.$("#move").text(move.move);
         this.$("#score").text("Score: " + anal.score);
         this.$("#depth").text("Depth: " + anal.depth);
-        this.$("#best-line").text("Best line: " + anal.next_moves);
+
+        var line = anal.next_moves.join(', ');
+        this.$("#best-line").text("Best line: " + line);
 
         return this;
     },

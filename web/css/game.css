@@ -18,38 +18,3 @@
     display: block;
 }
 
-/*
-
-div.move-details {
-    float: left;
-    width: 320px;
-}
-
-#analysis {
-    width: 320px;
-}
-
-#move-list {
-    float: left;
-    height: 620px;
-    overflow-y: scroll;
-}
-
-.moves-table, td {
-    border: 1px solid black;
-    padding: 3px;
-}
-
-.moves-table tr:nth-child(odd){
-    background: #CCC;
-    width: 100%;
-}
-
-.game-info {
-    display: inline-block;
-}
-
-@media only screen and (max-width: 480px) {
-}
-*/
-

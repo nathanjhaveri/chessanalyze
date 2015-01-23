@@ -1,5 +1,5 @@
 #board {
-    width: 100%;
+    width: 200px;
     position: relative;
 }
 
@@ -11,7 +11,7 @@
 .has-docked-board #board {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 20px;
 }
 
 .has-docked-board #board-spacer {

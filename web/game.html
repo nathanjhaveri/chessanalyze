@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
+        <title>Game analysis</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/skeleton.css">
         <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
@@ -23,22 +25,20 @@
                 </nav>
             </header>
         </div>
-        <div class="main-container">
-            <div class="main wrapper clearfix">
-                <div class="move-details">
-                    <div id="board-spacer"></div>
-                    <div id="board"></div>
-                    <div id="analysis">
-                        <span id="move-no">&nbsp;</span>
-                        <span id="move">&nbsp;</span>
-                        <div id="score">&nbsp;</div>
-                        <div id="depth">&nbsp;</div>
-                        <div id="best-line">&nbsp;</div>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div id="board-spacer"></div>
+                <div id="board"></div>
+                <div id="analysis">
+                    <span id="move-no">&nbsp;</span>
+                    <span id="move">&nbsp;</span>
+                    <div id="score">&nbsp;</div>
+                    <div id="depth">&nbsp;</div>
+                    <div id="best-line">&nbsp;</div>
                 </div>
-                <div id="move-list"></div>
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
+            </div>
+            <div id="move-list"></div>
+        </div>
 
         <div class="footer-container">
             <footer class="wrapper">

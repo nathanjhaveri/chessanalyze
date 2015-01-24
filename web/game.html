@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <title>Game analysis</title>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/skeleton.css">
-        <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
-        <link rel="stylesheet" href="css/game.css">
-        <script data-main="js/main" src="js/require.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
+<html>
+<head>
+    <title>Game analysis</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
+    <link rel="stylesheet" href="css/game.css">
+    <script data-main="js/main" src="js/require.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
             <header>
                <nav>
                     <ul>
@@ -20,34 +20,34 @@
                     </ul>
                 </nav>
                 <div>
-                    <h3 id="matchup"></h2>
+                    <h3 id="matchup">&nbsp;</h3>
                     <span id="event"></span>
                     <span>-</span>
                     <span id="date"></span>
                     <div id="white-name"></div>
                     <div id="black-name"></div>
                 </div>
-             </header>
+            </header>
         </div>
-        </div>
-            <div class="row">
-                <div>
-                    <div id="board-spacer"></div>
-                    <div id="board"></div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div id="move-list"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div>
+                <div id="board-spacer"></div>
+                <div id="board"></div>
             </div>
         </div>
 
-        <div class="footer-container">
-            <footer class="wrapper">
-                <h3><a href="http://jhaveri.net">jhaveri.net</a></h3>
-            </footer>
+        <div class="row">
+            <div id="move-list"></div>
         </div>
-    </body>
+    </div>
+
+    <div class="container">
+        <footer>
+            <h3><a href="http://jhaveri.net">jhaveri.net</a></h3>
+        </footer>
+    </div>
     <script type="text/template" class="moves-template">
         <table class="moves-table">
             <thead>
@@ -88,4 +88,6 @@
             </tbody>
         </table>
     </script>
+</body>
 </html>
+

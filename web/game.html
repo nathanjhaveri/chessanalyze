@@ -29,16 +29,9 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="six columns">
+                <div>
                     <div id="board-spacer"></div>
                     <div id="board"></div>
-                </div>
-                <div id="analysis" class="six columns">
-                    <span id="move-no">&nbsp;</span>
-                    <span id="move">&nbsp;</span>
-                    <div id="score">&nbsp;</div>
-                    <div id="depth">&nbsp;</div>
-                    <div id="best-line">&nbsp;</div>
                 </div>
             </div>
 
@@ -74,7 +67,20 @@
                         <td><%- anal.score %></td>
                     <% } %>
                     <td><%- position.move %></td>
-                    <td><%- position.details.best_move.move %></td>
+                    <td>
+                        <%- position.details.best_move.move %>
+                    </td>
+                </tr>
+                <tr class="move-details">
+                    <td colspan="4">
+                        <p>
+                            Best line:  <%- anal.next_moves.join(', ') %>
+                            <br />
+                            Depth: <%- anal.depth %>
+                            <br />
+                            Side: <%- position.side %>
+                        </p>
+                    </td>
                 </tr>
             <% }); %>
             </tbody>

@@ -1,5 +1,4 @@
 #board {
-    width: 100%;
     max-width: 300px;
     position: relative;
 }
@@ -18,3 +17,21 @@
     display: block;
 }
 
+#move-list {
+    float: clear;
+}
+
+.move-details, td p {
+    display: none;
+}
+
+.move-details td {
+  padding: 0px 0px;
+}
+
+@media (min-width: 550px) {
+    #move-list {
+        float: right;
+        max-width: 250px;
+    }
+}

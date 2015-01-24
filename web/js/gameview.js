@@ -3,9 +3,8 @@ define([
     "underscore",
     "backbone",
     "chessboard",
-    "moveview",
-    "movedetailsview"],
-function ($, _, backbone, chessboard, MoveView, MoveDetailsView) {
+    "moveview"],
+function ($, _, backbone, chessboard, MoveView) {
 "use strict";
 
 var GameView = Backbone.View.extend({
@@ -27,12 +26,6 @@ var GameView = Backbone.View.extend({
             el: $("#move-list"),
             model: this.model
         });
-
-        this.movmeDetailsView = new MoveDetailsView({
-            el: $("#analysis"),
-            model: this.model
-        });
-
 
         this.$window.on('scroll', _.bind(this.onScroll, this));
         this.$window.on('resize', _.bind(this.resize, this));

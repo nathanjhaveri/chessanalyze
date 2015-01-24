@@ -57,7 +57,6 @@ var MoveView = Backbone.View.extend({
     },
 
     select_move: function(move) {
-        console.log(move);
         if (move < 0) {
             move = 0;
         } else if (this.model.attributes.positions.length - 1 < move) {

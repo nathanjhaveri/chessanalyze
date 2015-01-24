@@ -24,7 +24,12 @@ var MoveView = Backbone.View.extend({
     move_click: function(event) {
         // -1 for header
         event.stopPropagation();
-        this.select_move(event.currentTarget.rowIndex - 1); 
+        if (event.currentTarget.rowIndex % 2 == 0) {
+            return;
+        }
+
+        var move_number = Math.floor(event.currentTarget.rowIndex / 2);
+        this.select_move(move_number); 
         var $target = $(event.target);
         if (!($target.closest("td").attr("colspan") > 1)) {
             var next = $target.closest("tr").next();
@@ -32,11 +37,7 @@ var MoveView = Backbone.View.extend({
                 next.css("display", "table-row");
                 next.find("p").slideToggle();
             } else {
-                next.find("p").slideToggle({
-                    done: function() {
-                        next.toggle();
-                    }
-                });
+                next.find("p").slideToggle({done: function() {next.toggle();}});
             }
         }
     },
@@ -56,6 +57,7 @@ var MoveView = Backbone.View.extend({
     },
 
     select_move: function(move) {
+        console.log(move);
         if (move < 0) {
             move = 0;
         } else if (this.model.attributes.positions.length - 1 < move) {
@@ -64,10 +66,10 @@ var MoveView = Backbone.View.extend({
 
         if (this.selected_move > -1) {
             // reset css on current selected move
-            this.$('.moves-table tr:nth-child(' + (this.selected_move + 1) + ')').css({'background-color': ''});
+            this.$('.moves-table tr:nth-child(' + (this.selected_move * 2 + 1) + ')').css({'background-color': ''});
         }
 
-        var selector = '.moves-table tr:nth-child(' + (move + 1) + ')';
+        var selector = '.moves-table tr:nth-child(' + (move * 2 + 1) + ')';
         this.$(selector).css({'background-color': '#87DFFA'});
 
         this.selected_move = move;

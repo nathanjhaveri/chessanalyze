@@ -5,7 +5,7 @@ import pgn
 import json
 from datetime import datetime
 from subprocess import Popen, PIPE
-from pgnemail import parse_email
+from emailparse import parse_email
 
 
 pgn_extract_path = "./external/pgn-extract/pgn-extract"

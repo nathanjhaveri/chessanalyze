@@ -102,8 +102,9 @@ class Engine(subprocess.Popen):
                 score['next_moves'] = score_parts[i+1:]
                 i = len(score_parts)
             elif score_parts[i] == 'score':
-                score['unit'] = score_parts[i+1]
-                evalscore = int(score_parts[i+2])
+                i += 1
+                score['unit'] = score_parts[i];i += 1
+                evalscore = int(score_parts[i]); i += 1
                 if not self.white_to_move:
                     # If black is set to move, flip score.  Score is always from
                     # perspective of stockfish but we want positive for white, negative
@@ -116,10 +117,9 @@ class Engine(subprocess.Popen):
                     score['unit'] = 'p'
 
                 score['score'] = evalscore
-                if score_parts[i+3] != "nodes":
-                    score['modifier'] = score_parts[i+3]
+                if i < len(score_parts) and score_parts[i] != "nodes":
+                    score['modifier'] = score_parts[i]
                     i += 1
-                i += 3
             else:
                 score[score_parts[i]] = score_parts[i+1]
                 i += 2

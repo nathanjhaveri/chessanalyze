@@ -27,6 +27,7 @@ var GameView = Backbone.View.extend({
             model: this.model
         });
 
+        $("#flip").click(_.bind(this.board.flip, this.board));
         this.$window.on('scroll', _.bind(this.onScroll, this));
         this.$window.on('resize', _.bind(this.resize, this));
         this.model.on("selected: move", this.move_selected, this);

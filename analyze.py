@@ -8,14 +8,10 @@ from subprocess import Popen, PIPE
 from emailparse import parse_email
 
 
-pgn_extract_path = "./external/pgn-extract/pgn-extract"
-stockfish_path = "./external/stockfish/src/stockfish"
-
-
 def main():
     args = parse_args()
-    game_pgn, game = parse_game(args.gamefile, args.email)
-    game_analysis = analyze_game(game, game_pgn, args.thinktime)
+    game_pgn, game = parse_game(args.gamefile, args.email, args.pgnextract)
+    game_analysis = analyze_game(game, game_pgn, args.thinktime, args.stockfish)
     write_game(game_analysis, args.outfile)
 
 def parse_args():
@@ -24,10 +20,12 @@ def parse_args():
     parser.add_argument("--outfile", help="JSON file to output analysis")
     parser.add_argument("--email", default=False, help="Parse email input", action="store_true")
     parser.add_argument("--thinktime", default=10000, help="Engine think time per move")
+    parser.add_argument("--pgnextract", default="./external/pgn-extract/pgn-extract")
+    parser.add_argument("--stockfish", default="./external/stockfish/src/stockfish")
 
     return parser.parse_args()
 
-def parse_game(gamefile, email):
+def parse_game(gamefile, email, pgn_extract_path):
     rawin = gamefile.read()
     gamefile.close()
 
@@ -46,7 +44,7 @@ def parse_game(gamefile, email):
 
     return game_pgn, game
 
-def analyze_game(game, game_pgn, thinktime):
+def analyze_game(game, game_pgn, thinktime, stockfish_path):
     game_analysis = {}
     game_analysis['white'] = game_pgn.white
     game_analysis['black'] = game_pgn.black

@@ -75,8 +75,10 @@
                 <tr class="move-details">
                     <td colspan="4">
                         <p>
+                        <% if (anal.next_moves) { %>
                             Best line:  <%- anal.next_moves.join(', ') %>
                             <br />
+                        <% } %>
                             Depth: <%- anal.depth %>
                             <br />
                             Side: <%- position.side %>

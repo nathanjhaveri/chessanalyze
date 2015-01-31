@@ -30,7 +30,8 @@ var GameView = Backbone.View.extend({
         $("#flip").click(_.bind(this.board.flip, this.board));
         this.$window.on('scroll', _.bind(this.onScroll, this));
         this.$window.on('resize', _.bind(this.resize, this));
-        this.model.on("selected: move", this.move_selected, this);
+        this.model.on("selected:move", this.move_selected, this);
+        this.model.on("selected:sub-move", this.sub_move_selected, this);
     },
 
     render: function() {
@@ -46,8 +47,29 @@ var GameView = Backbone.View.extend({
         return this;
     },
 
-    move_selected: function(move) {
-        this.board.position(move.fen);
+    move_selected: function(move, prevmove) {
+        if (prevmove) {
+            this.board.position(prevmove.fen, false);
+        } else {
+            this.board.start(false);
+        }
+
+        this.board.position(move.fen, true);
+    },
+
+    sub_move_selected: function(move, submove, prevmove) {
+        if (prevmove) {
+            this.board.position(prevmove.fen, false);
+        } else {
+            this.board.start(false);
+        }
+
+        var next_moves = move.details.analysis.next_moves;
+        for (var i = 0; i <= submove; i++) {
+            var next_move = next_moves[i];
+            var fmt_move = next_move.substring(0, 2) + "-" + next_move.substring(2, 4);
+            this.board.move(fmt_move, i == submove);
+        }
     },
 
     resize: function() {

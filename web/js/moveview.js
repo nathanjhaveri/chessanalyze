@@ -7,7 +7,8 @@ var MoveView = Backbone.View.extend({
 
     events: {
         "click .moves-table tr": "move_click",
-        'keydown': 'key_action'
+        "keydown": "key_action",
+        "click .best-line-link": "best_line_click"
     },
 
     initialize: function() {
@@ -28,7 +29,7 @@ var MoveView = Backbone.View.extend({
             return;
         }
 
-        var move_number = Math.floor(event.currentTarget.rowIndex / 2);
+        var move_number = event.currentTarget.getAttribute("data-move");
         this.select_move(move_number); 
         var $target = $(event.target);
         if (!($target.closest("td").attr("colspan") > 1)) {
@@ -42,18 +43,25 @@ var MoveView = Backbone.View.extend({
         }
     },
 
+    best_line_click: function(event) {
+        var $movelink = $(event.currentTarget);
+        var move = $movelink.attr("data-basemove");
+        var submove = $movelink.attr("data-submove");
+        var move_data  = this.model.attributes.positions[move];
+        var prevmove = this.model.attributes.positions[move - 1];
+        this.model.trigger("selected:sub-move", move_data, submove, prevmove);
+    },
+
     key_action: function(e) {
         var LEFT = 37;
         var RIGHT = 39;
-        var J = 91;
+        var J = 74;
         var K = 75;
         if (e.keyCode == LEFT || e.keyCode == J) {
             this.select_move(this.selected_move - 1);
         } else if (e.keyCode == RIGHT || e.keyCode == K) {
             this.select_move(this.selected_move + 1);
         }
-
-        console.log(e);
     },
 
     select_move: function(move) {
@@ -74,7 +82,8 @@ var MoveView = Backbone.View.extend({
         this.selected_move = move;
 
         var move_data  = this.model.attributes.positions[move];
-        this.model.trigger("selected: move", move_data, move);
+        var prevmove = this.model.attributes.positions[move - 1];
+        this.model.trigger("selected:move", move_data, prevmove);
     }
 });
 

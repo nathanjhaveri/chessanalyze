@@ -57,15 +57,15 @@
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Score</th>
+                    <th>Score (before move)</th>
                     <th>Move</th>
                     <th>Best Move</th>
                 </tr>
             </thead>
             <tbody>
-            <% _.each(positions, function(position){                    %>
+            <% _.each(positions, function(position, i){                 %>
             <%      var anal = position.details.analysis;               %>
-                <tr>
+                <tr data-move="<%- i %>">
                     <td><%- position.move_number %></td>
                     <% if (anal.unit === "mate") { %>
                         <td>Mate in <%- anal.score %></td>
@@ -77,13 +77,18 @@
                         <%- position.details.best_move.move %>
                     </td>
                 </tr>
-                <tr class="move-details">
+                <tr class="move-details" data-move="<%- i %>">
                     <td colspan="4">
                         <p>
                         <% if (anal.next_moves) { %>
-                            Best line:  <%- anal.next_moves.join(', ') %>
-                            <br />
+                            Best line:
+                            <%
+                            _.each(anal.next_moves, function(nextmove, j, list) {
+                            %>
+                            <a class="best-line-link" href="javascript:void(0)" data-basemove="<%- i %>" data-submove="<%- j %>"><%- nextmove %></a>
+                            <%});%>
                         <% } %>
+                            <br />
                             Depth: <%- anal.depth %>
                             <br />
                             Side: <%- position.side %>

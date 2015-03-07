@@ -2,6 +2,6 @@
 venv
 *.exe
 *.pyc
-external/pgn-extract/pgn-extract
+analyzer/external/pgn-extract/pgn-extract
 *.swp
-external/stockfish/src/stockfish
+analyzer/external/stockfish/src/stockfish

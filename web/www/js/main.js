@@ -16,7 +16,7 @@ require(['jquery', 'backbone', 'gameview'], function ($, Backbone, GameView) {
         gameview.render();
      }
 
-    var game_path = "/chess/games/" + getParameterByName("game");
+    var game_path = "games/" + getParameterByName("game");
     $.get(game_path, game_loaded)
         .fail(function () {
             // For local development

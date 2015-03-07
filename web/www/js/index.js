@@ -1,5 +1,5 @@
 require(["jquery"], function($) {
-    $.get("/chess/games/", function(dirhtml) { 
+    $.get("games/", function(dirhtml) { 
         var links = $(dirhtml).find("a");
         $.each(links, function(i, a) {
             if (i === 0) {
@@ -7,7 +7,7 @@ require(["jquery"], function($) {
             }
 
             var game = a.getAttribute("href"); // Don't want domain
-            var path = "/chess/game?game=" + game;
+            var path = "game?game=" + game;
             var newlink = $("<a>")
                 .attr("href", path)
                 .text(a.text.replace(".json", ""));

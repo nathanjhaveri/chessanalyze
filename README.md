@@ -4,7 +4,7 @@
 Chessanalyze is the software for http://jhaveri.net/chess.  This is a project I created to analyze my chess games using Stockfish.
 
 ### The code
-To get started, have a look at analyze.py
+To get started, have a look at analyzer/analyze.py
 
 ### Credits
 This project was created by Nathan Jhaveri with the help of lots of open source software, including:

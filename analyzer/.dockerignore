@@ -1,0 +1,6 @@
+*.o
+*.exe
+*.pyc
+external/pgn-extract/pgn-extract
+*.swp
+external/stockfish/src/stockfish

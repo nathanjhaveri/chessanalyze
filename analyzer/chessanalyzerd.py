@@ -5,7 +5,7 @@ from analyze import analyze
 
 
 def analyze_game(sender, to, subject, body):
-    analyze(body, 2, None)
+    analyze(body, 10000, None)
 
 # Restrict to a particular path.
 class RequestHandler(SimpleXMLRPCRequestHandler):

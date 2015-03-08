@@ -8,11 +8,21 @@ from subprocess import Popen, PIPE
 from emailparse import parse_email
 
 
-def main():
-    args = parse_args()
-    game_pgn, game = parse_game(args.gamefile, args.email, args.pgnextract)
-    game_analysis = analyze_game(game, game_pgn, args.thinktime, args.stockfish)
-    write_game(game_analysis, args.outfile)
+# For external programs
+def analyze(pgn, thinktime, outfile):
+    # Assume pgn-extract and stockfish are on the path
+    from distutils import spawn
+    stockfish_path = spawn.find_executable("stockfish")
+    pgnextract_path = spawn.find_executable("pgn-extract")
+
+    main(pgn, thinktime, outfile, stockfish_path, pgnextract_path)
+
+
+def main(pgn_text, thinktime, outfile, stockfish, pgnextract):
+    game_pgn, game = parse_game(pgn_text, pgnextract)
+    game_analysis = analyze_game(game, game_pgn, thinktime, stockfish)
+    write_game(game_analysis, outfile)
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Analyze a game")
@@ -25,17 +35,8 @@ def parse_args():
 
     return parser.parse_args()
 
-def parse_game(gamefile, email, pgn_extract_path):
-    rawin = gamefile.read()
-    gamefile.close()
 
-    pgn_text = None
-    if email:
-        message = parse_email(rawin)
-        pgn_text = message.body
-    else:
-        pgn_text = rawin
-
+def parse_game(pgn_text, pgn_extract_path):
     p = Popen([pgn_extract_path, "-Wuci"], stdin=PIPE, stdout=PIPE, stderr=PIPE)
     formatted_uci, stderr = p.communicate(pgn_text)
 
@@ -43,6 +44,7 @@ def parse_game(gamefile, email, pgn_extract_path):
     game = pgn.loads(formatted_uci)[0]
 
     return game_pgn, game
+
 
 def analyze_game(game, game_pgn, thinktime, stockfish_path):
     game_analysis = {}
@@ -81,6 +83,7 @@ def analyze_game(game, game_pgn, thinktime, stockfish_path):
 
     return game_analysis
 
+
 def write_game(game_analysis, outfile):
     json_text = json.dumps(game_analysis)
 
@@ -99,5 +102,21 @@ def write_game(game_analysis, outfile):
 
 
 if __name__ == '__main__':
-    main()
+    args = parse_args()
+
+    rawin = args.gamefile.read()
+    args.gamefile.close()
+
+    pgn_text = None
+    if args.email:
+        message = parse_email(rawin)
+        pgn_text = message.body
+    else:
+        pgn_text = rawin
+    args.pgnextract
+    args.thinktime
+    args.stockfish
+    args.outfile
+
+    main(pgn_text, args.thinktime, args.outfile, args.stockfish, args.pgnextract)
 

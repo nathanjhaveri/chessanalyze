@@ -1,10 +1,11 @@
 from SimpleXMLRPCServer import SimpleXMLRPCServer
 from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler
 
-def analyze_game(data):
-    print "analyzing game"
-    print data
-    return "done"
+from analyze import analyze
+
+
+def analyze_game(sender, to, subject, body):
+    analyze(body, 2, None)
 
 # Restrict to a particular path.
 class RequestHandler(SimpleXMLRPCRequestHandler):

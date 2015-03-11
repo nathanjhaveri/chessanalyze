@@ -16,7 +16,6 @@ RUN mv pgn-extract /usr/local/bin/
 
 WORKDIR /
 COPY *.py /analyzerd/
-COPY *.sh /analyzerd/
 
 EXPOSE 80
 

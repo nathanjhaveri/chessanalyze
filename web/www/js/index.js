@@ -1,16 +1,25 @@
 require(["jquery"], function($) {
-    $.get("games/", function(dirhtml) { 
-        var links = $(dirhtml).find("a");
-        $.each(links, function(i, a) {
-            if (i === 0) {
-                return;
-            }
+    $.get("games/", function(games) {
 
-            var game = a.getAttribute("href"); // Don't want domain
-            var path = "game?game=" + game;
+        games.sort(function(a, b) {
+            var adate = new Date(a.mtime);
+            var bdate = new Date(b.mtime);
+            return bdate.getTime() - adate.getTime();
+        });
+
+        $.each(games, function(i, game) {
+            var path = "game?game=" + game.name;
+            var displayname = game.name.substr(0, game.name.indexOf(" on "));
+
+            var date = new Date(game.mtime);
+            var month = date.getMonth() + 1;
+            var day = date.getDay() + 1;
+            var year = date.getFullYear();
+            var datestr = month + "/" + day + "/" + year;
+
             var newlink = $("<a>")
                 .attr("href", path)
-                .text(a.text.replace(".json", ""));
+                .text(displayname + ", " + datestr);
 
             var li = $("<li>").append(newlink);
             $("#game-list").append(li);

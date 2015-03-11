@@ -1,10 +1,6 @@
-FROM ubuntu
+FROM nginx
 
-RUN apt-get update && apt-get install -y \
-    nginx
-
-RUN rm /etc/nginx/sites-enabled/default
-COPY chessanalyze.nginx.conf /etc/nginx/sites-enabled/
+COPY chessanalyze.nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY www/ /var/www/chessanalyze/web/
 COPY games/ /var/www/chessanalyze/games

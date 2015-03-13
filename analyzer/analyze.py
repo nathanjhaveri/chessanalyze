@@ -67,6 +67,8 @@ def analyze_game(game, game_pgn, thinktime, stockfish_path):
         else:
             move_str = move_str + "..."
 
+        print("Analyzing move " + move_str)
+
         position = {
             'move_number': move_str,
             'side': 'white' if white_to_move else 'black',

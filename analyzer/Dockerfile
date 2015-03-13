@@ -14,10 +14,10 @@ WORKDIR /usr/local/src/pgn-extract
 RUN make clean pgn-extract
 RUN mv pgn-extract /usr/local/bin/
 
-WORKDIR /
+WORKDIR /analyzerd/
 COPY *.py /analyzerd/
 
 EXPOSE 80
 
-CMD python -u /analyzerd/chessanalyzerd.py
+CMD python -u chessanalyzerd.py
 

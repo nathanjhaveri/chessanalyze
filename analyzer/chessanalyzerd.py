@@ -2,10 +2,13 @@ from SimpleXMLRPCServer import SimpleXMLRPCServer
 from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler
 
 from analyze import analyze
+from multiprocessing import Process
 
+def do_analyze(pgn):
+    analyze(pgn, 10000, None)
 
 def analyze_game(sender, to, subject, body):
-    analyze(body, 10000, None)
+    Process(target=do_analyze, args=(pgn,)).start()
     return "ok"
 
 # Restrict to a particular path.

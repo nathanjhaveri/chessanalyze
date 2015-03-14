@@ -8,7 +8,7 @@ require(["jquery"], function($) {
         });
 
         $.each(games, function(i, game) {
-            var path = "game?game=" + game.name;
+            var path = "game.html?game=" + game.name;
             var displayname = game.name.substr(0, game.name.indexOf(" on "));
 
             var date = new Date(game.mtime);

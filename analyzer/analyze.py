@@ -26,7 +26,7 @@ def main(pgn_text, thinktime, outfile, stockfish, pgnextract):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Analyze a game")
-    parser.add_argument('gamefile', help="PGN file containing game to analyze", nargs='?', type=argparse.FileType('r'), default=sys.stdin)
+    parser.add_argument('gamefile', help="PGN file containing game to analyze", type=argparse.FileType('r'))
     parser.add_argument("--outfile", help="JSON file to output analysis")
     parser.add_argument("--email", default=False, help="Parse email input", action="store_true")
     parser.add_argument("--thinktime", default=10000, help="Engine think time per move")
@@ -83,6 +83,7 @@ def analyze_game(game, game_pgn, thinktime, stockfish_path):
         position['fen'] = engine.fen()
         game_analysis['positions'].append(position)
 
+    engine.terminate()
     return game_analysis
 
 

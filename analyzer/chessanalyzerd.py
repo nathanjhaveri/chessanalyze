@@ -8,7 +8,7 @@ def do_analyze(pgn):
     analyze(pgn, 10000, None)
 
 def analyze_game(sender, to, subject, body):
-    Process(target=do_analyze, args=(pgn,)).start()
+    Process(target=do_analyze, args=(body,)).start()
     return "ok"
 
 # Restrict to a particular path.

@@ -10,12 +10,8 @@ require(["jquery"], function($) {
         $.each(games, function(i, game) {
             var path = "game.html?game=" + game.name;
             var displayname = game.name.substr(0, game.name.indexOf(" on "));
-
             var date = new Date(game.mtime);
-            var month = date.getMonth() + 1;
-            var day = date.getDay() + 1;
-            var year = date.getFullYear();
-            var datestr = month + "/" + day + "/" + year;
+            var datestr = date.toDateString();
 
             var newlink = $("<a>")
                 .attr("href", path)

@@ -5,3 +5,4 @@ venv
 analyzer/external/pgn-extract/pgn-extract
 *.swp
 analyzer/external/stockfish/src/stockfish
+.DS_Store

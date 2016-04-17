@@ -1,4 +1,3 @@
-// Given a game file, this adds extra information
 define(['chess-0.9.4.min'], function (chess) {
 'use strict';
 

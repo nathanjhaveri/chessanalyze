@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>Game analysis</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
@@ -74,7 +74,7 @@
                     <% } %>
                     <td><%- position.move %></td>
                     <td>
-                        <%- position.details.best_move.move %>
+                        <%- position.best_move_san %>
                     </td>
                 </tr>
                 <tr class="move-details" data-move="<%- i %>">

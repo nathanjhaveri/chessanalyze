@@ -87,13 +87,13 @@ var GameView = Backbone.View.extend({
             } else if (position[sq_from] == "bK" && sq_from == "e8") {
                 if (sq_to == "g8") {
                     this.board.move("h8-f8", animate);
-                } else if (sq_to = "c8") {
+                } else if (sq_to == "c8") {
                     this.board.move("a8-d8", animate);
                 }
             } else if (position[sq_from] == "wK" && sq_from == "e1") {
                 if (sq_to == "g1") {
                     this.board.move("h1-f1", animate);
-                } else if (sq_to = "c1") {
+                } else if (sq_to == "c1") {
                     this.board.move("a1-d1", animate);
                 }
             }

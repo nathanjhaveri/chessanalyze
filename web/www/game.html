@@ -83,7 +83,7 @@
                         <% if (anal.next_moves) { %>
                             Best line:
                             <%
-                            _.each(anal.next_moves, function(nextmove, j, list) {
+                            _.each(anal.next_moves_san, function(nextmove, j, list) {
                             %>
                             <a class="best-line-link" href="javascript:void(0)" data-basemove="<%- i %>" data-submove="<%- j %>"><%- nextmove %></a>
                             <%});%>

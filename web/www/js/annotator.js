@@ -13,15 +13,16 @@ var Annotator = {
                 return null;
             }
 
-            var moveObj = chess.move({
+            var moveObj = {
                 from: move.substring(0, 2),
                 to: move.substring(2,4)
-            });
+            };
 
             if (move.length === 5) {
                 moveObj.promotion = move[4];
             }
 
+            moveObj = chess.move(moveObj);
             return moveObj ? moveObj.san : null;
         });
 

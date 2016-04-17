@@ -19,8 +19,12 @@ require([
 
     function game_loaded(game) {
         game.positions.forEach(function(position, i, positions) {
-            var prevFen = i > 0 ? positions[i - 1].fen : null;
-            position.best_move_san = Annotator.squareToSan(prevFen, [position.details.best_move.move]);
+            var prev_fen = i > 0 ? positions[i - 1].fen : null;
+            position.best_move_san = Annotator.squareToSan(prev_fen, [position.details.best_move.move]);
+            var analysis = position.details.analysis;
+            if (analysis.next_moves) {
+                analysis.next_moves_san = Annotator.squareToSan(prev_fen, analysis.next_moves);
+            }
         });
 
         var gameModel = new Backbone.Model(game);

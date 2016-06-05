@@ -1,5 +1,4 @@
 header, footer {
-    text-align: center;
 }
 
 nav ul {
@@ -8,7 +7,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 15px;
+    padding: 20px 15px 0px 0px;
 }
 
 .breadcrumbs ul {

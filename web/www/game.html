@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/chessboard-0.3.0.min.css">
+    <link rel="stylesheet" href="css/chess-common.css">
     <link rel="stylesheet" href="css/game.css">
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="apple-touch-icon" href="img/favicon.png">
@@ -15,16 +16,27 @@
 </head>
 <body>
     <div class="container">
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li><a href="/">jhaveri.net</a></li>
+                    <li><a href="index.html">Games</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="/">jhaveri.net</a></li>
+                    <li><a href="index.html">chess</a></li>
+                    <li><a href="index.html">games</a></li>
+                    <li class="matchup">&nbsp;</li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <div class="container">
         <div class="row">
-            <header>
-               <nav>
-                    <ul>
-                        <li class="nav-item"><a href="index.html">Games</a></li>
-                        <li class="nav-item"><a href="about.html">About</a></li>
-                    </ul>
-                </nav>
-                <h3 id="matchup" class="divided">&nbsp;</h3>
-            </header>
+            <h3 class="matchup divided">&nbsp;</h3>
             <div>
                 <span id="event"></span>
                 <span>-</span>

@@ -37,7 +37,7 @@ var GameView = Backbone.View.extend({
     render: function() {
         this.moveView.render();
         var title = this.model.get("white") + " VS. " + this.model.get("black");
-        this.$("#matchup").text(title);
+        this.$(".matchup").text(title);
         this.$("#event").text(this.model.get("event"));
         this.$("#date").text(this.model.get("date"));
         this.$("#white-name").text("White: " + this.model.get("white"));
